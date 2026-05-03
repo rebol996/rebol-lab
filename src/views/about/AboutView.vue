@@ -3,44 +3,80 @@
     <div class="tech-card about-main-card">
       <div class="about-hero">
         <div class="hero-content">
-          <h1 class="gradient-text">关于 Rebol & Lab</h1>
-          <p class="tagline">从软件测试出发，向全栈与 AI 演进的学习实践者</p>
+          <h1 class="gradient-text">关于我</h1>
+          <p class="tagline">软件工程应届生 | 前端开发 & 测试工具方向</p>
+          <div class="hero-badges">
+            <span class="badge">2026 届应届生</span>
+            <span class="badge">前端开发</span>
+            <span class="badge">软件测试</span>
+            <span class="badge">求职中</span>
+          </div>
         </div>
       </div>
       
       <div class="about-grid">
         <div class="about-left">
           <section class="about-section">
-            <h3><el-icon><User /></el-icon> 个人定位</h3>
+            <h3><el-icon><User /></el-icon> 个人简介</h3>
             <p>
-              我是一个正在从软件测试方向出发，逐步学习前端开发、接口测试、自动化测试和 AI 工具开发的学习者。
-              我不满足于仅仅发现 Bug，更希望通过技术手段提升测试效率，甚至构建能解决实际问题的工具。
+              我是一名 2026 届软件工程应届生，专注于前端开发与测试工具方向。
+              我相信优秀的工程师不仅要能写出好代码，更要具备测试思维 —— 从用户视角发现需求、从工程视角保障质量。
+            </p>
+            <p>
+              通过 Rebol Lab 这个项目，我将 Vue 3 + TypeScript 技术栈与测试思维结合，
+              独立构建了测试用例生成、Bug 报告生成等实用工具，展示了从需求分析到工具落地的完整能力。
             </p>
           </section>
 
           <section class="about-section">
-            <h3><el-icon><Monitor /></el-icon> 为什么建立 Rebol Lab？</h3>
-            <p>
-              Rebol Lab 是我的长期项目，它既是个人主页，也是工具集、学习记录、项目展示和求职作品集。
-              我希望通过这个项目，把零散的学习内容变成可以展示、可以使用、可以持续迭代的真实作品。
-              在这里，每一行代码都是成长的脚印。
-            </p>
+            <h3><el-icon><Monitor /></el-icon> 技术方向</h3>
+            <div class="direction-cards">
+              <div class="direction-card">
+                <h4>前端开发</h4>
+                <p>Vue 3 + TypeScript + Vite 技术栈，注重组件化、类型安全和工程化实践</p>
+              </div>
+              <div class="direction-card">
+                <h4>测试思维</h4>
+                <p>将测试方法论融入工具设计，覆盖功能测试、边界值、异常流和安全测试</p>
+              </div>
+              <div class="direction-card">
+                <h4>工具开发</h4>
+                <p>构建实用的开发辅助工具，提升团队效率，解决实际工作痛点</p>
+              </div>
+            </div>
           </section>
 
           <section class="about-section">
-            <h3><el-icon><Aim /></el-icon> 未来愿景</h3>
+            <h3><el-icon><Aim /></el-icon> 求职意向</h3>
             <p>
-              构建一个真正“懂测试”的 AI 助手，将繁琐的回归测试、用例编写和报告整理自动化。
-              同时，通过这个实验室，连接更多志同道合的开发者与测试工程师。
+              目标岗位：前端开发工程师 / 软件测试工程师 / 测试开发工程师
+            </p>
+            <p>
+              我希望加入一个重视工程质量和用户体验的团队，将我的前端技能和测试思维转化为实际价值。
             </p>
           </section>
         </div>
 
         <div class="about-right">
           <div class="tech-stack-box tech-card">
-            <h4>当前技术栈</h4>
-            <div class="tech-tags">
-              <el-tag v-for="t in techs" :key="t" effect="plain">{{ t }}</el-tag>
+            <h4>技术栈</h4>
+            <div class="tech-category">
+              <span class="category-label">前端核心</span>
+              <div class="tech-tags">
+                <el-tag v-for="t in frontendTechs" :key="t" effect="plain" type="primary">{{ t }}</el-tag>
+              </div>
+            </div>
+            <div class="tech-category">
+              <span class="category-label">测试工具</span>
+              <div class="tech-tags">
+                <el-tag v-for="t in testingTechs" :key="t" effect="plain" type="success">{{ t }}</el-tag>
+              </div>
+            </div>
+            <div class="tech-category">
+              <span class="category-label">工程化</span>
+              <div class="tech-tags">
+                <el-tag v-for="t in engineeringTechs" :key="t" effect="plain" type="warning">{{ t }}</el-tag>
+              </div>
             </div>
           </div>
 
@@ -79,10 +115,9 @@
 <script setup lang="ts">
 import { User, Monitor, Aim, Link, Message, ChatDotRound } from '@element-plus/icons-vue'
 
-const techs = [
-  'Vue 3', 'TypeScript', 'Vite', 'Element Plus', 
-  'Postman', 'Playwright', 'Python', 'LLM Prompt'
-]
+const frontendTechs = ['Vue 3', 'TypeScript', 'Vite', 'Element Plus', 'SCSS', 'Pinia']
+const testingTechs = ['Postman', 'Playwright', '测试用例设计', 'Bug 报告']
+const engineeringTechs = ['Git', 'npm', 'ESLint', 'Prettier']
 </script>
 
 <style scoped lang="scss">
@@ -104,7 +139,24 @@ const techs = [
   
   .hero-content {
     h1 { font-size: 3rem; margin: 0 0 16px; }
-    .tagline { color: var(--primary-color); font-size: 1.2rem; font-weight: 500; }
+    .tagline { color: var(--primary-color); font-size: 1.2rem; font-weight: 500; margin-bottom: 20px; }
+    
+    .hero-badges {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      
+      .badge {
+        padding: 6px 16px;
+        background: rgba(88, 166, 255, 0.1);
+        border: 1px solid rgba(88, 166, 255, 0.3);
+        border-radius: 20px;
+        font-size: 0.85rem;
+        color: var(--primary-color);
+        font-weight: 500;
+      }
+    }
   }
 }
 
@@ -140,6 +192,33 @@ const techs = [
     color: var(--text-color);
     font-size: 1.05rem;
     opacity: 0.9;
+    margin-bottom: 16px;
+  }
+  
+  .direction-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    .direction-card {
+      padding: 16px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      border-left: 3px solid var(--primary-color);
+      
+      h4 {
+        margin: 0 0 8px;
+        font-size: 1rem;
+        color: var(--text-color);
+      }
+      
+      p {
+        margin: 0;
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+    }
   }
 }
 
@@ -159,10 +238,28 @@ const techs = [
 
 .tech-stack-box {
   padding: 24px;
-  .tech-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+  
+  .tech-category {
+    margin-bottom: 16px;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    .category-label {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
   }
 }
 

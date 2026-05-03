@@ -130,6 +130,11 @@ const phases = [
   margin-bottom: 48px;
   h1 { font-size: 2.5rem; margin: 0 0 12px; }
   .description { color: var(--text-muted); font-size: 1.1rem; }
+  
+  @media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    margin-bottom: 32px;
+  }
 }
 
 .growth-map {

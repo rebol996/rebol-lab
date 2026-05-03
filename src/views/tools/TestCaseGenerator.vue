@@ -8,8 +8,8 @@
         </el-button>
         <div class="header-divider"></div>
         <div>
-          <h1 class="gradient-text">AI 测试用例生成器</h1>
-          <p class="description">输入功能需求描述，自动生成覆盖功能、异常、边界、安全与接口的测试用例。</p>
+          <h1 class="gradient-text">测试用例生成器</h1>
+          <p class="description">输入功能需求描述，生成覆盖功能、异常、边界、安全与接口的测试用例。</p>
         </div>
       </div>
     </div>
@@ -360,7 +360,7 @@ async function copyResult() {
 
 function formatResultAsText(res: TestCaseResult): string {
   const lines: string[] = []
-  lines.push('=== AI 测试用例生成报告 ===')
+  lines.push('=== 测试用例生成报告 ===')
   lines.push('')
 
   lines.push('【1. 功能点分析】')
@@ -403,13 +403,13 @@ function formatResultAsText(res: TestCaseResult): string {
   res.possibleBugs.forEach(b => lines.push(`  - ${b}`))
   lines.push('')
 
-  lines.push('--- 由 Rebol Lab AI 测试用例生成器生成 ---')
+  lines.push('--- 由 Rebol Lab 测试用例生成器生成 ---')
   return lines.join('\n')
 }
 
 function formatResultAsMarkdown(res: TestCaseResult): string {
   const lines: string[] = []
-  lines.push('# AI 测试用例生成报告')
+  lines.push('# 测试用例生成报告')
   lines.push('')
   lines.push(`> 生成时间：${new Date().toLocaleString('zh-CN')}`)
   lines.push('')
@@ -455,7 +455,7 @@ function formatResultAsMarkdown(res: TestCaseResult): string {
   lines.push('')
 
   lines.push('---')
-  lines.push('*由 Rebol Lab AI 测试用例生成器生成*')
+  lines.push('*由 Rebol Lab 测试用例生成器生成*')
   return lines.join('\n')
 }
 

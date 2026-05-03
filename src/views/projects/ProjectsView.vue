@@ -88,56 +88,54 @@ const projects = ref([
   {
     id: 1,
     name: 'Rebol Lab',
-    description: '个人 AI 工具实验室与求职作品集展示平台。',
-    problemSolved: '解决了个人学习成果零散、求职作品缺乏直观展示平台的问题。',
-    coreFeatures: '多维工具集、可视化学习路线、响应式个人控制台界面。',
+    description: '我的核心求职作品集项目，一个集成了测试工具和作品展示的个人实验室。',
+    problemSolved: '解决了学习成果零散、无法系统展示前端能力和测试思维的问题。',
+    coreFeatures: '测试用例生成器、Bug 报告生成器、项目包装助手、响应式布局。',
     responsibility: '独立完成需求分析、UI 设计、前端架构及全量代码实现。',
-    whatILearned: '深入掌握了 Vue 3 组合式 API 的最佳实践，学会了如何通过 SCSS 自定义整套科技感 UI，并锻炼了将测试思维转化为工具产品的能力。',
+    whatILearned: '深入掌握了 Vue 3 组合式 API、TypeScript 类型约束、SCSS 深色主题设计和组件化开发。',
     highlights: [
-      '基于 Vue 3 + TypeScript 构建的高性能单页 application',
-      '自定义一套深色科技感 UI 风格，增强开发者品牌形象',
-      '整合了针对测试方向定制的 AI 辅助工具集'
+      '基于 Vue 3 + TypeScript + Vite 构建的完整单页应用',
+      '独立开发 3 个本地辅助工具，展示了测试思维和前端工程化能力',
+      '响应式布局，支持桌面端和移动端浏览'
     ],
     techStack: ['Vue 3', 'Vite', 'TypeScript', 'Element Plus', 'SCSS'],
     status: '持续迭代中',
     githubUrl: 'https://github.com/rebol/rebol-lab',
-    demoUrl: 'https://rebol-lab.demo'
+    demoUrl: ''
   },
   {
     id: 2,
-    name: 'AI TestPilot',
-    description: 'AI 驱动的软件测试辅助平台，提升用例编写与 Bug 分析效率。',
-    problemSolved: '解决了传统测试用例编写重复劳动多、覆盖率难以量化的问题。',
-    coreFeatures: '需求自动转用例、Bug 报告智能润色、接口异常流自动生成。',
-    responsibility: '负责前端核心工作台开发，设计 AI 交互反馈流程。',
-    whatILearned: '探索了 LLM API 在测试领域的应用场景，掌握了 Prompt Engineering 的技巧，并提升了复杂交互页面的性能优化能力。',
+    name: 'AI TestPilot（学习项目）',
+    description: '学习 AI 辅助测试时设想的工具原型，当前处于技术调研阶段。',
+    problemSolved: '探索如何将 LLM API 应用于测试用例生成的场景。',
+    coreFeatures: '需求转用例、Bug 报告润色、接口异常流生成（构想中）。',
+    responsibility: '技术调研和原型设计。',
+    whatILearned: '了解了 Prompt Engineering 基础和 LLM API 集成方式。',
     highlights: [
-      '利用 AI 语义分析技术自动提取业务测试点',
-      '设计了直观的测试覆盖率看板，辅助决策发布风险',
-      '支持 Markdown 格式一键导出标准测试文档'
+      '学习使用 OpenAI API 和 Prompt 设计',
+      '探索 AI 在测试场景的应用边界'
     ],
     techStack: ['React', 'Next.js', 'OpenAI SDK', 'Tailwind CSS'],
-    status: '原型验证阶段',
-    githubUrl: 'https://github.com/rebol/ai-testpilot',
+    status: '技术调研阶段',
+    githubUrl: '',
     demoUrl: ''
   },
   {
     id: 3,
-    name: 'Job Portfolio',
-    description: '专为技术人打造的求职作品集生成器，突出项目价值与技术栈。',
-    problemSolved: '解决了普通简历难以体现复杂项目逻辑和个人技术深度的问题。',
-    coreFeatures: '项目 STAR 法则模板、技术栈雷达图、面试常见 Q&A 库。',
-    responsibility: '参与核心算法设计，负责求职数据模型与前端展示逻辑。',
-    whatILearned: '理解了技术面试官的关注点，学会了如何通过数据可视化展示技术深度，并实践了 Puppeteer 自动化导出 PDF 的流程。',
+    name: 'Job Portfolio（学习项目）',
+    description: '学习简历制作和作品集展示时的练习项目，核心功能已完成。',
+    problemSolved: '学习如何系统化包装项目经历和面试表达。',
+    coreFeatures: 'STAR 法则模板、技术栈展示、Q&A 库（学习用）。',
+    responsibility: '前端开发和功能实现。',
+    whatILearned: '理解了面试官关注点和项目包装思路。',
     highlights: [
-      '内置多种求职导向的项目包装模板，提升沟通效率',
-      '支持导出 PDF 及在线预览，适配多种求职场景',
-      '整合了 AI 简历润色引擎，自动优化关键词匹配'
+      '实践了 Vue 3 + Pinia 状态管理',
+      '学习 Puppeteer 做 PDF 导出（探索阶段）'
     ],
     techStack: ['Vue 3', 'Pinia', 'Node.js', 'Puppeteer'],
-    status: '已上线 Demo',
+    status: '功能完成，待整理',
     githubUrl: '',
-    demoUrl: 'https://job-portfolio.demo'
+    demoUrl: ''
   }
 ])
 
@@ -156,6 +154,10 @@ const openLink = (url: string) => {
   margin-bottom: 40px;
   h1 { font-size: 2.5rem; margin: 0 0 12px; }
   .description { color: var(--text-muted); font-size: 1.1rem; }
+  
+  @media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+  }
 }
 
 .projects-list {

@@ -339,10 +339,8 @@ const currentPageTitle = computed(() => {
 .main {
   padding: 0;
   overflow-x: hidden;
-  background-image: 
-    linear-gradient(rgba(88, 166, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(88, 166, 255, 0.02) 1px, transparent 1px);
-  background-size: 40px 40px;
+  overflow-y: auto;
+  background-color: var(--bg-color);
 }
 
 .main-content-inner {

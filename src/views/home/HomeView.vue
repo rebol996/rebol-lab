@@ -6,22 +6,22 @@
       <div class="hero-content">
         <div class="identity-badge">
           <span class="pulse-dot"></span>
-          LABORATORY v1.2
+          SOFTWARE ENGINEER PORTFOLIO
         </div>
         <h1 class="gradient-text main-title">Rebol Lab</h1>
-        <p class="subtitle">个人 AI 工具实验室</p>
+        <p class="subtitle">软件工程应届生 | 前端开发 & 测试工具方向</p>
         
         <div class="intro-text">
-          从软件测试方向出发，构建学习、求职与开发工具工作台。
-          通过整合 <span class="highlight">学习路线</span>、<span class="highlight">项目作品</span>、<span class="highlight">测试工具</span> 与 <span class="highlight">AI 实践</span>，
-          我正在将零散的学习沉淀转化为真实可用的求职作品集。
+          我是一名软件工程应届生，专注于 <span class="highlight">前端开发</span> 与 <span class="highlight">测试工具</span> 方向。
+          通过 Rebol Lab 这个项目，我将 Vue 3 + TypeScript 技术栈与测试思维结合，
+          独立构建了测试用例生成、Bug 报告生成等实用工具，展示了从需求分析到工具落地的完整能力。
         </div>
 
         <div class="identity-tags">
-          <span class="tag-item"># 软件测试学习者</span>
-          <span class="tag-item"># 前端开发实践者</span>
-          <span class="tag-item"># AI 工具构建者</span>
-          <span class="tag-item"># 求职作品集</span>
+          <span class="tag-item"># Vue 3 + TypeScript</span>
+          <span class="tag-item"># 测试工具开发</span>
+          <span class="tag-item"># 前端工程化</span>
+          <span class="tag-item"># 2026 应届求职</span>
         </div>
       </div>
     </section>
@@ -30,7 +30,7 @@
     <section class="workbench-section">
       <div class="section-header">
         <el-icon><Monitor /></el-icon>
-        <span>核心实验工作台 / Workbench</span>
+        <span>核心模块 / Modules</span>
       </div>
       
       <div class="workbench-grid">
@@ -38,19 +38,9 @@
           <div class="card-glow"></div>
           <div class="card-icon testing"><el-icon><Odometer /></el-icon></div>
           <div class="card-info">
-            <h3>测试实验室</h3>
-            <p>AI 用例生成、Bug 报告助手</p>
-            <span class="status-label">READY</span>
-          </div>
-        </div>
-
-        <div class="work-card" @click="$router.push('/tools')">
-          <div class="card-glow"></div>
-          <div class="card-icon ai"><el-icon><Cpu /></el-icon></div>
-          <div class="card-info">
-            <h3>AI 工具箱</h3>
-            <p>智能开发辅助与效率工具</p>
-            <span class="status-label">BETA</span>
+            <h3>测试工具集</h3>
+            <p>用例生成、Bug 报告、项目包装</p>
+            <span class="status-label">3 TOOLS</span>
           </div>
         </div>
 
@@ -58,9 +48,9 @@
           <div class="card-glow"></div>
           <div class="card-icon projects"><el-icon><Collection /></el-icon></div>
           <div class="card-info">
-            <h3>项目展厅</h3>
-            <p>核心作品展示与技术沉淀</p>
-            <span class="status-label">ARCHIVE</span>
+            <h3>项目作品</h3>
+            <p>核心项目展示与技术沉淀</p>
+            <span class="status-label">PORTFOLIO</span>
           </div>
         </div>
 
@@ -68,9 +58,9 @@
           <div class="card-glow"></div>
           <div class="card-icon roadmap"><el-icon><Guide /></el-icon></div>
           <div class="card-info">
-            <h3>学习路线</h3>
-            <p>技能树成长记录与目标管理</p>
-            <span class="status-label">TRACKING</span>
+            <h3>技术栈</h3>
+            <p>Vue 3 / TypeScript / 测试思维</p>
+            <span class="status-label">SKILLS</span>
           </div>
         </div>
 
@@ -78,9 +68,9 @@
           <div class="card-glow"></div>
           <div class="card-icon career"><el-icon><Briefcase /></el-icon></div>
           <div class="card-info">
-            <h3>求职面板</h3>
-            <p>简历包装与面试准备中心</p>
-            <span class="status-label">ACTIVE</span>
+            <h3>关于我</h3>
+            <p>软件工程应届生 · 求职中</p>
+            <span class="status-label">HIRING</span>
           </div>
         </div>
       </div>
@@ -95,20 +85,20 @@
         </div>
         <div class="console-body">
           <div class="log-item done">
-            <span class="timestamp">[100%]</span>
-            <span class="msg">构建个人工具集 (Rebol Lab)</span>
+            <span class="timestamp">[DONE]</span>
+            <span class="msg">Vue 3 + TypeScript 单页应用开发</span>
+          </div>
+          <div class="log-item done">
+            <span class="timestamp">[DONE]</span>
+            <span class="msg">测试用例生成器 / Bug 报告生成器</span>
           </div>
           <div class="log-item process">
-            <span class="timestamp">[075%]</span>
-            <span class="msg">学习 Vue 3 + TypeScript</span>
+            <span class="timestamp">[WIP]</span>
+            <span class="msg">接入 AI API 提升工具智能化</span>
           </div>
           <div class="log-item pending">
-            <span class="timestamp">[020%]</span>
-            <span class="msg">准备 Web 开发 / 软件测试岗位</span>
-          </div>
-          <div class="log-item pending">
-            <span class="timestamp">[010%]</span>
-            <span class="msg">整理项目作品集</span>
+            <span class="timestamp">[NEXT]</span>
+            <span class="msg">前端开发 / 软件测试岗位投递</span>
           </div>
         </div>
       </div>
@@ -121,15 +111,15 @@
         <div class="stats-content">
           <div class="stat-box">
             <div class="stat-val">03</div>
-            <div class="stat-label">CORE PROJECTS</div>
+            <div class="stat-label">TOOL MODULES</div>
           </div>
           <div class="stat-box">
-            <div class="stat-val">16</div>
-            <div class="stat-label">EXP TOOLS</div>
+            <div class="stat-val">08</div>
+            <div class="stat-label">PAGES</div>
           </div>
           <div class="stat-box">
-            <div class="stat-val">07</div>
-            <div class="stat-label">ROADMAP STEPS</div>
+            <div class="stat-val">3K+</div>
+            <div class="stat-label">LINES OF CODE</div>
           </div>
         </div>
       </div>
@@ -139,7 +129,7 @@
 
 <script setup lang="ts">
 import { 
-  Odometer, Cpu, Collection, Guide, Briefcase, 
+  Odometer, Collection, Guide, Briefcase, 
   Timer, DataLine, Monitor 
 } from '@element-plus/icons-vue'
 </script>
@@ -200,10 +190,17 @@ import {
   }
 
   .main-title {
-    font-size: 4.5rem;
+    font-size: 3rem;
     margin: 0;
     line-height: 1;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
+  }
+
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 2.2rem;
+      letter-spacing: 0;
+    }
   }
 
   .subtitle {
@@ -297,7 +294,6 @@ import {
     transition: transform 0.3s;
     
     &.testing { color: #f85149; }
-    &.ai { color: #a371f7; }
     &.projects { color: #d29922; }
     &.roadmap { color: #3fb950; }
     &.career { color: #58a6ff; }

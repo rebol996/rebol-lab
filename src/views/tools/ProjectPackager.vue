@@ -414,7 +414,7 @@ function fillExample() {
   form.targetRole = '软件测试'
   form.techStack = 'Vue 3, TypeScript, Pinia, Element Plus, SCSS'
   form.description = '一个面向软件测试方向的个人开发者实验室，集成了测试用例生成、Bug 报告生成、项目包装等工具，同时包含作品展示和学习路线。'
-  form.features = 'AI 测试用例生成器, Bug 报告生成器, 项目包装助手, 个人作品集展示, 学习路线追踪'
+  form.features = '测试用例生成器, Bug 报告生成器, 项目包装助手, 个人作品集展示, 学习路线追踪'
   form.responsibilities = '项目架构设计, 核心工具开发, 页面交互实现, 测试工具逻辑开发, 项目部署维护'
   form.difficulties = '工具类页面的通用布局设计、Mock 数据生成规则的灵活性和可扩展性、历史记录与 localStorage 的持久化管理'
   form.achievements = '完成 3 个核心工具开发、项目构建通过率 100%、页面交互流畅 0 卡顿'
