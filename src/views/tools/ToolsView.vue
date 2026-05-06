@@ -62,12 +62,12 @@
 
           <div class="tool-footer">
             <el-tag size="small" effect="plain">{{ tool.category }}</el-tag>
-            <el-button 
-              type="primary" 
-              :disabled="tool.status === '计划中'"
+            <el-button
+              type="primary"
+              :disabled="!tool.available"
               @click="openTool(tool)"
             >
-              {{ tool.status === '已完成' ? '进入工具' : '开发中...' }}
+              {{ tool.available ? '进入工具' : '整理中...' }}
               <el-icon class="el-icon--right"><Right /></el-icon>
             </el-button>
           </div>
@@ -83,7 +83,7 @@ import { useRouter } from 'vue-router'
 import { 
   Search, Right, Document, Connection, List, Finished, 
   User, Briefcase, ChatDotRound, Edit, Reading, Calendar, 
-  Notebook, CollectionTag 
+  Notebook, CollectionTag, DataLine 
 } from '@element-plus/icons-vue'
 
 const router = useRouter()
@@ -91,101 +91,108 @@ const router = useRouter()
 const iconMap: Record<string, Component> = {
   Document, Connection, List, Finished,
   User, Briefcase, ChatDotRound, Edit, Reading, Calendar,
-  Notebook, CollectionTag
+  Notebook, CollectionTag, DataLine
 }
 
 const searchQuery = ref('')
 const activeCategory = ref('全部')
 
-const categories = ['全部', '软件测试工具', '求职工具', '开发辅助', '学习管理']
+const categories = ['全部', '软件测试工具', '求职工具', '开发辅助', '学习管理', 'AI 工具']
 
 const tools = ref([
   // 软件测试工具
-  { 
-    id: 1, name: '测试用例生成器', purpose: '根据需求描述生成测试点与用例', 
+  {
+    id: 1, name: '测试用例生成器', purpose: '根据需求描述生成测试点与用例',
     scenario: '功能测试阶段、需求评审', status: '已完成', statusType: 'done',
-    icon: 'Document', category: '软件测试工具', categoryType: 'testing', featured: true 
+    icon: 'Document', category: '软件测试工具', categoryType: 'testing', featured: true, available: true
   },
-  { 
-    id: 2, name: 'Bug 报告生成器', purpose: '标准化复现步骤，一键生成 Markdown 报告', 
+  {
+    id: 2, name: 'Bug 报告生成器', purpose: '标准化复现步骤，一键生成 Markdown 报告',
     scenario: '日常提测、回归测试', status: '已完成', statusType: 'done',
-    icon: 'Connection', category: '软件测试工具', categoryType: 'testing', featured: true 
+    icon: 'Connection', category: '软件测试工具', categoryType: 'testing', featured: true, available: true
   },
-  { 
-    id: 3, name: '接口测试检查清单', purpose: '覆盖异常流、安全性的接口测试 Checklist', 
-    scenario: 'API 测试方案设计', status: '已完成', statusType: 'done',
-    icon: 'List', category: '软件测试工具', categoryType: 'testing' 
+  {
+    id: 3, name: '接口测试检查清单', purpose: '覆盖异常流、安全性的接口测试 Checklist',
+    scenario: 'API 测试方案设计', status: '计划中', statusType: 'plan',
+    icon: 'List', category: '软件测试工具', categoryType: 'testing', available: false
   },
-  { 
-    id: 4, name: '网站质量体检工具', purpose: '检测页面响应、链接有效性及 SEO', 
+  {
+    id: 4, name: '网站质量体检工具', purpose: '检测页面响应、链接有效性及 SEO',
     scenario: '上线前回归测试', status: '计划中', statusType: 'plan',
-    icon: 'Finished', category: '软件测试工具', categoryType: 'testing' 
+    icon: 'Finished', category: '软件测试工具', categoryType: 'testing', available: false
   },
-  
+
   // 求职工具
-  { 
-    id: 5, name: '项目包装助手', purpose: '挖掘项目亮点，转换技术语言为业务价值', 
+  {
+    id: 5, name: '项目包装助手', purpose: '挖掘项目亮点，转换技术语言为业务价值',
     scenario: '简历撰写、项目描述', status: '已完成', statusType: 'done',
-    icon: 'Briefcase', category: '求职工具', categoryType: 'career', featured: true 
+    icon: 'Briefcase', category: '求职工具', categoryType: 'career', featured: true, available: true
   },
-  { 
-    id: 6, name: '简历项目描述生成器', purpose: '基于 STAR 法则生成高质量项目描述', 
-    scenario: '简历精修', status: '开发中', statusType: 'working',
-    icon: 'User', category: '求职工具', categoryType: 'career' 
+  {
+    id: 6, name: '简历项目描述生成器', purpose: '基于 STAR 法则生成高质量项目描述',
+    scenario: '简历精修', status: '已完成', statusType: 'done',
+    icon: 'User', category: '求职工具', categoryType: 'career', available: true
   },
-  { 
-    id: 7, name: '面试问题生成器', purpose: '根据岗位描述生成可能的面试考点', 
-    scenario: '模拟面试、复习备考', status: '计划中', statusType: 'plan',
-    icon: 'ChatDotRound', category: '求职工具', categoryType: 'career' 
+  {
+    id: 7, name: '面试问题生成器', purpose: '根据岗位描述生成可能的面试考点',
+    scenario: '模拟面试、复习备考', status: '已完成', statusType: 'done',
+    icon: 'ChatDotRound', category: '求职工具', categoryType: 'career', available: true
   },
-  { 
-    id: 8, name: '自我介绍生成器', purpose: '定制不同风格的 1/3/5 分钟自我介绍', 
-    scenario: '面试开场准备', status: '已完成', statusType: 'done',
-    icon: 'Edit', category: '求职工具', categoryType: 'career' 
+  {
+    id: 8, name: '自我介绍生成器', purpose: '定制不同风格的 1/3/5 分钟自我介绍',
+    scenario: '面试开场准备', status: '计划中', statusType: 'plan',
+    icon: 'Edit', category: '求职工具', categoryType: 'career', available: false
   },
 
   // 开发辅助
-  { 
-    id: 9, name: 'README 生成器', purpose: '快速构建规范的开源项目 README', 
+  {
+    id: 9, name: 'README 生成器', purpose: '快速构建规范的开源项目 README',
     scenario: '项目开源、文档维护', status: '已完成', statusType: 'done',
-    icon: 'Reading', category: '开发辅助', categoryType: 'dev' 
+    icon: 'Reading', category: '开发辅助', categoryType: 'dev', available: true
   },
-  { 
-    id: 10, name: 'Git 提交信息生成器', purpose: '规范化 Commit Message (Conventional Commits)', 
+  {
+    id: 10, name: 'Git 提交信息生成器', purpose: '规范化 Commit Message (Conventional Commits)',
     scenario: '日常代码提交', status: '已完成', statusType: 'done',
-    icon: 'Finished', category: '开发辅助', categoryType: 'dev' 
+    icon: 'Finished', category: '开发辅助', categoryType: 'dev', available: true
   },
-  { 
-    id: 13, name: 'API 文档生成器', purpose: '基于 Swagger/OpenAPI 自动生成精美文档', 
+  {
+    id: 13, name: 'API 文档生成器', purpose: '基于 Swagger/OpenAPI 自动生成精美文档',
     scenario: '前后端协作、接口交付', status: '计划中', statusType: 'plan',
-    icon: 'Document', category: '开发辅助', categoryType: 'dev' 
+    icon: 'Document', category: '开发辅助', categoryType: 'dev', available: false
   },
-  { 
-    id: 14, name: '代码注释助手', purpose: '解析函数逻辑并生成标准化 JSDoc 注释', 
-    scenario: '遗留代码维护、代码规范化', status: '开发中', statusType: 'working',
-    icon: 'Edit', category: '开发辅助', categoryType: 'dev' 
+  {
+    id: 14, name: '代码注释助手', purpose: '解析函数逻辑并生成标准化 JSDoc 注释',
+    scenario: '遗留代码维护、代码规范化', status: '计划中', statusType: 'plan',
+    icon: 'Edit', category: '开发辅助', categoryType: 'dev', available: false
   },
 
   // 学习管理
-  { 
-    id: 11, name: '学习路线追踪', purpose: '可视化技能树进度与里程碑', 
+  {
+    id: 11, name: '学习路线追踪', purpose: '可视化技能树进度与里程碑',
     scenario: '长期职业规划', status: '已完成', statusType: 'done',
-    icon: 'Calendar', category: '学习管理', categoryType: 'study' 
+    icon: 'Calendar', category: '学习管理', categoryType: 'study', available: true
   },
-  { 
-    id: 12, name: '每日复盘生成器', purpose: '记录收获与待办，生成每日工作流', 
-    scenario: '日常复盘、周报准备', status: '已完成', statusType: 'done',
-    icon: 'Notebook', category: '学习管理', categoryType: 'study' 
+  {
+    id: 12, name: '每日复盘生成器', purpose: '记录收获与待办，生成每日工作流',
+    scenario: '日常复盘、周报准备', status: '计划中', statusType: 'plan',
+    icon: 'Notebook', category: '学习管理', categoryType: 'study', available: false
   },
-  { 
-    id: 15, name: '问题记录本', purpose: '沉淀开发与测试过程中遇到的坑及解决方案', 
+  {
+    id: 15, name: '问题记录本', purpose: '沉淀开发与测试过程中遇到的坑及解决方案',
     scenario: '知识库建设、错题集', status: '已完成', statusType: 'done',
-    icon: 'CollectionTag', category: '学习管理', categoryType: 'study' 
+    icon: 'CollectionTag', category: '学习管理', categoryType: 'study', available: true
   },
-  { 
-    id: 16, name: '知识点卡片', purpose: '利用间隔重复原理（SRS）强化核心知识记忆', 
+  {
+    id: 16, name: '知识点卡片', purpose: '利用间隔重复原理（SRS）强化核心知识记忆',
     scenario: '面试备考、技能巩固', status: '计划中', statusType: 'plan',
-    icon: 'Reading', category: '学习管理', categoryType: 'study' 
+    icon: 'Reading', category: '学习管理', categoryType: 'study', available: false
+  },
+
+  // AI 工具
+  {
+    id: 17, name: 'AI 模型价格雷达', purpose: '对比模型价格、套餐额度与调用成本',
+    scenario: '技术选型、成本预算、模型对比', status: '已完成', statusType: 'done',
+    icon: 'DataLine', category: 'AI 工具', categoryType: 'dev', featured: true, available: true
   }
 ])
 
@@ -199,20 +206,20 @@ const filteredTools = computed(() => {
 })
 
 const openTool = (tool: any) => {
-  if (tool.id === 1) {
-    router.push('/tools/test-case-generator')
-    return
+  const routes: Record<number, string> = {
+    1: '/tools/test-case-generator',
+    2: '/tools/bug-report-generator',
+    5: '/tools/project-packager',
+    6: '/tools/resume-project-generator',
+    7: '/tools/interview-question-generator',
+    9: '/tools/readme-generator',
+    10: '/tools/git-commit-generator',
+    15: '/tools/problem-notebook',
+    17: '/tools/model-price-radar'
   }
-  if (tool.id === 2) {
-    router.push('/tools/bug-report-generator')
-    return
-  }
-  if (tool.id === 5) {
-    router.push('/tools/project-packager')
-    return
-  }
-  if (tool.status === '已完成') {
-    router.push('/tools/test-case-generator')
+  const route = routes[tool.id]
+  if (route) {
+    router.push(route)
   }
 }
 </script>

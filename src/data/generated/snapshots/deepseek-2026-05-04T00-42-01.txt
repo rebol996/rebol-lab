@@ -1,0 +1,68 @@
+=== DeepSeek Page Snapshot ===
+URL: https://api-docs.deepseek.com/quick_start/pricing
+Fetched: 2026-05-04T00:42:01.450Z
+Title: Models & Pricing | DeepSeek API Docs
+HTML Length: 21361
+Text Length: 2949
+Table Count: 1
+Link Count: 44
+
+=== HTML Extract (first 5000 chars) ===
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-quick_start/pricing" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">Models &amp; Pricing | DeepSeek API Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://api-docs.deepseek.com/img/deepseek-social-card.jpeg"><meta data-rh="true" name="twitter:image" content="https://api-docs.deepseek.com/img/deepseek-social-card.jpeg"><meta data-rh="true" property="og:url" content="https://api-docs.deepseek.com/quick_start/pricing"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh_cn"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Models &amp; Pricing | DeepSeek API Docs"><meta data-rh="true" name="description" content="The prices listed below are in units of per 1M tokens. A token, the smallest unit of text that the model recognizes, can be a word, a number, or even a punctuation mark. We will bill based on the total number of input and output tokens by the model."><meta data-rh="true" property="og:description" content="The prices listed below are in units of per 1M tokens. A token, the smallest unit of text that the model recognizes, can be a word, a number, or even a punctuation mark. We will bill based on the total number of input and output tokens by the model."><link data-rh="true" rel="icon" href="/img/favicon.svg"><link data-rh="true" rel="canonical" href="https://api-docs.deepseek.com/quick_start/pricing"><link data-rh="true" rel="alternate" href="https://api-docs.deepseek.com/quick_start/pricing" hreflang="en"><link data-rh="true" rel="alternate" href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing" hreflang="zh-cn"><link data-rh="true" rel="alternate" href="https://api-docs.deepseek.com/quick_start/pricing" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.e31a7b76.css">
+<script src="/assets/js/runtime~main.a45fd00d.js" defer="defer"></script>
+<script src="/assets/js/main.0eb36371.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_xSgN" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="https://cdn.deepseek.com/platform/favicon.png" alt="DeepSeek API Docs Logo" class="themedComponent_EBr5 themedComponent--light_FDat"><img src="https://cdn.deepseek.com/platform/favicon.png" alt="DeepSeek API Docs Logo" class="themedComponent_EBr5 themedComponent--dark_NU8c"></div><b class="navbar__title text--truncate">DeepSeek API Docs</b></a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_B6X1"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><
+
+=== Text Content ===
+
+!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()Skip to main contentDeepSeek API DocsEnglishEnglish中文（中国）DeepSeek PlatformQuick StartYour First API CallModels & PricingToken & Token UsageRate LimitError CodesAgent IntegrationsAPI GuidesThinking ModeMulti-round ConversationChat Prefix Completion (Beta)FIM Completion (Beta)JSON OutputTool CallsContext CachingAnthropic APIAPI ReferenceNewsOther ResourcesFAQChange LogQuick StartModels & PricingOn this pageModels & Pricing
+The prices listed below are in units of per 1M tokens. A token, the smallest unit of text that the model recognizes, can be a word, a number, or even a punctuation mark. We will bill based on the total number of input and output tokens by the model.
+
+Model Details​
+MODELdeepseek-v4-flash(1)deepseek-v4-proBASE URL (OpenAI Format)https://api.deepseek.comBASE URL (Anthropic Format)https://api.deepseek.com/anthropicMODEL VERSIONDeepSeek-V4-FlashDeepSeek-V4-ProTHINKING MODESupports both non-thinking and thinking (default) modesSee Thinking Mode for how to switchCONTEXT LENGTH1MMAX OUTPUTMAXIMUM: 384KFEATURESJson Output✓✓Tool Calls✓✓Chat Prefix Completion（Beta）✓✓FIM Completion（Beta）Non-thinking mode onlyNon-thinking mode onlyPRICING1M INPUT TOKENS (CACHE HIT)(2)$0.0028$0.003625 (75% off(3))$0.01451M INPUT TOKENS (CACHE MISS)$0.14$0.435 (75% off(3))$1.741M OUTPUT TOKENS$0.28$0.87 (75% off(3))$3.48
+(1) The model names deepseek-chat and deepseek-reasoner will be deprecated in the future. For compatibility, they correspond to the non-thinking mode and thinking mode of deepseek-v4-flash, respectively.
+(2) For all models, the input cache hit price has been reduced to 1/10 of the launch price. This price adjustment takes effect from 2026/4/26 12:15 UTC.
+(3) The deepseek-v4-pro model is currently offered at a 75% discount, extended until 2026/05/31 15:59 UTC.
+
+Deduction Rules​
+The expense = number of tokens × price.
+The corresponding fees will be directly deducted from your topped-up balance or granted balance, with a preference for using the granted balance first when both balances are available.
+Product prices may vary and DeepSeek reserves the right to adjust them. We recommend topping up based on your actual usage and regularly checking this page for the most recent pricing information.PreviousYour First API CallNextToken & Token UsageModel DetailsDeduction RulesWeChat Official Account
+              
+              CommunityEmailDiscordTwitterMoreGitHubCopyright © 2026 DeepSeek, Inc.
+
+
+
+=== Tables ===
+MODEL | deepseek-v4-flash(1) | deepseek-v4-pro
+BASE URL (OpenAI Format) | https://api.deepseek.com
+BASE URL (Anthropic Format) | https://api.deepseek.com/anthropic
+MODEL VERSION | DeepSeek-V4-Flash | DeepSeek-V4-Pro
+THINKING MODE | Supports both non-thinking and thinking (default) modesSee Thinking Mode for how to switch
+CONTEXT LENGTH | 1M
+MAX OUTPUT | MAXIMUM: 384K
+FEATURES | Json Output | ✓ | ✓
+Tool Calls | ✓ | ✓
+Chat Prefix Completion（Beta） | ✓ | ✓
+FIM Completion（Beta） | Non-thinking mode only | Non-thinking mode only
+PRICING | 1M INPUT TOKENS (CACHE HIT)(2) | $0.0028 | $0.003625 (75% off(3))$0.0145
+1M INPUT TOKENS (CACHE MISS) | $0.14 | $0.435 (75% off(3))$1.74
+1M OUTPUT TOKENS | $0.28 | $0.87 (75% off(3))$3.48
+
+=== Relevant Links ===
+Skip to main content: #__docusaurus_skipToContent_fallback
+English: /quick_start/pricing
+中文（中国）: /zh-cn/quick_start/pricing
+Models & Pricing: /quick_start/pricing
+Anthropic API: /guides/anthropic_api
+API Reference: /api/deepseek-api
+https://api.deepseek.com: https://api.deepseek.com
+https://api.deepseek.com/anthropic: https://api.deepseek.com/anthropic
+Email: mailto:api-service@deepseek.com

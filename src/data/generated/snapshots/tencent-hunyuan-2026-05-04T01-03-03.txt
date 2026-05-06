@@ -1,0 +1,140 @@
+=== 腾讯混元 Page Snapshot ===
+URL: https://cloud.tencent.com/document/product/1729/97731
+Fetched: 2026-05-04T01:03:04.071Z
+Title: 腾讯混元大模型 混元生文计费概述_腾讯云
+HTML Length: 410428
+Text Length: 324781
+Table Count: 5
+Link Count: 55
+
+=== HTML Extract (first 5000 chars) ===
+<!DOCTYPE html><html><head><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/><meta charSet="UTF-8"/><meta name="format-detection" content="telephone=no"/><meta name="applicable-device" content="pc,mobile"/><meta property="og:image" content="https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png"/><title data-react-helmet="true">腾讯混元大模型 混元生文计费概述_腾讯云</title><meta data-react-helmet="true" name="keywords" content="腾讯云,文档中心,产品文档,开发者,负载均衡,防攻击,防DDos攻击,安全,常见问题,云服务器,云主机,CDN,对象存储,MySQL,域名注册,备案,数据库,互联网+,文档,API,SDK,入门,云+,购买指引,计费,账号,认证"/><meta data-react-helmet="true" name="description" content="本文详细介绍了腾讯混元大模型的计费方式、开通流程、免费额度、价格说明及结算规则。内容涵盖后付费与预付费两种计费模式，免费额度的获取与使用限制，以及并发增购和费用"/><link rel="icon" href="//cloudcache.tencent-cloud.com/qcloud/favicon.ico" type="image/x-icon"/><script>
+            document.domain = 'cloud.tencent.com'
+        </script><div><script>
+!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):(t=t||self).assetsRetry=e()}(this,function(){"use strict";function o(t){return t}function p(){}function b(t,e,r){var n=t.indexOf(e);return-1===n?t:t.substring(0,n)+r+t.substring(n+e.length)}function l(t){return[].slice.call(t)}function t(t){for(var e=Object.getPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__},r=Object.keys(t);e(t);)r=r.concat(Object.keys(e(t))),t=e(t);return r.filter(function(t){return"constructor"!==t})}function n(t,e){try{return"function"==typeof t[e]}catch(t){return!1}}function m(e,t,r,n){void 0===r&&(r=p),void 0===n&&(n=!1);var o,i,c,a,u,f=n||e.defer||e.async;"loading"!==P.readyState||/Edge|MSIE|rv:/i.test(navigator.userAgent)||f?(o=P.createElement(L),Object.keys(N.prototype).forEach(function(t){if("src"!==t&&e[t]&&"object"!=typeof e[t])try{o[t]=e[t]}catch(t){}}),o.src=t,o.onload=e.onload,o.onerror=e.onerror,o.setAttribute(I,z()),(i=e.getAttribute("nonce"))&&o.setAttribute("nonce",i),P.getElementsByTagName("head")[0].appendChild(o)):(c=z(),a=e.outerHTML.replace(/data-retry-id="[^"]+"/,"").replace(/src=(?:"[^"]+"|.+)([ >])/,I+"="+c+' src="'+t+'"$1'),P.write(a),(u=P.querySelector("script["+I+'="'+c+'"]'))&&(u.onload=r))}function d(e){try{return e.rules}catch(t){try{return e.cssRules}catch(t){return null}}}function E(e,t,r){var n=P.createElement(f);Object.keys(C.prototype).forEach(function(t){if("href"!==t&&e[t]&&"object"!=typeof e[t])try{n[t]=e[t]}catch(t){}}),n.href=t,n.onload=r||e.onload,n.onerror=e.onerror,n.setAttribute(I,z()),e.replaceWith(n)}function w(t){return t instanceof N||t instanceof B?t.src:t instanceof C?t.href:""}function i(t){return Array.isArray(t)?t.reduce(function(t,e,r,n){return t[e]=n[(r+1)%n.length],t},{}):t}function g(t,e){var r="";try{r=new URL(t).hostname}catch(t){}return Object.keys(e).filter(function(t){return r===t}).sort(function(t,e){return e.length-t.length})[0]}function O(t,e){var r,n=F(t,e),o=n[0],i=n[1];return o?(D[o]=D[o]||((r={})[j]=0,r[A]=[],r[y]=[],r),[i,D[o]]):[]}var e,r,c,j="retryTimes",y="succeeded",A="failed",_="maxRetryCount",R="onRetry",a="onSuccess",u="onFail",k="domain",s="styleImageNoImportant",h="_assetsRetryProxy",v="_assetsRetryOnerror",L="script",f="link",S="data-assets-retry-hooked",x="data-assets-retry-ignore",I="data-retry-id",M=window,P=window.document,T=M.HTMLElement,N=M.HTMLScriptElement,H=M.HTMLStyleElement,C=M.HTMLLinkElement,B=M.HTMLImageElement,q=Object.prototype.hasOwnProperty,z=function(){return Math.random().toString(36).slice(2)},D={},F=function(t,e){var r,n,o=g(t,e);return o?[(n=o,(r=t).substr(r.indexOf(n)+n.length,r.length).split("?")[0]),o]:["",""]};try{r=function(){for(var t=0,e=0,r=arguments.length;e<r;e++)t+=arguments[e].length;for(var n=Array(t),o=0,e=0;e<r;e++)for(var i=arguments[e],c=0,a=i.length;c<a;c++,o++)n[o]=i[c];return n}(t(N.prototype),t(C.prototype)),c={},r.forEach(function(t){c[t]=!0}),e=Object.keys(c)}catch(t){}function U(s,t){var l=t[_],d=i(t[k]),y=t[R];return e.reduce(function(t,r){var e=n(N.prototype,r);return t[r]=e?{value:function(){return s[h][r].apply(s[h],arguments)}}:{set:function(e){var f=s[h];return"onerror"===r?(s[v]=e,void(f.onerror=function(n){if("string"!=typeof n){n.stopPropagation&&n.stopPropagation();var t=function(){return t=s[v],e=f,r=n,"function"!=typeof t?null:t.call(e,r);var t,e,r},e=w(f),r=O(e,d),o=r[0],i=r[1],c=f.hasAttribute(x);if(!o||!i||c)return t();var a=b(e,o,d[o]),u=y(a,e,i);if(null===u)return t();if("string"!=typeof u)throw new Error("a string should be returned in `onRetry` function");i[j]<=l?f instanceof N?m(f,u,p,!0):f instanceof C&&E(f,u):t()}})):"onload"===r?(s._assetsRetryOnload=e,void(s[h].onload=function(t){e&&!e._called&&(e._called=!0,e.call(s[h],t))})):void(f[r]=e)},get:function(){return s[h][r]}},t},{})}function W(r){var n=P.createElement;P.createElement=function(t,e){return t===L||t===f?function(t,e){var r;t.setAttribute(S,"true");var n=(
+
+=== Text Content ===
+
+!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):(t=t||self).assetsRetry=e()}(this,function(){"use strict";function o(t){return t}function p(){}function b(t,e,r){var n=t.indexOf(e);return-1===n?t:t.substring(0,n)+r+t.substring(n+e.length)}function l(t){return[].slice.call(t)}function t(t){for(var e=Object.getPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__},r=Object.keys(t);e(t);)r=r.concat(Object.keys(e(t))),t=e(t);return r.filter(function(t){return"constructor"!==t})}function n(t,e){try{return"function"==typeof t[e]}catch(t){return!1}}function m(e,t,r,n){void 0===r&&(r=p),void 0===n&&(n=!1);var o,i,c,a,u,f=n||e.defer||e.async;"loading"!==P.readyState||/Edge|MSIE|rv:/i.test(navigator.userAgent)||f?(o=P.createElement(L),Object.keys(N.prototype).forEach(function(t){if("src"!==t&&e[t]&&"object"!=typeof e[t])try{o[t]=e[t]}catch(t){}}),o.src=t,o.onload=e.onload,o.onerror=e.onerror,o.setAttribute(I,z()),(i=e.getAttribute("nonce"))&&o.setAttribute("nonce",i),P.getElementsByTagName("head")[0].appendChild(o)):(c=z(),a=e.outerHTML.replace(/data-retry-id="[^"]+"/,"").replace(/src=(?:"[^"]+"|.+)([ >])/,I+"="+c+' src="'+t+'"$1'),P.write(a),(u=P.querySelector("script["+I+'="'+c+'"]'))&&(u.onload=r))}function d(e){try{return e.rules}catch(t){try{return e.cssRules}catch(t){return null}}}function E(e,t,r){var n=P.createElement(f);Object.keys(C.prototype).forEach(function(t){if("href"!==t&&e[t]&&"object"!=typeof e[t])try{n[t]=e[t]}catch(t){}}),n.href=t,n.onload=r||e.onload,n.onerror=e.onerror,n.setAttribute(I,z()),e.replaceWith(n)}function w(t){return t instanceof N||t instanceof B?t.src:t instanceof C?t.href:""}function i(t){return Array.isArray(t)?t.reduce(function(t,e,r,n){return t[e]=n[(r+1)%n.length],t},{}):t}function g(t,e){var r="";try{r=new URL(t).hostname}catch(t){}return Object.keys(e).filter(function(t){return r===t}).sort(function(t,e){return e.length-t.length})[0]}function O(t,e){var r,n=F(t,e),o=n[0],i=n[1];return o?(D[o]=D[o]||((r={})[j]=0,r[A]=[],r[y]=[],r),[i,D[o]]):[]}var e,r,c,j="retryTimes",y="succeeded",A="failed",_="maxRetryCount",R="onRetry",a="onSuccess",u="onFail",k="domain",s="styleImageNoImportant",h="_assetsRetryProxy",v="_assetsRetryOnerror",L="script",f="link",S="data-assets-retry-hooked",x="data-assets-retry-ignore",I="data-retry-id",M=window,P=window.document,T=M.HTMLElement,N=M.HTMLScriptElement,H=M.HTMLStyleElement,C=M.HTMLLinkElement,B=M.HTMLImageElement,q=Object.prototype.hasOwnProperty,z=function(){return Math.random().toString(36).slice(2)},D={},F=function(t,e){var r,n,o=g(t,e);return o?[(n=o,(r=t).substr(r.indexOf(n)+n.length,r.length).split("?")[0]),o]:["",""]};try{r=function(){for(var t=0,e=0,r=arguments.length;e<r;e++)t+=arguments[e].length;for(var n=Array(t),o=0,e=0;e<r;e++)for(var i=arguments[e],c=0,a=i.length;c<a;c++,o++)n[o]=i[c];return n}(t(N.prototype),t(C.prototype)),c={},r.forEach(function(t){c[t]=!0}),e=Object.keys(c)}catch(t){}function U(s,t){var l=t[_],d=i(t[k]),y=t[R];return e.reduce(function(t,r){var e=n(N.prototype,r);return t[r]=e?{value:function(){return s[h][r].apply(s[h],arguments)}}:{set:function(e){var f=s[h];return"onerror"===r?(s[v]=e,void(f.onerror=function(n){if("string"!=typeof n){n.stopPropagation&&n.stopPropagation();var t=function(){return t=s[v],e=f,r=n,"function"!=typeof t?null:t.call(e,r);var t,e,r},e=w(f),r=O(e,d),o=r[0],i=r[1],c=f.hasAttribute(x);if(!o||!i||c)return t();var a=b(e,o,d[o]),u=y(a,e,i);if(null===u)return t();if("string"!=typeof u)throw new Error("a string should be returned in `onRetry` function");i[j]<=l?f instanceof N?m(f,u,p,!0):f instanceof C&&E(f,u):t()}})):"onload"===r?(s._assetsRetryOnload=e,void(s[h].onload=function(t){e&&!e._called&&(e._called=!0,e.call(s[h],t))})):void(f[r]=e)},get:function(){return s[h][r]}},t},{})}function W(r){var n=P.createElement;P.createElement=function(t,e){return t===L||t===f?function(t,e){var r;t.setAttribute(S,"true");var n=((r={})[h]=t,r[v]=p,r),o=U(n,e);return Object.defineProperties(n,o),n.onload=p,n.onerror=p,n}(n.call(P,t),r):n.call(P,t,e)}}function Z(r){Object.keys(r).filter(function(t){return n(r,t)}).forEach(function(t){var e=r[t];r[t]=function(){var t=[].slice.call(arguments).map(function(t){return t&&q.call(t,h)?t[h]:t});return e.apply(this,t)}})}var $={};function G(p){function f(t){if(t){var e=t.target||t.srcElement,r=w(e);if(r){var n=O(r,g),o=n[0],i=n[1],c=e instanceof HTMLElement&&e.hasAttribute(x);if(i&&o&&!c&&!(e instanceof C&&"stylesheet"!==e.getAttribute("rel"))){i[j]++,i[A].push(r);var a,u=i[j]>p[_];if(u&&(a=F(r,g)[0],v(a,r)),g[o]&&!u){var f=g[o],s=b(r,o,f),l=h(s,r,i);if(null!==l){if("string"!=typeof l)throw new Error("a string should be returned in `onRetry` function");if(e instanceof B&&e.src)return e.setAttribute(I,z()),void(e.src=l);var d,y=(d=e)?d instanceof T?[d.nodeName,d.src,d.href,d.getAttribute(I)].join(";"):"not_supported":"null";$[y]||($[y]=!0,e instanceof N&&!e.getAttribute(S)&&e.src?m(e,l):e instanceof C&&!e.getAttribute(S)&&e.href&&E(e,l))}}}}}}var h=p[R],s=p[a],v=p[u],g=p[k];P.addEventListener("error",f,!0),P.addEventListener("load",function(t){var e,r,n,o,i,c,a,u;t&&(e=t.target||t.srcElement,(r=w(e))&&((n=O(r,g))[0],o=n[1],i=F(r,g)[0],c=function(){o&&o[y].push(r),s(i,r)},e instanceof C?P.styleSheets&&(a=l(P.styleSheets).filter(function(t){return t.href===e.href})[0],null!==(u=d(a))&&(0!==u.length?c():f(t))):c()))},!0)}var J=Date.now()%1e9,K=Object.defineProperty&&function(){try{return 1===Object.defineProperty({},"x",{value:1}).x}catch(t){}}(),Q=(V.prototype.add=function(t){K?Object.defineProperty(t,this._,{configurable:!0,writable:!0,value:!0}):t[this._]=!0},V.prototype.has=function(t){return!!t[this._]},V.prototype.delete=function(t){return!!t[this._]&&!(t[this._]=void 0)},V);function V(){this._="__st"+(1e9*Math.random()>>>0)+J+++"__"}function X(t,e,r,n,o){var i,c=o[k],a=o[R],u=e.style&&e.style[t];if(u&&!/^url\(["']?data:/.test(u)){var f=u.match(/^url\(["']?(.+?)["']?\)/)||[],s=f[1];if(s){var l=g(s,c);if(l){for(var d=l,y=((i={})[d]=!0,i);d&&c[d];){var p=c[d];if(y[p])break;y[p]=!0,d=p}var h=Object.keys(y).map(function(t){var e=b(s,l,t),r=a(e,s,null);return r?'url("'+r+'")':null}).filter(Boolean).join(","),v=e.selectorText+("{ "+t.replace(/([a-z])([A-Z])/g,function(t,e,r){return e+"-"+r.toLowerCase()})+": "+h+" "+(o.styleImageNoImportant?"":"!important"))+"; }";try{r.insertRule(v,n.length)}catch(t){r.insertRule(v,0)}}}}}function Y(t,r){return l(t).filter(function(t){if(!d(t))return!1;if(t.href)return!tt[t.href]&&!!g(t.href,r);var e=t.ownerNode;return!(e instanceof H&&et.has(e))})}var tt={},et=new Q;function rt(e){var t=P.styleSheets,r=e[k];t&&setInterval(function(){var o,i,t=Y(P.styleSheets,r);0<t.length&&(o=e,i=["backgroundImage","borderImage","listStyleImage"],t.forEach(function(r){var n=d(r);if(null!==n){for(var t=n.length,e=0;e<t;e++)!function(t){var e=n[t];i.forEach(function(t){X(t,e,r,n,o)})}(e);r.href&&(tt[r.href]=!0),r.ownerNode instanceof H&&et.add(r.ownerNode)}}))},250)}var nt=function(f){var t;void 0===f&&(f={}),nt.orderAssetsRetry=function(t){Array.isArray(t)&&t.forEach(function(t){-1!==t.indexOf("//")&&document.write("<script "+x+'="true" src="'+t+'" onerror="window.assetsRetry.retryAsset(this)"><\/script>')})},nt.retryAsset=function(t){var e,r,n,o,i,c=t.src,a=null===(e=c.split("//")[1])||void 0===e?void 0:e.split("/")[0],u=null===(r=f[k])||void 0===r?void 0:r[a];u&&(n=c.replace(a,u),i=(o=f[R])?o(n,c,null):n,document.write("<script "+x+'="true" src="'+i+'"><\/script>'))};try{if("object"!=typeof f[k])throw new Error("opts.domain cannot be non-object.");var e=[_,R,a,u,k,s],r=Object.keys(f).filter(function(t){return-1===e.indexOf(t)});if(0<r.length)throw new Error("option name: "+r.join(", ")+" is not valid.");var n=((t={})[_]=f[_]||3,t[R]=f[R]||o,t[a]=f[a]||p,t[u]=f[u]||p,t[k]=i(f[k]),t[s]=f[s]||!1,t);return W(n),"undefined"!=typeof Node&&Z(Node.prototype),"undefined"!=typeof Element&&Z(Element.prototype),G(n),rt(n),D}catch(t){M.console&&console.error("[assetsRetry] error captured",t)}};return nt});
+
+!function(){"use strict";try{window.assetsRetry({domain:{"cloudcache.tencentcs.com":"cloudcache.tencent-cloud.com","cloudcache.tencent-cloud.com":"cloudcache.tencentcs.com","cloudcache.tencent-cloud.cn":"cloudcache.tencentcs.cn","cloudcache.tencentcs.cn":"cloudcache.tencent-cloud.cn","main.qcloudimg.com":"qcloudimg.tencentcs.com","qcloudimg.tencentcs.com":"main.qcloudimg.com","qcloudimg.tencent-cloud.cn":"qcloudimg.tencentcs.cn","qcloudimg.tencentcs.cn":"qcloudimg.tencent-cloud.cn","cloudcache.tencentcloudcore.com":"cloudcache.tencentcloudcore.cn","cloudcache.tencentcloudcore.cn":"cloudcache.tencentcloudcore.com"},maxRetryCount:3,onRetry:function(c,e,n){var o="assets-retry";if(c.includes(o+"=1"))return c;var t=c.includes("?"),u=c.indexOf("#"),d=c,l="";return-1!==u&&(d=c.substring(0,u),l=c.substring(u)),d+(t?"&":"?")+o+"=1"+l}})}catch(c){console.log(c)}}();
+
+
+          /* 新版导航与底部在详情页上的特殊处理，在需要处理的页面 body 元素上加上 fix-jssdk start */
+          @media screen and (max-width: 1240px) and (min-width: 769px) {
+            .fix-jssdk .pls-m-nav {
+              height: 56px;
+            }
+            .fix-jssdk .pls-m-nav-bar {
+              position: fixed;
+              left: 0;
+              top: 0;
+              right: 0;
+            }
+          }
+          @media screen and (max-width: 1000px) and (min-width: 769px) {
+            .fix-jssdk .pls-footer-visible-m {
+              display: none !important;
+            }
+          }
+    
+          /* 新版导航与底部在详情页上的特殊处理 end */
+    
+          .no-translate-tips {
+            height: 72px;
+            background: #F6FCFF;
+            padding: 0 20px;
+            font-size: 14px;
+            color: #333;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #00A4FF;
+            margin: 20px 0 -2px;
+            z-index:
+
+=== Tables ===
+产品名 | 免费额度
+Tencent HY 2.0 Think | 共100万 tokens，共享消耗。资源包有效期为1年，自开通服务之日起1年内若免费资源包未使用完，则过期作废。
+Tencent HY 2.0 Instruct | 
+Hunyuan-T1 | 
+Hunyuan-TurboS | 
+Hunyuan-a13b | 
+Hunyuan-large-role | 
+Hunyuan-translation | 
+Hunyuan-translation-lite | 
+Tencent HY Vision 1.5 Instruct | 
+Hunyuan-turbos-vision | 
+Hunyuan-t1-vision | 
+Hunyuan-turbos-vision-video | 
+Hunyuan-embedding | 100万 tokens。资源包有效期为1年，自开通服务之日起1年内若免费资源包未使用完，则过期作废。
+Hunyuan-lite | 免费使用
+产品名 | 条件 | 刊例价（每 百万 tokens）
+Tencent HY 2.0 Think | 输入长度 （0, 32k] tokens | 输入：3.975元输出：15.9元
+ | 输入长度 （32k, 128k] tokens | 输入：5.3元输出：21.2元
+Tencent HY 2.0 Instruct | 输入长度 （0, 32k] tokens | 输入：3.18元输出：7.95元
+ | 输入长度 （32k, 128k] tokens | 输入：4.505元输出：11.13元
+Hunyuan-T1 | - | 输入：1元输出：4元
+Hunyuan-TurboS | - | 输入：0.8元输出：2元
+Hunyuan-a13b | - | 输入：0.5元输出：2元
+Hunyuan-large-role | - | 输入：2.4元输出：9.6元
+Hunyuan-translation | - | 输入：1.2元输出：3.6元
+Hunyuan-translation-lite | - | 输入：1元输出：3元
+Tencent HY Vision 1.5 Instruct | - | 输入：3元输出：9元
+Hunyuan-turbos-vision | - | 输入：3元输出：9元
+Hunyuan-t1-vision | - | 输入：3元输出：9元
+Hunyuan-turbos-vision-video | - | 输入：3元输出：9元
+Hunyuan-embedding | - | 输入：0.7元输出：0.7元
+腾讯元器 | - | 输入：100元输出：100元
+产品名 | 刊例价
+混元大模型-预付费包-1万点 | 100元
+混元大模型-预付费包-10万点 | 950元
+混元大模型-预付费包-100万点 | 9000元
+混元大模型-预付费包-1000万点 | 85000元
+混元大模型-预付费包-1亿点 | 800000元
+模型名称 | 计费项 | 抵扣系数（点/千 tokens）
+Tencent HY 2.0 Think | 输入长度 （0, 32k] tokens | 输入：0.3975输出：1.59
+ | 输入长度 （32k, 128k] tokens | 输入：0.53输出：2.12
+Tencent HY 2.0 Instruct | 输入长度 （0, 32k] tokens | 输入：0.318输出：0.795
+ | 输入长度 （32k, 128k] tokens | 输入：0.4505输出：1.113
+hunyuan-T1 | 输入 | 0.1
+ | 输出 | 0.4
+hunyuan-TurboS | 输入 | 0.08
+ | 输出 | 0.2
+hunyuan-a13b | 输入 | 0.05
+ | 输出 | 0.2
+hunyuan-large-role | 输入 | 0.24
+ | 输出 | 0.96
+hunyuan-translation-lite | 输入 | 0.1
+ | 输出 | 0.3
+hunyuan-translation | 输入 | 0.12
+ | 输出 | 0.36
+Tencent HY Vision 1.5 Instruct | 输入 | 0.3
+ | 输出 | 0.9
+hunyuan-turbos-vision | 输入 | 0.3
+ | 输出 | 0.9
+hunyuan-t1-vision | 输入 | 0.3
+ | 输出 | 0.9
+hunyuan-turbos-vision-video | 输入 | 0.3
+ | 输出 | 0.9
+接口名称 | 费用
+hunyuan | 800元/并发/月
+
+=== Relevant Links ===
+定价: https://buy.cloud.tencent.com/pricing
+腾讯混元大模型: /document/product/1729
+文档中心: https://cloud.tencent.com/document/product
+API 中心: https://cloud.tencent.com/document/api
+SDK 中心: https://cloud.tencent.com/document/sdk
+文档活动: https://cloud.tencent.com/document/act
+文档反馈官招募中，报名立赚积分兑换代金券！> HOT: https://cloud.tencent.com/document/product/855/120653
+文档中心: /document/product
+腾讯混元大模型: /document/product/1729
+购买指南: /document/product/1729/105924
+腾讯云企业实名认证: https://cloud.tencent.com/document/product/378/56515
+腾讯云个人实名认证: https://cloud.tencent.com/document/product/378/56514
+产品概述: https://cloud.tencent.com/document/product/1729/104753
+API Explorer: https://console.cloud.tencent.com/api/explorer?Product=hunyuan&Version=2023-09-01&Action=ChatCompletions
+上一篇: 应用场景: /document/product/1729/104755
+下一篇: 混元生图计费概述: /document/product/1729/105925

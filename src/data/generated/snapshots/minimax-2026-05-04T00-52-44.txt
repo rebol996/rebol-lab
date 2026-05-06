@@ -1,0 +1,216 @@
+=== MiniMax Page Snapshot ===
+URL: https://platform.minimax.io/docs/pricing/overview
+Fetched: 2026-05-04T00:53:15.364Z
+Title: Pricing Overview - MiniMax API Docs
+HTML Length: 1856
+Text Length: 1830
+Table Count: 0
+Link Count: 50
+
+=== HTML Extract (first 5000 chars) ===
+[Rendered via Playwright] Skip to main content
+
+🎉 MiniMax-M2.7: Peak Performance. Ultimate Value. Master the Complex. ➔ Try Now.
+
+MiniMax API Docs home page
+Search...
+Ctrl K
+Documentation
+Account
+Subscribe
+Sign Up
+Developer Guides
+API Reference
+Pricing
+Token Plan
+Cookbook
+Release Notes
+Developer Program
+Pricing
+Overview
+Audio Subscription
+Video Packages
+Pay as You Go
+Token Plan
+PRICING
+Pricing Overview
+Copy page
+
+MiniMax has independently developed a wide range of modalities including text, audio, video, image, and music. We offer various pricing plans to meet usage requirements across different scenarios.
+
+Documentation Index
+
+Fetch the complete documentation index at: https://platform.minimax.io/docs/llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Experience MiniMax’s full-spectrum multimodal AI (Text, Audio, Image, Video, Music). Our flexible pricing ensures the best value for every scale of usage.
+Token Plan
+Token Plan for builders, providing unified access to MiniMax models across all modalities.
+View Details
+Audio Subscription
+Provides speech model subscription packages to meet the needs of different voice usage scenarios.
+View Details
+Video Packages
+Provides video generation resource packages, supporting all video generation models.
+View Details
+Pay as You Go
+Provides a wide range of API capabilities to meet the needs of different enterprise clients and professional developers.
+View Details
+Audio Subscription
+MiniMax API Docs home page
+discord
+x
+linkedin
+github
+
+Research
+
+MiniMax M2.7
+MiniMax M2-her
+MiniMax M2.1
+MiniMax Speech 2.8
+MiniMax Hailuo 2.3
+MiniMax Music 2.6
+
+Product
+
+Agent
+Video Hailuo
+Audio
+Talkie
+
+API
+
+Developer Docs
+Token Plan
+Pricing
+Console Login
+Developer Program
+
+Recommended
+
+Model Introduction
+Text Generation
+M2.7 for AI Coding Tools
+Text to Speech
+Video Generation
+
+=== Text Content ===
+Skip to main content
+
+🎉 MiniMax-M2.7: Peak Performance. Ultimate Value. Master the Complex. ➔ Try Now.
+
+MiniMax API Docs home page
+Search...
+Ctrl K
+Documentation
+Account
+Subscribe
+Sign Up
+Developer Guides
+API Reference
+Pricing
+Token Plan
+Cookbook
+Release Notes
+Developer Program
+Pricing
+Overview
+Audio Subscription
+Video Packages
+Pay as You Go
+Token Plan
+PRICING
+Pricing Overview
+Copy page
+
+MiniMax has independently developed a wide range of modalities including text, audio, video, image, and music. We offer various pricing plans to meet usage requirements across different scenarios.
+
+Documentation Index
+
+Fetch the complete documentation index at: https://platform.minimax.io/docs/llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Experience MiniMax’s full-spectrum multimodal AI (Text, Audio, Image, Video, Music). Our flexible pricing ensures the best value for every scale of usage.
+Token Plan
+Token Plan for builders, providing unified access to MiniMax models across all modalities.
+View Details
+Audio Subscription
+Provides speech model subscription packages to meet the needs of different voice usage scenarios.
+View Details
+Video Packages
+Provides video generation resource packages, supporting all video generation models.
+View Details
+Pay as You Go
+Provides a wide range of API capabilities to meet the needs of different enterprise clients and professional developers.
+View Details
+Audio Subscription
+MiniMax API Docs home page
+discord
+x
+linkedin
+github
+
+Research
+
+MiniMax M2.7
+MiniMax M2-her
+MiniMax M2.1
+MiniMax Speech 2.8
+MiniMax Hailuo 2.3
+MiniMax Music 2.6
+
+Product
+
+Agent
+Video Hailuo
+Audio
+Talkie
+
+API
+
+Developer Docs
+Token Plan
+Pricing
+Console Login
+Developer Program
+
+Recommended
+
+Model Introduction
+Text Generation
+M2.7 for AI Coding Tools
+Text to Speech
+Video Generation
+
+=== Tables ===
+
+=== Relevant Links ===
+Try Now: https://platform.minimax.io/docs/api-reference/text-anthropic-api
+Documentation: https://platform.minimax.io/docs
+Developer Guides: /docs/guides/models-intro
+API Reference: /docs/api-reference/api-overview
+Pricing: /docs/pricing/overview
+Token Plan: /docs/token-plan/intro
+Cookbook: /docs/solutions
+Release Notes: /docs/release-notes/models
+Overview: /docs/pricing/overview
+Audio Subscription: /docs/guides/pricing-speech
+Video Packages: /docs/guides/pricing-video
+Pay as You Go: /docs/guides/pricing-paygo
+Token Plan: /docs/guides/pricing-token-plan
+https://platform.minimax.io/docs/llms.txt: https://platform.minimax.io/docs/llms.txt
+Token PlanToken Plan for builders, providing unified access to MiniMax models across all modalities.View Details: /docs/guides/pricing-token-plan
+Audio SubscriptionProvides speech model subscription packages to meet the needs of different voice usage scenarios.View Details: /docs/guides/pricing-speech
+Video PackagesProvides video generation resource packages, supporting all video generation models.View Details: /docs/guides/pricing-video
+Pay as You GoProvides a wide range of API capabilities to meet the needs of different enterprise clients and professional developers.View Details: /docs/guides/pricing-paygo
+Audio Subscription: /docs/guides/pricing-speech
+Developer Docs: https://platform.minimax.io/docs/guides/models-intro
+Pricing: https://platform.minimax.io/docs/pricing/overview
+Model Introduction: https://platform.minimax.io/docs/guides/models-intro
+Text Generation: https://platform.minimax.io/docs/guides/text-generation
+M2.7 for AI Coding Tools: https://platform.minimax.io/docs/guides/text-ai-coding-tools
+Text to Speech: https://platform.minimax.io/docs/guides/speech-t2a-websocket
+Video Generation: https://platform.minimax.io/docs/guides/video-generation

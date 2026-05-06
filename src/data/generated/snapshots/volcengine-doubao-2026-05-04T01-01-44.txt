@@ -1,0 +1,117 @@
+=== 豆包 Page Snapshot ===
+URL: https://www.volcengine.com/docs/82379/1544106
+Fetched: 2026-05-04T01:01:46.246Z
+Title: 模型价格--火山方舟-火山引擎
+HTML Length: 978716
+Text Length: 885134
+Table Count: 0
+Link Count: 96
+
+=== HTML Extract (first 5000 chars) ===
+<!doctype html><html lang="zh"><head><script>window.gfdatav1={"env":"prod","envName":"prod","runtime":"node","ver":"1.0.0.523","canary":0,"idc":"hl","region":"cn","vdc":"hl","vregion":"China-North","extra":{"canaryType":null}}</script><script type="application/json" id="__MODERN_SERVER_DATA__">{"router":{"baseUrl":"/","params":{}}}</script><script>!function(e,r,n,t,s,a,o,c,i,l,d,p,f,m){a="precollect",o="getAttribute",c="addEventListener",l=function(e){(d=[].slice.call(arguments)).push(Date.now(),location.href),(e==a?l.p.a:l.q).push(d)},l.q=[],l.p={a:[]},e[s]=l,(p=document.createElement("script")).src=n+"?bid=volc_fe_portal_doccenter&globalName="+s,p.crossOrigin=n.indexOf("sdk-web")>0?"anonymous":"use-credentials",r.getElementsByTagName("head")[0].appendChild(p),c in e&&(l.pcErr=function(r){r=r||e.event,(f=r.target||r.srcElement)instanceof Element||f instanceof HTMLElement?f[o]("integrity")?e[s](a,"sri",f[o]("href")||f[o]("src")):e[s](a,"st",{tagName:f.tagName,url:f[o]("href")||f[o]("src")}):e[s](a,"err",r.error||r.message)},l.pcRej=function(r){r=r||e.event,e[s](a,"err",r.reason||r.detail&&r.detail.reason)},e[c]("error",l.pcErr,!0),e[c]("unhandledrejection",l.pcRej,!0)),"PerformanceLongTaskTiming"in e&&((m=l.pp={entries:[]}).observer=new PerformanceObserver(function(e){m.entries=m.entries.concat(e.getEntries())}),m.observer.observe({entryTypes:["longtask","largest-contentful-paint","layout-shift"]}))}(window,document,"https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js",0,"Slardar")</script><script >
+            ;(function(){
+              window._MODERNJS_ROUTE_MANIFEST = {"routeAssets":{"main":{"chunkIds":[691,378,740,74,801,896,792],"assets":["static/css/lib-arco.e82a9c00.css","static/js/lib-arco.f555872d.js","static/js/lib-polyfill.a9de56a8.js","static/js/lib-lodash.8366289f.js","static/js/lib-axios.c5cfc0d7.js","static/css/896.d861109f.css","static/js/896.a1f2c74f.js","static/css/main.8414df6c.css","static/js/main.f1c151b6.js"],"referenceCssAssets":["static/css/lib-arco.e82a9c00.css","static/css/896.d861109f.css","static/css/main.8414df6c.css"]},"$":{"chunkIds":[161],"assets":["static/css/async/$.48f76470.css","static/js/async/$.0595f5f1.js"],"referenceCssAssets":["static/css/async/$.48f76470.css"]},"docs/page":{"chunkIds":[188],"assets":["static/css/async/docs/page.a17001e3.css","static/js/async/docs/page.3511f0ed.js"],"referenceCssAssets":["static/css/async/docs/page.a17001e3.css"]},"docs/(libid)/(docid$)/page":{"chunkIds":[831],"assets":["static/css/async/docs/(libid)/(docid$)/page.33170370.css","static/js/async/docs/(libid)/(docid$)/page.f036e684.js"],"referenceCssAssets":["static/css/async/docs/(libid)/(docid$)/page.33170370.css"]},"docs/(libid)/layout":{"chunkIds":[741],"assets":["static/css/async/docs/(libid)/layout.b6f5b473.css","static/js/async/docs/(libid)/layout.26d011d9.js"],"referenceCssAssets":["static/css/async/docs/(libid)/layout.b6f5b473.css"]},"docs/favorite/page":{"chunkIds":[273],"assets":["static/css/async/docs/favorite/page.be744ac3.css","static/js/async/docs/favorite/page.9184fad3.js"],"referenceCssAssets":["static/css/async/docs/favorite/page.be744ac3.css"]},"docs/material-download/page":{"chunkIds":[175],"assets":["static/css/async/docs/material-download/page.375b643d.css","static/js/async/docs/material-download/page.c9735b1d.js"],"referenceCssAssets":["static/css/async/docs/material-download/page.375b643d.css"]},"docs/practice/page":{"chunkIds":[952],"assets":["static/css/async/docs/practice/page.5ea885f5.css","static/js/async/docs/practice/page.d9e18cac.js"],"referenceCssAssets":["static/css/async/docs/practice/page.5ea885f5.css"]},"docs/practice/layout":{"chunkIds":[675],"assets":["static/css/async/docs/practice/layout.b8b785f9.css","static/js/async/docs/practice/layout.ca5cbd52.js"],"referenceCssAssets":["static/css/async/docs/practice/layout.b8b785f9.css"]},"docs/layout":{"chunkIds":[143],"assets":["static/js/async/docs/layout.46ee9a28.js"],"referenceCssAssets":[]},"viewer-v2":{"chunkIds":[18],"assets":["static/css/async/viewer-v2.ecf5b0de.css","static/js/async/viewer-v2.96abffb3.js"],"referenceCssAssets":["static/css/async/viewer-v2.ecf5b0de.css"]},"highlightjs":{"chunkIds":[940],"assets":["static/js/async/highlightjs.ea241a14.js"],"referenceCssAssets":[]},"inlineCodeWorker":{"chunkIds":[377],"assets":["static/js/async/inlineCodeWorker.089139d7.js"],"referenceCssAssets":[]}}};
+            })();
+          </script><title data-react-helmet="true">模型价格--火山方舟-火山引擎</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="renderer" content="webkit"><meta name="layoutmode" content="standard"><meta name="imagemode" content="force"><meta name="wap-font-scale" content="no"><meta name="format-detection" content="telephone=no"><link href="//portal.volccdn.com/obj/volcfe-scm/doccenter/st
+
+=== Text Content ===
+文档中心简体文档备案控制台火山方舟文档指南API参考资源火山方舟火山方舟文档指南请输入开始使用产品简介快速入门模型列表模型价格模型调用文本生成多模态理解图片理解视频理解文档理解视频生成Doubao Seedance 2.0 系列教程Doubao Seedance 2.0 系列提示词指南视频生成教程图片生成Seedream 4.0-5.0 教程Seedream 3.0 教程领域模型GUI 任务处理3D 生成向量化工具调用工具概述豆包助手Web Search（联网内容插件）图像处理 Image Process私域知识库搜索 Knowledge Search云部署 MCP / Remote MCPFunction Calling（函数调用）进阶使用深度思考上下文管理流式输出续写模式上下文缓存原理及选型上下文缓存(Context API) 文件输入(File API)视觉定位 Grounding提示词工程结构化输出(beta)接入三方工具使用 Responses API迁移至 Responses API文本生成深度思考多模态理解工具调用上下文缓存结构化输出(beta)上下文编辑部署方式部署方式概述在线推理（常规）在线推理（低延迟）在线推理（TPM 保障包）模型单元模型单元概述创建模型单元管理模型单元批量推理高级能力智能模型路由使用 MLP 推理服务使用自定义模型进行推理模型精调模型精调概述有监督微调最佳实践直接偏好优化最佳实践强化学习最佳实践精调 SDK 使用指南模型精调数据集格式说明管理自定义模型Coding Plan 个人版套餐概览快速开始接入 AI 工具Claude CodeOpenCodeOpenClawHermes AgentTRAEOpenViking其他工具专属权益ArkClaw记忆增强-Embedding模型特惠活动新用户特惠活动限时邀请有礼活动常见问题功能发布公告实践教程快速入门(新手版)Seedance-1.5-pro 提示词指南Seedance-1.0-pro&pro-fast 提示词指南Seedance-1.0-lite 提示词指南Seedream 4.0-5.0 提示词指南Seedream 3.0 提示词指南Seedream 4.0 助力 Seedance 生视频最佳实践RAG（检索增强）解决方案在应用中使用 RTC 实现 AI 实时对话数据回流操作流程如何设置控制台登录保持时间角色扮演场景提示词指南环境变量配置指南突发流量处理最佳实践火山方舟分账最佳实践方舟文档 MCP文档首页火山方舟开始使用模型价格复制全文下载 pdf我的收藏开始使用模型价格复制全文下载 pdf我的收藏模型价格文档反馈问问助手最近更新时间：2026.04.24 21:09:50这个页面对您有帮助吗？有用有用无用无用[143,741,831]{"namedChunks":["docs/layout","docs/(libid)/layout","docs/(libid)/(docid$)/page"]}window._SSR_DATA = {"data":{},"context":{"request":{"params":{},"query":{"lang":"zh"},"pathname":"\u002Fdocs\u002F82379\u002F1544106","host":"www.volcengine.com","url":"https:\u002F\u002Fwww.volcengine.com\u002Fdocs\u002F82379\u002F1544106?lang=zh"},"reporter":{"sessionId":"20260504090146B6B89E67DFFA4066BD6F"}},"mode":"string","renderLevel":2}
+window._ROUTER_DATA = {"loaderData":{"layout":{"lang":"zh"},"docs\u002Flayout":null,"docs\u002F(libid)\u002Flayout":{"curLibId":82379,"isContentDoc":false,"curLib":{"BusinessID":82379,"Category":"AI_dev_platform","CategoryEnName":"","CategoryID":8,"CategoryName":"人工智能与算法","Code":"","CreatedTime":"2023-06-26T03:11:51Z","Creator":"","Description":"","DirectionPath":"","DocCount":0,"DocWordCount":0,"EnName":"ark","HasBindApp":false,"Index":4640,"IsCollection":0,"IsOfficialWebsiteContentCategory":2,"Language":"zh","Languages":null,"LatestAIQualityCheckTaskID":0,"LatestAIQualityCheckTaskStatus":0,"LibNameID":269,"LibVersion":"","LibraryCode":"","LibraryID":82379,"LibraryIsReused":0,"MainLibraryID":0,"Name":"火山方舟","NeedCheckDocName":false,"NormID":0,"PublishType":1,"RelationType":0,"SecondNav":[{"CreatedTime":"2025-12-17T00:03:31+08:00","Creator":"","DirStyle":"BoldExpand","ID":747,"Index":1,"LibraryID":82379,"Name":"文档指南","PDFURL":"https:\u002F\u002Feps-common-private-online.tos-cn-beijing.volces.com\u002Fcloud-doc\u002Feps-doc-center-pdf\u002F%E7%81%AB%E5%B1%B1%E6%96%B9%E8%88%9F_%E6%96%87%E6%A1%A3%E6%8C%87%E5%8D%97_1777545759.pdf","Type":"default","UpdatedTime":"2026-04-30T18:42:45+08:00","Updater":""},{"CreatedTime":"2025-12-17T01:26:14+08:00","Creator":"","DirStyle":"BoldExpand","ID":969,"Index":2,"LibraryID":82379,"Name":"API参考","PDFURL":"https:\u002F\u002Feps-common-private-online.tos-cn-beijing.volces.com\u002Fcloud-doc\u002Feps-doc-center-pdf\u002F%E7%81%AB%E5%B1%B1%E6%96%B9%E8%88%9F_API%E5%8F%82%E8%80%83_1777422768.pdf","Type":"custom","UpdatedTime":"2026-04-29T08:32:51+08:00","Updater":""},{"CreatedTime":"2025-12-17T01:26:14+08:00","Creator":"","DirStyle":"BoldExpand","ID":970,"Index":3,"LibraryID":82379,"Name":"资源","PDFURL":"https:\u002F\u002Feps-common-private-online.tos-cn-beijing.volces.com\u002Fcloud-doc\u002Feps-doc-center-pdf\u002F%E7%81%AB%E5%B1%B1%E6%96%B9%E8%88%9F_%E8%B5%84%E6%BA%90_1777542921.pdf","Type":"custom","UpdatedTime":"2026-04-30T17:55:25+08:00","Updater":""}],"Status":2,"SubProductID":"P90002291","TagList":null,"UpdatedTime":"2025-02-20T02:38:15Z","VersionType":0},"navMode":"all_second_nav","docListMap":{"747":{"0":{"children":[1399007,2122058,2121999,1099350,2366393,2374450,1925115,2276790,1221659,1314289]},"1099350":{"value":{"Childrens":null,"ContentType":"","DocumentCode":"","DocumentID":1099350,"EnTitle":"模型精调","Index":14013270621184,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":0,"SecondNav":{"CreatedTime":"2025-12-17T00:03:31+08:00","Creator":"feiwenchun.wfpa@bytedance.com","DirStyle":"BoldExpand","ID":747,"Index":1,"LibraryID":82379,"Name":"文档指南","PDFURL":"https:\u002F\u002Feps-common-private-online.tos-cn-beijing.volces.com\u002Fcloud-doc\u002Feps-doc-center-pdf\u002F%E7%81%AB%E5%B1%B1%E6%96%B9%E8%88%9F_%E6%96%87%E6%A1%A3%E6%8C%87%E5%8D%97_1777545759.pdf","Type":"default","UpdatedTime":"2026-04-30T18:42:45+08:00","Updater":"fumeng.fm@bytedance.com"},"Status":1,"Title":"模型精调","Type":1},"children":[1099459,1221664,1354009,2123249,1852871,1099461,1582651]},"1099455":{"value":{"Childrens":null,"ContentType":"json","DocumentCode":"","DocumentID":1099455,"EnTitle":"产品简介","Index":12306812307456,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1399007,"SecondNav":null,"Status":2,"Title":"产品简介","Type":0},"children":[],"next":1399008},"1099459":{"value":{"Childrens":null,"ContentType":"json","DocumentCode":"","DocumentID":1099459,"EnTitle":"模型精调概述","Index":14585707495424,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1099350,"SecondNav":null,"Status":2,"Title":"模型精调概述","Type":0},"children":[],"prev":2121512,"next":1221664},"1099461":{"value":{"Childrens":null,"ContentType":"json","DocumentCode":"","DocumentID":1099461,"EnTitle":"模型精调数据集格式说明","Index":14585707495429,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1099350,"SecondNav":null,"Status":2,"Title":"模型精调数据集格式说明","Type":0},"children":[],"prev":1852871,"next":1582651},"1158772":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1158772,"EnTitle":"插件使用说明","Index":12258214289408,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1302012,"SecondNav":null,"Status":5,"Title":"插件使用说明","Type":0},"children":[]},"1215983":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1215983,"EnTitle":"最佳实践","Index":12258205117440,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1302012,"SecondNav":null,"Status":5,"Title":"最佳实践","Type":0},"children":[]},"1221659":{"value":{"Childrens":null,"ContentType":"","DocumentCode":"","DocumentID":1221659,"EnTitle":"实践教程","Index":14516127388672,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":0,"SecondNav":{"CreatedTime":"2025-12-17T00:03:31+08:00","Creator":"feiwenchun.wfpa@bytedance.com","DirStyle":"BoldExpand","ID":747,"Index":1,"LibraryID":82379,"Name":"文档指南","PDFURL":"https:\u002F\u002Feps-common-private-online.tos-cn-beijing.volces.com\u002Fcloud-doc\u002Feps-doc-center-pdf\u002F%E7%81%AB%E5%B1%B1%E6%96%B9%E8%88%9F_%E6%96%87%E6%A1%A3%E6%8C%87%E5%8D%97_1777545759.pdf","Type":"default","UpdatedTime":"2026-04-30T18:42:45+08:00","Updater":"fumeng.fm@bytedance.com"},"Status":1,"Title":"实践教程","Type":1},"children":[2272060,2168087,1631633,1587797,1829186,1795150,1951250,1263275,1263276,1393085,1528785,1604573,1515355,1256348,1803071,1820161,1848593,1884418,2289964]},"1221660":{"value":{"Childrens":null,"ContentType":"json","DocumentCode":"","DocumentID":1221660,"EnTitle":"提示词工程","Index":14595565758464,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":2123116,"SecondNav":null,"Status":2,"Title":"提示词工程","Type":0},"children":[],"prev":1616136,"next":1568221},"1221664":{"value":{"Childrens":null,"ContentType":"json","DocumentCode":"","DocumentID":1221664,"EnTitle":"有监督微调最佳实践","Index":14585707495425,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1099350,"SecondNav":null,"Status":2,"Title":"有监督微调最佳实践","Type":0},"children":[],"prev":1099459,"next":1354009},"1256348":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1256348,"EnTitle":"角色扮演场景提示词指南","Index":14052142765056,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1221659,"SecondNav":null,"Status":2,"Title":"角色扮演场景提示词指南","Type":0},"children":[],"prev":1515355,"next":1820161},"1262342":{"value":{"Childrens":null,"ContentType":"json","DocumentCode":"","DocumentID":1262342,"EnTitle":"Function Calling（函数调用）","Index":14251980689408,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1756989,"SecondNav":null,"Status":2,"Title":"Function Calling（函数调用）","Type":0},"children":[],"prev":1827534,"next":1449737},"1263275":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1263275,"EnTitle":"智能座舱解决方案","Index":13201278349312,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1221659,"SecondNav":null,"Status":5,"Title":"智能座舱解决方案","Type":0},"children":[]},"1263276":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1263276,"EnTitle":"RAG（检索增强）解决方案","Index":13418170881024,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1221659,"SecondNav":null,"Status":2,"Title":"RAG（检索增强）解决方案","Type":0},"children":[],"prev":1951250,"next":1393085},"1263405":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1263405,"EnTitle":"","Index":11423079929856,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1330313,"SecondNav":null,"Status":5,"Title":"智能体 SDK 使用说明","Type":0},"children":[]},"1263519":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1263519,"EnTitle":"视觉大模型","Index":12258203479040,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1302012,"SecondNav":null,"Status":5,"Title":"视觉大模型","Type":1},"children":[1393093]},"1263523":{"value":{"Childrens":null,"ContentType":"md","DocumentCode":"","DocumentID":1263523,"EnTitle":"Stable Diffusion API 调用指南","Index":12258198524928,"Language":"zh","LibraryCode":"","LibraryID":82379,"ParentCode":"","ParentID":1393093,"SecondNav":null,"Status":5,"Title":"Stable Diffusion API
+
+=== Tables ===
+
+=== Relevant Links ===
+文档: https://www.volcengine.com/docs
+产品简介: /docs/82379/1099455?lang=zh
+快速入门: /docs/82379/1399008?lang=zh
+模型列表: /docs/82379/1330310?lang=zh
+模型价格: /docs/82379/1544106?lang=zh
+文本生成: /docs/82379/1399009?lang=zh
+图片理解: /docs/82379/1362931?lang=zh
+视频理解: /docs/82379/1895586?lang=zh
+文档理解: /docs/82379/1902647?lang=zh
+Doubao Seedance 2.0 系列教程: /docs/82379/2291680?lang=zh
+Doubao Seedance 2.0 系列提示词指南: /docs/82379/2222480?lang=zh
+视频生成教程: /docs/82379/2298881?lang=zh
+Seedream 4.0-5.0 教程: /docs/82379/1824121?lang=zh
+Seedream 3.0 教程: /docs/82379/1824692?lang=zh
+GUI 任务处理: /docs/82379/1584296?lang=zh
+3D 生成: /docs/82379/1874993?lang=zh
+向量化: /docs/82379/1409291?lang=zh
+工具概述: /docs/82379/1827538?lang=zh
+豆包助手: /docs/82379/1978533?lang=zh
+Web Search（联网内容插件）: /docs/82379/1756990?lang=zh
+图像处理 Image Process: /docs/82379/1798161?lang=zh
+私域知识库搜索 Knowledge Search: /docs/82379/1873396?lang=zh
+云部署 MCP / Remote MCP: /docs/82379/1827534?lang=zh
+Function Calling（函数调用）: /docs/82379/1262342?lang=zh
+深度思考: /docs/82379/1449737?lang=zh
+上下文管理: /docs/82379/2123288?lang=zh
+流式输出: /docs/82379/2123275?lang=zh
+续写模式: /docs/82379/1359497?lang=zh
+原理及选型: /docs/82379/1398933?lang=zh
+上下文缓存(Context API): /docs/82379/1396491?lang=zh
+文件输入(File API): /docs/82379/1885708?lang=zh
+视觉定位 Grounding: /docs/82379/1616136?lang=zh
+提示词工程: /docs/82379/1221660?lang=zh
+结构化输出(beta): /docs/82379/1568221?lang=zh
+接入三方工具: /docs/82379/2160841?lang=zh
+迁移至 Responses API: /docs/82379/1585128?lang=zh
+文本生成: /docs/82379/1958520?lang=zh
+深度思考: /docs/82379/1956279?lang=zh
+多模态理解: /docs/82379/1958521?lang=zh
+工具调用: /docs/82379/1958524?lang=zh
+上下文缓存: /docs/82379/1602228?lang=zh
+结构化输出(beta): /docs/82379/1958523?lang=zh
+上下文编辑: /docs/82379/2123215?lang=zh
+部署方式概述: /docs/82379/2123245?lang=zh
+在线推理（常规）: /docs/82379/2121998?lang=zh
+在线推理（低延迟）: /docs/82379/2335857?lang=zh
+在线推理（TPM 保障包）: /docs/82379/1510762?lang=zh
+模型单元概述: /docs/82379/1568332?lang=zh
+创建模型单元: /docs/82379/2122001?lang=zh
+管理模型单元: /docs/82379/2123247?lang=zh
+批量推理: /docs/82379/1399517?lang=zh
+智能模型路由: /docs/82379/1828788?lang=zh
+使用 MLP 推理服务: /docs/82379/1584258?lang=zh
+使用自定义模型进行推理: /docs/82379/2121512?lang=zh
+模型精调概述: /docs/82379/1099459?lang=zh
+有监督微调最佳实践: /docs/82379/1221664?lang=zh
+直接偏好优化最佳实践: /docs/82379/1354009?lang=zh
+强化学习最佳实践: /docs/82379/2123249?lang=zh
+精调 SDK 使用指南: /docs/82379/1852871?lang=zh
+模型精调数据集格式说明: /docs/82379/1099461?lang=zh
+管理自定义模型: /docs/82379/1582651?lang=zh
+套餐概览: /docs/82379/1925114?lang=zh
+快速开始: /docs/82379/1928261?lang=zh
+Claude Code: /docs/82379/1928262?lang=zh
+OpenCode: /docs/82379/2188958?lang=zh
+OpenClaw: /docs/82379/2183190?lang=zh
+Hermes Agent: /docs/82379/2318283?lang=zh
+TRAE: /docs/82379/2205646?lang=zh
+OpenViking: /docs/82379/2288685?lang=zh
+其他工具: /docs/82379/2188959?lang=zh
+ArkClaw: /docs/82379/2229107?lang=zh
+记忆增强-Embedding模型: /docs/82379/2279748?lang=zh
+新用户特惠活动: /docs/82379/1928220?lang=zh
+限时邀请有礼活动: /docs/82379/2165246?lang=zh
+常见问题: /docs/82379/2165245?lang=zh
+功能发布公告: /docs/82379/2222865?lang=zh
+快速入门(新手版): /docs/82379/2272060?lang=zh
+Seedance-1.5-pro 提示词指南: /docs/82379/2168087?lang=zh
+Seedance-1.0-pro&pro-fast 提示词指南: /docs/82379/1631633?lang=zh
+Seedance-1.0-lite 提示词指南: /docs/82379/1587797?lang=zh
+Seedream 4.0-5.0 提示词指南: /docs/82379/1829186?lang=zh
+Seedream 3.0 提示词指南: /docs/82379/1795150?lang=zh
+Seedream 4.0 助力 Seedance 生视频最佳实践: /docs/82379/1951250?lang=zh
+RAG（检索增强）解决方案: /docs/82379/1263276?lang=zh
+在应用中使用 RTC 实现 AI 实时对话: /docs/82379/1393085?lang=zh
+数据回流操作流程: /docs/82379/1528785?lang=zh
+如何设置控制台登录保持时间: /docs/82379/1515355?lang=zh
+角色扮演场景提示词指南: /docs/82379/1256348?lang=zh
+环境变量配置指南: /docs/82379/1820161?lang=zh
+突发流量处理最佳实践: /docs/82379/1848593?lang=zh
+火山方舟分账最佳实践: /docs/82379/1884418?lang=zh
+方舟文档 MCP: /docs/82379/2289964?lang=zh
+我的收藏: /docs/favorite
+我的收藏: /docs/favorite

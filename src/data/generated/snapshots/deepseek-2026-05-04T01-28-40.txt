@@ -1,0 +1,68 @@
+=== DeepSeek Page Snapshot ===
+URL: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+Fetched: 2026-05-04T01:28:40.505Z
+Title: 模型 & 价格 | DeepSeek API Docs
+HTML Length: 19721
+Text Length: 1733
+Table Count: 1
+Link Count: 44
+
+=== HTML Extract (first 5000 chars) ===
+<!doctype html>
+<html lang="zh-cn" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-quick_start/pricing" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">模型 &amp; 价格 | DeepSeek API Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://api-docs.deepseek.com/zh-cn/img/deepseek-social-card.jpeg"><meta data-rh="true" name="twitter:image" content="https://api-docs.deepseek.com/zh-cn/img/deepseek-social-card.jpeg"><meta data-rh="true" property="og:url" content="https://api-docs.deepseek.com/zh-cn/quick_start/pricing"><meta data-rh="true" property="og:locale" content="zh_cn"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="zh-cn"><meta data-rh="true" name="docsearch:language" content="zh-cn"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="模型 &amp; 价格 | DeepSeek API Docs"><meta data-rh="true" name="description" content="下表所列模型价格以“百万 tokens”为单位。Token 是模型用来表示自然语言文本的的最小单位，可以是一个词、一个数字或一个标点符号等。我们将根据模型输入和输出的总 token 数进行计量计费。"><meta data-rh="true" property="og:description" content="下表所列模型价格以“百万 tokens”为单位。Token 是模型用来表示自然语言文本的的最小单位，可以是一个词、一个数字或一个标点符号等。我们将根据模型输入和输出的总 token 数进行计量计费。"><link data-rh="true" rel="icon" href="/zh-cn/img/favicon.svg"><link data-rh="true" rel="canonical" href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing"><link data-rh="true" rel="alternate" href="https://api-docs.deepseek.com/quick_start/pricing" hreflang="en"><link data-rh="true" rel="alternate" href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing" hreflang="zh-cn"><link data-rh="true" rel="alternate" href="https://api-docs.deepseek.com/quick_start/pricing" hreflang="x-default"><link rel="stylesheet" href="/zh-cn/assets/css/styles.e31a7b76.css">
+<script src="/zh-cn/assets/js/runtime~main.ae7386d1.js" defer="defer"></script>
+<script src="/zh-cn/assets/js/main.2ccebd93.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_xSgN" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/zh-cn/"><div class="navbar__logo"><img src="https://cdn.deepseek.com/platform/favicon.png" alt="DeepSeek API 文档 Logo" class="themedComponent_EBr5 themedComponent--light_FDat"><img src="https://cdn.deepseek.com/platform/favicon.png" alt="DeepSeek API 文档 Logo" class="themedComponent_EBr5 themedComponent--dark_NU8c"></div><b class="navbar__title text--truncate">DeepSeek API 文档</b></a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_B6X1"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>中文（中国）</a><ul class="dropdown__menu"><li><a href="/quick_start/pricing" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">English</a></li><li><a href="/zh-cn/quick_start/pricing" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="zh-cn">中文（中国）</a></li>
+
+=== Text Content ===
+
+!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()跳到主要内容DeepSeek API 文档中文（中国）English中文（中国）DeepSeek Platform快速开始首次调用 API模型 & 价格Token 用量计算限速错误码接入 Agent 工具API 指南思考模式多轮对话对话前缀续写（Beta）FIM 补全（Beta）JSON OutputTool Calls上下文硬盘缓存Anthropic APIAPI 文档新闻其它资源常见问题更新日志快速开始模型 & 价格本页总览模型 & 价格
+下表所列模型价格以“百万 tokens”为单位。Token 是模型用来表示自然语言文本的的最小单位，可以是一个词、一个数字或一个标点符号等。我们将根据模型输入和输出的总 token 数进行计量计费。
+
+模型细节​
+模型deepseek-v4-flash(1)deepseek-v4-proBASE URL (OpenAI 格式)https://api.deepseek.comBASE URL (Anthropic 格式)https://api.deepseek.com/anthropic模型版本DeepSeek-V4-FlashDeepSeek-V4-Pro思考模式支持非思考与思考模式（默认）切换方式详见思考模式上下文长度1M输出长度最大 384K功能Json Output支持支持Tool Calls支持支持对话前缀续写（Beta）支持支持FIM 补全（Beta）仅非思考模式支持仅非思考模式支持价格百万tokens输入（缓存命中）(2)0.02元0.025元（2.5折(3)）0.1元百万tokens输入（缓存未命中）1元3元（2.5折(3)）12元 百万tokens输出2元6元（2.5折(3)）24元
+(1) deepseek-chat 与 deepseek-reasoner 两个模型名将于日后弃用。出于兼容考虑，二者分别对应 deepseek-v4-flash 的非思考与思考模式。
+(2) 全系列模型，输入缓存命中的价格已降至首发价格的 1/10，该价格调整自北京时间 2026/4/26 20:15 起生效
+(3) 当前 deepseek-v4-pro 模型 2.5 折，优惠期延长至北京时间 2026/05/31 23:59。
+
+扣费规则​
+扣减费用 = token 消耗量 × 模型单价，对应的费用将直接从充值余额或赠送余额中进行扣减。
+当充值余额与赠送余额同时存在时，优先扣减赠送余额。
+产品价格可能发生变动，DeepSeek 保留修改价格的权利。请您依据实际用量按需充值，定期查看此页面以获知最新价格信息。上一页首次调用 API下一页Token 用量计算模型细节扣费规则微信公众号
+              
+              社区邮箱DiscordTwitter更多GitHubCopyright © 2025 DeepSeek, Inc.
+
+
+
+=== Tables ===
+模型 | deepseek-v4-flash(1) | deepseek-v4-pro
+BASE URL (OpenAI 格式) | https://api.deepseek.com
+BASE URL (Anthropic 格式) | https://api.deepseek.com/anthropic
+模型版本 | DeepSeek-V4-Flash | DeepSeek-V4-Pro
+思考模式 | 支持非思考与思考模式（默认）切换方式详见思考模式
+上下文长度 | 1M
+输出长度 | 最大 384K
+功能 | Json Output | 支持 | 支持
+Tool Calls | 支持 | 支持
+对话前缀续写（Beta） | 支持 | 支持
+FIM 补全（Beta） | 仅非思考模式支持 | 仅非思考模式支持
+价格 | 百万tokens输入（缓存命中）(2) | 0.02元 | 0.025元（2.5折(3)）0.1元
+百万tokens输入（缓存未命中） | 1元 | 3元（2.5折(3)）12元
+百万tokens输出 | 2元 | 6元（2.5折(3)）24元
+
+=== Relevant Links ===
+跳到主要内容: #__docusaurus_skipToContent_fallback
+English: /quick_start/pricing
+中文（中国）: /zh-cn/quick_start/pricing
+模型 & 价格: /zh-cn/quick_start/pricing
+Anthropic API: /zh-cn/guides/anthropic_api
+API 文档: /zh-cn/api/deepseek-api
+https://api.deepseek.com: https://api.deepseek.com
+https://api.deepseek.com/anthropic: https://api.deepseek.com/anthropic
+邮箱: mailto:api-service@deepseek.com

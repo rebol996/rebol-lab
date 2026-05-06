@@ -1,0 +1,56 @@
+name: Update Model Price Radar Data
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - rebol-lab-v2-final
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run price update script
+        run: npm run prices:update
+        continue-on-error: true
+
+      - name: Check for changes
+        id: changed
+        run: |
+          if git diff --exit-code src/data/generated/model-prices.latest.json 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to model-prices.latest.json"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in model-prices.latest.json"
+          fi
+
+      - name: Commit and push changes
+        if: steps.changed.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/generated/model-prices.latest.json
+          git commit -m "chore: update model price radar data"
+          git push

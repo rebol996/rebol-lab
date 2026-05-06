@@ -1,0 +1,1572 @@
+=== 百度千帆 Page Snapshot ===
+URL: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
+Fetched: 2026-05-04T00:18:01.912Z
+Title: 模型服务计费 - 百度千帆·大模型服务及Agent开发平台
+HTML Length: 412330
+Text Length: 49234
+Table Count: 22
+Link Count: 1351
+
+=== HTML Extract (first 5000 chars) ===
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link href="https://bce.bdstatic.com/p3m/bce-doc/online/qianfan/doc/qianfan/s/styles.a72d7941e5c8225a5097.css" rel="stylesheet" type="text/css"/><meta name="generator" content="Gatsby 2.18.5"/><title data-react-helmet="true">模型服务计费 - 百度千帆·大模型服务及Agent开发平台</title><link data-react-helmet="true" rel="shortcut icon" href="https://bce.bdstatic.com/img/favicon.ico" type="image/x-icon"/><meta data-react-helmet="true" name="description" content="百度智能云文档中心帮助大家了解百度智能云模型服务计费百度千帆·大模型服务及Agent开发平台的相关内容，帮助新用户更好的了解百度智能云，使用百度智能云产品。"/><meta data-react-helmet="true" name="keywords" content="百度千帆·大模型服务及Agent开发平台,模型服务计费"/><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - -74)
+          }), 0)
+        }
+      }
+    })
+  </script><link as="script" rel="preload" href="https://bce.bdstatic.com/p3m/bce-doc/online/qianfan/doc/qianfan/s/webpack-runtime-6d79c815aead3a527622.js"/><link as="script" rel="preload" href="https://bce.bdstatic.com/p3m/bce-doc/online/qianfan/doc/qianfan/s/commons-906549efb7b88d28b701.js"/><link as="script" rel="preload" href="https://bce.bdstatic.com/p3m/bce-doc/online/qianfan/doc/qianfan/s/app-f8d1205f532af5bc8fd4.js"/><link as="script" rel="preload" href="https://bce.bdstatic.com/p3m/bce-doc/online/qianfan/doc/qianfan/s/styles-fd874edefe408d801a60.js"/><link as="script" rel="preload" href="https://bce.bdstatic.com/p3m/bce-doc/online/qianfan/doc/qianfan/s/component---src-templates-acg-portal-new-template-tsx-884133aaefa4c0b06588.js"/><link as="fetch" rel="preload" href="https://bce.bdstatic.com/p3m/bce-doc/online/qianfan/doc/qianfan/s/page-data/wmh4sv6ya/page-data.json" crossorigin="anonymous"/><link rel="dns-prefetch" href="https://bce.bdstatic.com"></link><link rel="dns-prefetch" href="https://dlswbr.baidu.com"></link><link rel="dns-prefetch" href="https://hm.baidu.com"></link><link rel="dns-prefetch" href="https://zz.bdstatic.com"></link><link rel="dns-prefetch" href="https://fxgate.baidu.com"></link><link rel="dns-prefetch" href="https://bce.baidu.com"></link><link rel="dns-prefetch" href="https://bce-cdn.bj.bcebos.com"></link><link rel="dns-prefetch" href="https://console.bce.baidu.com"></link></head><body><header id="add-header-html-ddd" style="height: 0px;width: 0px;overflow: hidden;">
+        <a title="百度智能云" href="https://cloud.baidu.com"><h1>百度智能云</h1></a>
+        <nav><ul><li><h3><a href="https://cloud.baidu.com/campaign/PromotionActivity/index.html" title="最新活动" >最新活动</a></h3></li><li><h3><a href="https://cloud.baidu.com/products/index.html" title="产品" >产品</a></h3></li><li><h3><a href="https://cloud.baidu.com/solution/index.html" title="解决方案" >解决方案</a></h3></li><li><h3><a href="https://qifu.baidu.com" title="企业服务" rel="nofollow">企业服务</a></h3></li><li><h3><a href="https://market.baidu.com" title="云市场" rel="nofollow">云市场</a></h3></li><li><h3><a href="https://cloud.baidu.com/partner/plan.html" title="合作与生态" >合作与生态</a></h3></li><li><h3><a href="https://developer.baidu.com" title="开发者" rel="nofollow">开发者</a></h3></li><li><h3><a href="https://cloud.baidu.com/doc/support/index.html" title="服务与支持" >服务与支持</a></h3></li><li><h3>了解智能云</h3></li></ul></nav>
+        <ul><li><a href="https://cloud.baidu.com/beian/index.html" title="备案" >备案</a></li><li><a href="https://cloud.baidu.com/doc/index.html" title="文档" >文档</a></li><li><a href="https://console.bce.baidu.com" title="管理控制台" rel="nofollow">管理控制台</a></li></ul>
+    </header><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="html is-desktop" style="visibility:hidden"><div id="api-secondary-nav-container"></div><script src="https://bce.bdstatic.com/fe-static/baidu/bce-portal/portal-common/load.online.js"></script><section class="search-head-wrapper
+
+=== Text Content ===
+
+        百度智能云
+        最新活动产品解决方案企业服务云市场合作与生态开发者服务与支持了解智能云
+        备案文档管理控制台
+    This app works best with JavaScript enabled.文档中心搜索本产品文档关键词模型服务计费 百度千帆·大模型服务及Agent开发平台平台介绍平台简介更新动态产品公告模型服务模型更新记录平台更新记录模型版本升级及退役机制批量推理促销活动说明DeepSeek-V3.2升级公告应用开发模型赠送资源下线公告Agent模型服务升级及切换公告知识库高级解析服务计费公告工具及MCP广场官方工具下架公告工具限时体验额度到期通知模型介绍快速开始-模型服务调用模型列表功能特性模型能力模型默认参数说明Coding PlanCoding Plan接入AI工具OpenClawClaude CodeOpenCodeCursorClineCodeXQwen Code CompanionCherry studioKilo CLIKilo Codecc-switch计费说明模型服务模型服务计费价格详情数据管理模型精调模型蒸馏模型评估续费和退款说明退款申请说明续费和自动续费token计算说明模型token计算说明通过cfc发布token计算在线API新用户免费额度成本拆分自定义接入点（Endpoint）成本拆分迁移指南成本拆分使用说明官方工具百度AI搜索智能搜索生成智能搜索生成高性能版百度搜索相似图搜索QPS叠加包应用开发Agent开发平台官方Agent深度研究AgentAI助手知识库知识库高级解析最佳实践模型服务模型管理HuggingFace模型下载、部署、调用实战模型训练文生文SFT最佳实践图像理解SFT最佳实践Post-pretrain最佳实践生态集成通过服务网卡私网访问千帆模型服务批量推理Files + Batch 接口使用指南（OpenAI 兼容版）应用开发官方模板介绍数字人应用：创建、调试和SDK集成数字人应用：美食顾问记忆变量：MBTI性格测试助手自主规划Agent最佳实践用户旅程地图生成自主规划Agent：开发AI手机实战，让手机开启「自动驾驶」自主规划Agent：营销策略设计师自主规划Agent一键发布到秒哒：茶叶销售线上转型实践工作流Agent最佳实践工作流Agent：“金牌销售”车险续保Agent工作流Agent：如何使用全局跳转节点搭建飞行客服小助手工作流Agent：机票订单处理助手工作流大模型节点高级配置使用案例多智能体协同Agent最佳实践用“多智能体协同Agent”一分钟搭建专属研究Agent，帮企业做深度研究自定义工具最佳实践工作流组件： API的增删查工作流组件：如何用知识库节点和API节点搭建个人减脂小助手工作流组件：深度使用实践组件工作流：使用记忆变量节点构建个人化导购小助手知识库最佳实践图谱增强RAG：医疗诊断助手多模态RAG：图文问答助手对象存储（BOS）与向量检索(BES)：企业级知识库创建检索增强生成（RAG）应用：提示词调试航司行李规格查询助手表格型知识库与数据库：课程信息检索卡片功能最佳实践智能菜谱推荐应用搭建官方工具百度AI搜索百度AI搜索应用搭建百度搜索组件：一文读懂多种搜索组合方式如何在OpenClaw调用官方工具OpenClaw最佳实践冬奥智能解说助手我的职场PPT生成助手—热点追踪孩子成长记录绘本助手平台操作模型服务快速开始-平台功能使用体验中心模型服务在线服务批量推理推理日志投递与解绑推理服务监控告警自定义接入点模型管理我的模型HuggingFace格式模型导入将HuggingFace模型下载到BOS模型创建与管理模型评估效果评估产品描述自动评估创建自动评估任务查看与管理自动评估任务人工评估创建人工评估任务查看与管理人工评估任务性能评估模型压缩数据管理推理结果集使用推理结果集创建推理结果集创建推理结果集任务通用数据集推理日志挖掘数据标注众测标注在线标注多人标注数据洞察与处理Post-pretrain数据数据分析数据清洗SFT数据什么是数据洞察创建并查看数据洞察任务提示词模板拼接数据增强数据清洗数据集对应关系说明数据集管理创建数据集导入Prefix+Suffix+Middle代码补全数据导入Prompt+Chosen+Rejected数据导入Prompt+Chosen或Rejected数据导入Prompt+Image+Response数据导入Prompt+Response数据导入Prompt+图片数据导入Prompt+多Response排序数据导入Prompt集数据导入Role(user+assistant)数据导入纯文本数据导出数据管理数据集版本模型训练模型精调创建训练任务偏好对齐CFC使用教程RFT自定义奖励规则RLHF创建奖励模型训练任务创建强化学习训练任务创建DPO任务创建KTO任务创建RFT任务创建Post-pretrain任务创建SFT任务查看训练列表 精调方式定义SFT调优快速手册什么是Post-pretrain偏好对齐什么是DPO训练什么是KTO训练什么是RFT训练什么是RLHF训练什么是SimPO训练模型蒸馏创建数据蒸馏任务创建知识蒸馏任务精调样板3小时极速蒸馏 DeepSeek-R1RFT-逻辑推理任务—“谁是好人”UGC图片质检作文自动点评或批改劳动合同关键信息提取客服对话多标签生成小说人物角色扮演小说人物角色扮演（KTO）数学判题数据飞轮-「猜你想问」文本创作字数控制 V2文本创作字数控制模型精调使用技巧什么情况下适合精调如何从评估指标判断大模型训练效果如何准备有价值的训练数据模型蒸馏训练方法（情感分析任务）英语口语练习购物平台客服对话摘要Prompt工程Prompt模板模型广场内容安全安全策略干预策略Agent开发快速搭建应用官方Agent深度研究Agent全能AI助手模板案例应用广场精选应用搭建说明企业服务【企业服务】企业招聘智能助手【企业服务】合同审核助手【企业服务】图像结构化信息提取【企业服务】智能安全巡检助手【企业服务】港口司机服务助手【企业服务】电力知识库助手【企业服务】说明书解读助手医疗健康【医疗健康】健康问诊助手【医疗健康】膳食金字塔老年膳食平衡AI助理政务服务【政务服务】上海市公积金智能助手【政务服务】上海市医疗保险智能助手【政务服务】上海市居住证助手【政务服务】上海市教育政策智能助手【政务服务】公安智能笔录审核助手【政务服务】公文笔杆子【政务服务】唐山市民生服务智能体【政务服务】天津市工业和信息产业政策查询助手【政务服务】法定退休年龄计算器【政务服务】西安市场监管政策查询助手【政务服务】重庆市教育政策查询助手【政务服务】青岛市行政审批服务事项查询助手教育培训【教育培训】K12互动式练习题【教育培训】K12地理小达人【教育培训】K12练习题生成器【教育培训】Python编程助教【教育培训】中级安全工程师报考小助手【教育培训】作文点评助手【教育培训】古诗词万事通【教育培训】图转故事小达人【教育培训】学伴暖光【教育培训】学校招生小助手【教育培训】思政报告小助手【教育培训】拍照解题【教育培训】智课辅导小助手【教育培训】校园问答助手【教育培训】红灯停停停【教育培训】翻译专家【教育培训】职业教育试题解析助教【教育培训】英语外教Lucas【教育培训】论文全能助手【教育培训】试题信息抽取【教育培训】趣读古诗【教育培训】鸿蒙领航者文化旅游【文化旅游】国家博物馆数字讲解员【文化旅游】陕西旅游助手新闻媒体【新闻媒体】新闻资讯助手智能硬件【智能硬件】天气查询agent【智能硬件】影视剧情搜索【智能硬件】影视名称搜索【智能硬件】智家超级管家法律法规【法律法规】民法典不在话下社交文娱【社交娱乐】图片标签生成【社交文娱】傲娇华妃【社交文娱】卡通头像制作【社交文娱】图片诗意描述器【社交文娱】娱乐新闻瓜瓜乐【社交文娱】小红书文案生成助手【社交文娱】抖音视频文案提取助手【社交文娱】智能汽车管家【社交文娱】毛小尖【社交文娱】爱因斯坦【社交文娱】遥感知识助手营销电商【营销电商】专业评论回复-民宿【营销电商】中差评识别及干预【营销电商】智能客服-会话总结【营销电商】私人茶叶销售助手【营销电商】长文本创作金融证券【金融证券】国债助手【金融证券】复利计算器【金融证券】熊大讲重疾险【金融证券】银行业务经营全链助手创建应用自主规划Agent概述角色指令声音与形象对话应用发布发布配置版本管理应用回复应用导入导出应用调优数据干预规则干预数据库模型配置知识库组件背景图片记忆文件上传说明工作流Agent概述工作流节点开始节点结束节点大模型节点智能体节点组件节点API 节点MCP Server节点函数计算CFC节点意图识别节点全局跳转节点分支器节点代码节点循环节点参数聚合节点知识库节点数据库节点记忆变量节点文本处理节点Query多轮改写流式数据处理信息收集节点消息节点应用配置对话设置记忆变量声音与形象背景图片追问应用发布发布配置版本管理应用调优规则干预多智能体协同Agent概述A2A接口文档交互式写作Agent概述开发态：布局介绍开发态：基本配置开发态：模板配置开发态：应用发布使用态：布局介绍使用态：全文生成使用态：智能编辑使用态：导出文档数据分析导入其他厂商模型服务应用分发秒哒模板案例网页版百度搜索企业微信微信公众号（订阅号、服务号）微信客服网站嵌入创建组件工作流创建工具及MCP概述创建组件配置节点开始节点结束节点大模型节点组件节点API 节点MCP Server节点函数计算CFC节点意图识别节点分支器节点代码节点循环节点参数聚合节点知识库节点数据库节点记忆变量节点文本处理节点Query多轮改写节点流式数据处理调试和发布知识库管理知识库简介创建知识库切片管理命中测试命中测试（召回）提供分数的计算说明和优化说明修改知识库配置数据库管理专业词库管理Prompt模板管理卡片配置与管理为应用回复添加卡片样式创建我的卡片卡片概述卡片管理批量任务管理团队协作OpenClawOpenClaw 使用文档千帆 OpenClaw 接入飞书机器人教程工具及MCP广场工具及MCP广场系统管理API KEY配额管理资源管理账号权限与审计添加消息接收人操作指南角色与权限控制列表账号创建与权限分配通过子账户隔离实现账单隔离对接云审计API参考模型服务平台功能OpenAPI平台功能OpenAPI介绍通用说明服务域名错误码鉴权认证服务管理介绍预置服务获取预置服务列表定制服务获取定制服务列表获取定制服务详情创建定制服务下线定制服务更新定制服务扩缩容定制服务自定义接入点查询服务调用概览查询服务调用详情服务绑定bls日志集服务解绑bls日志集模型管理介绍模型压缩停止模型压缩任务创建模型压缩任务删除模型压缩任务查看模型压缩任务列表获取模型压缩任务详情模型管理上传自定义对话模板文件创建模型版本导出任务删除我的模型删除我的模型版本新建我的模型新建我的模型版本获取导入模型平台预置高级配置获取我的模型列表获取模型版本打包导出任务获取模型版本的高级配置获取模型版本详情获取模型详情获取预置模型列表获取预置模型版本详情获取预置模型详情模型评估停止模型评估任务创建模型评估任务删除模型评估任务发起模型评估结果导出任务更新模型评估任务查看可评估模型列表查看模型评估任务列表查看模型评估任务报告查看模型评估任务详情查看模型评估结果导出任务详情数据管理介绍数据增强创建数据增强任务删除数据增强任务获取增强任务列表获取数据增强任务详情数据集管理创建数据集删除数据集删除数据集版本发布数据集版本发起数据集版本导入任务发起数据集版本导出任务新增数据集版本获取数据集列表获取数据集版本列表获取数据集版本导入详情获取数据集版本导出详情获取数据集版本详情模型调优停止模型精调任务创建模型精调任务创建模型精调作业删除模型精调任务删除模型精调作业模型支持情况说明模型调优介绍获取模型精调任务列表获取模型精调任务详情获取模型精调作业列表应用接入创建应用身份获取应用身份列表批量推理停止批量推理任务创建批量推理任务删除批量推理任务查询支持批量推理模型清单获取批量推理任务列表获取批量推理任务详情TPM配额管理TPM配额实例变配修改TMP后付费自动释放时间查询TPM配额信息详情终止按小时后付费TPM配额购买TPM配额实例资源自动续费创建实例资源自动续费规则算力单元服务付费相关修改算力单元后付费自动释放时间定时释放后付费算力单元查询算力单元列表查询算力单元实例信息查询算力单元实例列表查询算力单元详情算力单元变配终止算力单元后付费实例购买算力单元购买算力单元实例释放后付费算力单元量包管理查询特定量包信息查询量包列表Prompt工程介绍创建Prompt模板创建Prompt模板标签删除Prompt模板删除Prompt模板标签更新Prompt模板模板框架说明获取Prompt模板列表获取Prompt模板标签列表获取单个Prompt模板详情推理服务API名词解释推理服务API V2Agent开发通用说明认证鉴权Agent知识库错误码官方工具及MCP百度百科秒懂百科百度百科百科词条百科星图热搜榜单垂类热榜查询热榜榜单查询百度热搜营销电商智能商品营销文案生成商品生动化标题生成智能商品搜索教育培训初中作文图片智能识别题目解析作文润色作文批改高中作文打分高中作文图片智能识别实用工具百度网盘AI视频笔记百度文库智能PPT（Agent版）百度文库AI绘本百度网盘AI纪要百度文库智能PPT百度文库智能PPT大纲百度文库智能PPT获取PPT模版百度文库AI长文百度文库AI长文大纲百度文库AI长文百度文库智能研报百度文库智能研报大纲百度文库智能研报智能Query改写广告素材质量审核智能识图百度AI搜索智能搜索生成智能搜索生成智能搜索生成高性能版干预策略特定query干预策略隔离网页黑名单领域知识注入百度搜索百度搜索阿拉丁卡结构化信息（beta）干预策略特定query干预相似图搜索错误码服务可用性协议SDK参考模型服务推理服务APIOpenAI SDK兼容介绍应用开发SDK功能更新记录SDK介绍快速入门安装说明版本说明应用基础能力组件列表应用信息应用调用获取模型列表工具及MCP工作流工具调用知识库管理知识库声音&形象数字人应用调用COOKBOOK语音对话COOKBOOK常见问题AppBuilder SDK 运行环境超参配置说明Appbuilder Trace跟踪功能基本用法Phoneix可视化软件的进阶用法UserSession类二次开发公有云部署常见问题模型服务API&SDK相关产品使用相关产品计费相关应用开发相关协议百度千帆协议概述服务等级协议SLA大模型技术体验服务协议生成式人工智能服务备案信息参考百度千帆大模型服务及Agent开发平台用户协议百度千帆大模型服务及Agent开发平台专项约定内容安全策略自定义功能服务协议所有文档没有找到结果，请重新输入 百度千帆·大模型服务及Agent开发平台平台介绍平台简介更新动态产品公告模型服务模型更新记录平台更新记录模型版本升级及退役机制批量推理促销活动说明DeepSeek-V3.2升级公告应用开发模型赠送资源下线公告Agent模型服务升级及切换公告知识库高级解析服务计费公告工具及MCP广场官方工具下架公告工具限时体验额度到期通知模型介绍快速开始-模型服务调用模型列表功能特性模型能力模型默认参数说明Coding PlanCoding Plan接入AI工具OpenClawClaude CodeOpenCodeCursorClineCodeXQwen Code CompanionCherry studioKilo CLIKilo Codecc-switch计费说明模型服务模型服务计费价格详情数据管理模型精调模型蒸馏模型评估续费和退款说明退款申请说明续费和自动续费token计算说明模型token计算说明通过cfc发布token计算在线API新用户免费额度成本拆分自定义接入点（Endpoint）成本拆分迁移指南成本拆分使用说明官方工具百度AI搜索智能搜索生成智能搜索生成高性能版百度搜索相似图搜索QPS叠加包应用开发Agent开发平台官方Agent深度研究AgentAI助手知识库知识库高级解析最佳实践模型服务模型管理HuggingFace模型下载、部署、调用实战模型训练文生文SFT最佳实践图像理解SFT最佳实践Post-pretrain最佳实践生态集成通过服务网卡私网访问千帆模型服务批量推理Files + Batch 接口使用指南（OpenAI 兼容版）应用开发官方模板介绍数字人应用：创建、调试和SDK集成数字人应用：美食顾问记忆变量：MBTI性格测试助手自主规划Agent最佳实践用户旅程地图生成自主规划Agent：开发AI手机实战，让手机开启「自动驾驶」自主规划Agent：营销策略设计师自主规划Agent一键发布到秒哒：茶叶销售线上转型实践工作流Agent最佳实践工作流Agent：“金牌销售”车险续保Agent工作流Agent：如何使用全局跳转节点搭建飞行客服小助手工作流Agent：机票订单处理助手工作流大模型节点高级配置使用案例多智能体协同Agent最佳实践用“多智能体协同Agent”一分钟搭建专属研究Agent，帮企业做深度研究自定义工具最佳实践工作流组件： API的增删查工作流组件：如何用知识库节点和API节点搭建个人减脂小助手工作流组件：深度使用实践组件工作流：使用记忆变量节点构建个人化导购小助手知识库最佳实践图谱增强RAG：医疗诊断助手多模态RAG：图文问答助手对象存储（BOS）与向量检索(BES)：企业级知识库创建检索增强生成（RAG）应用：提示词调试航司行李规格查询助手表格型知识库与数据库：课程信息检索卡片功能最佳实践智能菜谱推荐应用搭建官方工具百度AI搜索百度AI搜索应用搭建百度搜索组件：一文读懂多种搜索组合方式如何在OpenClaw调用官方工具OpenClaw最佳实践冬奥智能解说助手我的职场PPT生成助手—热点追踪孩子成长记录绘本助手平台操作模型服务快速开始-平台功能使用体验中心模型服务在线服务批量推理推理日志投递与解绑推理服务监控告警自定义接入点模型管理我的模型HuggingFace格式模型导入将HuggingFace模型下载到BOS模型创建与管理模型评估效果评估产品描述自动评估创建自动评估任务查看与管理自动评估任务人工评估创建人工评估任务查看与管理人工评估任务性能评估模型压缩数据管理推理结果集使用推理结果集创建推理结果集创建推理结果集任务通用数据集推理日志挖掘数据标注众测标注在线标注多人标注数据洞察与处理Post-pretrain数据数据分析数据清洗SFT数据什么是数据洞察创建并查看数据洞察任务提示词模板拼接数据增强数据清洗数据集对应关系说明数据集管理创建数据集导入Prefix+Suffix+Middle代码补全数据导入Prompt+Chosen+Rejected数据导入Prompt+Chosen或Rejected数据导入Prompt+Image+Response数据导入Prompt+Response数据导入Prompt+图片数据导入Prompt+多Response排序数据导入Prompt集数据导入Role(user+assistant)数据导入纯文本数据导出数据管理数据集版本模型训练模型精调创建训练任务偏好对齐CFC使用教程RFT自定义奖励规则RLHF创建奖励模型训练任务创建强化学习训练任务创建DPO任务创建KTO任务创建RFT任务创建Post-pretrain任务创建SFT任务查看训练列表 精调方式定义SFT调优快速手册什么是Post-pretrain偏好对齐什么是DPO训练什么是KTO训练什么是RFT训练什么是RLHF训练什么是SimPO训练模型蒸馏创建数据蒸馏任务创建知识蒸馏任务精调样板3小时极速蒸馏 DeepSeek-R1RFT-逻辑推理任务—“谁是好人”UGC图片质检作文自动点评或批改劳动合同关键信息提取客服对话多标签生成小说人物角色扮演小说人物角色扮演（KTO）数学判题数据飞轮-「猜你想问」文本创作字数控制 V2文本创作字数控制模型精调使用技巧什么情况下适合精调如何从评估指标判断大模型训练效果如何准备有价值的训练数据模型蒸馏训练方法（情感分析任务）英语口语练习购物平台客服对话摘要Prompt工程Prompt模板模型广场内容安全安全策略干预策略Agent开发快速搭建应用官方Agent深度研究Agent全能AI助手模板案例应用广场精选应用搭建说明企业服务【企业服务】企业招聘智能助手【企业服务】合同审核助手【企业服务】图像结构化信息提取【企业服务】智能安全巡检助手【企业服务】港口司机服务助手【企业服务】电力知识库助手【企业服务】说明书解读助手医疗健康【医疗健康】健康问诊助手【医疗健康】膳食金字塔老年膳食平衡AI助理政务服务【政务服务】上海市公积金智能助手【政务服务】上海市医疗保险智能助手【政务服务】上海市居住证助手【政务服务】上海市教育政策智能助手【政务服务】公安智能笔录审核助手【政务服务】公文笔杆子【政务服务】唐山市民生服务智能体【政务服务】天津市工业和信息产业政策查询助手【政务服务】法定退休年龄计算器【政务服务】西安市场监管政策查询助手【政务服务】重庆市教育政策查询助手【政务服务】青岛市行政审批服务事项查询助手教育培训【教育培训】K12互动式练习题【教育培训】K12地理小达人【教育培训】K12练习题生成器【教育培训】Python编程助教【教育培训】中级安全工程师报考小助手【教育培训】作文点评助手【教育培训】古诗词万事通【教育培训】图转故事小达人【教育培训】学伴暖光【教育培训】学校招生小助手【教育培训】思政报告小助手【教育培训】拍照解题【教育培训】智课辅导小助手【教育培训】校园问答助手【教育培训】红灯停停停【教育培训】翻译专家【教育培训】职业教育试题解析助教【教育培训】英语外教Lucas【教育培训】论文全能助手【教育培训】试题信息抽取【教育培训】趣读古诗【教育培训】鸿蒙领航者文化旅游【文化旅游】国家博物馆数字讲解员【文化旅游】陕西旅游助手新闻媒体【新闻媒体】新闻资讯助手智能硬件【智能硬件】天气查询agent【智能硬件】影视剧情搜索【智能硬件】影视名称搜索【智能硬件】智家超级管家法律法规【法律法规】民法典不在话下社交文娱【社交娱乐】图片标签生成【社交文娱】傲娇华妃【社交文娱】卡通头像制作【社交文娱】图片诗意描述器【社交文娱】娱乐新闻瓜瓜乐【社交文娱】小红书文案生成助手【社交文娱】抖音视频文案提取助手【社交文娱】智能汽车管家【社交文娱】毛小尖【社交文娱】爱因斯坦【社交文娱】遥感知识助手营销电商【营销电商】专业评论回复-民宿【营销电商】中差评识别及干预【营销电商】智能客服-会话总结【营销电商】私人茶叶销售助手【营销电商】长文本创作金融证券【金融证券】国债助手【金融证券】复利计算器【金融证券】熊大讲重疾险【金融证券】银行业务经营全链助手创建应用自主规划Agent概述角色指令声音与形象对话应用发布发布配置版本管理应用回复应用导入导出应用调优数据干预规则干预数据库模型配置知识库组件背景图片记忆文件上传说明工作流Agent概述工作流节点开始节点结束节点大模型节点智能体节点组件节点API 节点MCP Server节点函数计算CFC节点意图识别节点全局跳转节点分支器节点代码节点循环节点参数聚合节点知识库节点数据库节点记忆变量节点文本处理节点Query多轮改写流式数据处理信息收集节点消息节点应用配置对话设置记忆变量声音与形象背景图片追问应用发布发布配置版本管理应用调优规则干预多智能体协同Agent概述A2A接口文档交互式写作Agent概述开发态：布局介绍开发态：基本配置开发态：模板配置开发态：应用发布使用态：布局介绍使用态：全文生成使用态：智能编辑使用态：导出文档数据分析导入其他厂商模型服务应用分发秒哒模板案例网页版百度搜索企业微信微信公众号（订阅号、服务号）微信客服网站嵌入创建组件工作流创建工具及MCP概述创建组件配置节点开始节点结束节点大模型节点组件节点API 节点MCP Server节点函
+
+=== Tables ===
+模型名称 | 版本名称 | 服务内容 | 子项 | 在线推理 | 批量推理（原价） | 批量推理（2月活动价） | 批量推理（3月活动价） | 单位
+ERNIE 5.0 | ERNIE-5.0ERNIE-5.0-Thinking-PreviewERNIE-5.0-Thinking-LatestERNIE-5.0-Thinking-Exp | 推理服务 | 输入（输入=<32k） | 0.006 | - | - | - | 元/千tokens
+输出（输入=<32k） | 0.024 | - | - | -
+输入（32k<输入=<128k） | 0.01 | - | - | -
+输出（32k<输入=<128k） | 0.04 | - | - | -
+ERNIE 4.5 Turbo | ERNIE-4.5-Turbo-128K-Preview | 推理服务 | 输入 | 0.0008 | 0.00032 | - | - | 元/千tokens
+命中缓存 | 0.0002 | - | - | - | 元/千tokens
+输出 | 0.0032 | 0.00128 | - | - | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | - | - | 元/次
+ERNIE-4.5-Turbo-32K | 推理服务 | 输入 | 0.0008 | 0.00032 | 0.00008 | 0.00016 | 元/千tokens
+命中缓存 | 0.0002 | - | - | - | 元/千tokens
+输出 | 0.0032 | 0.00128 | 0.00032 | 0.00064 | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | - | - | 元/次
+ERNIE-4.5-Turbo-20260402 | 推理服务 | 输入 | 0.0008 | - | - | - | 元/千tokens
+命中缓存 | 0.0002 | - | - | - | 元/千tokens
+输出 | 0.0032 | - | - | - | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | - | - | 元/次
+ERNIE 4.5 Turbo VL | ERNIE-4.5-Turbo-VLERNIE-4.5-Turbo-VL-32K | 推理服务 | 输入 | 0.003 | 0.0012 | - | - | 元/千tokens
+命中缓存 | 0.00075 | - | - | - | 元/千tokens
+输出 | 0.009 | 0.0036 | - | - | 元/千tokens
+ERNIE 4.5 | ERNIE-4.5-8K | 推理服务 | 输入 | 0.004 | 0.0016 | - | - | 元/千tokens
+输出 | 0.016 | 0.0064 | - | - | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | - | - | 元/次
+ERNIE 4.5 | ERNIE-4.5-0.3B | 推理服务 | 输入 | 0.0001 | 0.00004 | - | - | 元/千tokens
+输出 | 0.0004 | 0.00016 | - | - | 元/千tokens
+DeepSeek-V4-Pro | DeepSeek-V4-Pro | 推理服务 | 输入 | 0.012 | - | - | - | 元/千tokens
+输出 | 0.024 | - | - | - | 元/千tokens
+DeepSeek-V4-Flash | DeepSeek-V4-Flash | 推理服务 | 输入 | 0.001 | - | - | - | 元/千tokens
+输出 | 0.002 | - | - | - | 元/千tokens
+DeepSeek-V3.2 | DeepSeek-V3.2 | 推理服务  输入Token数：[0,32k] | 输入 | 0.002 | 0.0008 | 0.0002 | 0.0004 | 元/千tokens
+输出 | 0.003 | 0.0012 | 0.0003 | 0.0006 | 元/千tokens
+推理服务  输入Token数：(32k,128k] | 输入 | 0.004 | 0.0016 | 0.0004 | 0.0008 | 元/千tokens
+输出 | 0.006 | 0.0024 | 0.0006 | 0.0012 | 元/千tokens
+DeepSeek-V3.1 | DeepSeek-V3.1-250821 | 推理服务 | 输入 | 0.004 | 0.0016 | 0.0004 | 0.0008 | 元/千tokens
+输出 | 0.012 | 0.0048 | 0.0012 | 0.0024 | 元/千tokens
+DeepSeek-V3 | DeepSeek-V3 | 推理服务 | 输入 | 0.002 | 0.0008 | 0.0002 | 0.0004 | 元/千tokens
+输出 | 0.008 | 0.0032 | 0.0008 | 0.0016 | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | - | - | 元/次
+ERNIE Speed Pro | ERNIE-Speed-Pro-128K | 推理服务 | 输入 | 0.0003 | 0.00012 | - | - | 元/千tokens
+输出 | 0.0006 | 0.00024 | - | - | 元/千tokens
+ERNIE Lite Pro | ERNIE-Lite-Pro-128K | 推理服务 | 输入 | 0.0002 | 0.00008 | - | - | 元/千tokens
+输出 | 0.0004 | 0.00016 | - | - | 元/千tokens
+ERNIE Character | ernie-char-8kernie-char-fiction-8k | 推理服务 | 输入 | 0.0003 | 0.00012 | - | - | 元/千tokens
+输出 | 0.0006 | 0.00024 | - | - | 元/千tokens
+Qianfan-Check-VL | qianfan-check-vl | 推理服务 | 输入 | 0.00125 | 0.0005 | - | - | 元/千tokens
+输出 | 0.00375 | 0.0015 | - | - | 元/千tokens
+Qianfan-VL-70B | qianfan-vl-70b | 推理服务 | 输入 | 0.008 | 0.0032 | - | - | 元/千tokens
+输出 | 0.024 | 0.0096 | - | - | 元/千tokens
+Qianfan-VL-8B | qianfan-vl-8b | 推理服务 | 输入 | 0.002 | 0.0008 | - | - | 元/千tokens
+输出 | 0.006 | 0.0024 | - | - | 元/千tokens
+Qianfan-VL-1.5-Flash | qianfan-vl-1.5-flash | 推理服务 | 输入 | 0.00075 | - | - | - | 元/千tokens
+输出 | 0.003 | - | - | - | 元/千tokens
+Qwen3 | Qwen3-Coder-480B-A35B-Instruct | 推理服务  输入Token数：[0,32k] | 输入 | 0.006 | 0.0024 | - | - | 元/千tokens
+输出 | 0.024 | 0.0096 | - | - | 元/千tokens
+推理服务  输入Token数：(32k,128k] | 输入 | 0.009 | 0.0036 | - | - | 元/千tokens
+输出 | 0.036 | 0.0144 | - | - | 元/千tokens
+Qwen3 | Qwen3-Coder-30B-A3B-Instruct | 推理服务  输入Token数：[0,32k] | 输入 | 0.0015 | 0.0006 | - | - | 元/千tokens
+输出 | 0.006 | 0.0024 | - | - | 元/千tokens
+推理服务  输入Token数：(32k,128k] | 输入 | 0.00225 | 0.0009 | - | - | 元/千tokens
+输出 | 0.009 | 0.0036 | - | - | 元/千tokens
+Qwen3 | Qwen3-Next-80B-A3B-Instruct | 推理服务 | 输入 | 0.001 | - | - | - | 元/千tokens
+输出 | 0.004 | - | - | - | 元/千tokens
+Qwen3 | Qwen3-235B-A22B-Instruct-2507 | 推理服务 | 输入 | 0.002 | 0.0008 | - | - | 元/千tokens
+输出 | 0.008 | 0.0032 | - | - | 元/千tokens
+Qwen3 | Qwen3-30B-A3B-Instruct-2507 | 推理服务 | 输入 | 0.00075 | 0.0003 | - | - | 元/千tokens
+输出 | 0.003 | 0.0012 | - | - | 元/千tokens
+Qwen3 | Qwen3-30B-A3B 如开启思考模式计费详情请查看深度思考 | 推理服务 | 输入 | 0.00075 | 0.0003 | - | - | 元/千tokens
+输出 | 0.003 | 0.0012 | - | - | 元/千tokens
+Qwen3 | Qwen3-32B 如开启思考模式计费详情请查看深度思考 | 推理服务 | 输入 | 0.002 | 0.0008 | - | - | 元/千tokens
+输出 | 0.008 | 0.0032 | - | - | 元/千tokens
+Qwen3 | Qwen3-14B 如开启思考模式计费详情请查看深度思考 | 推理服务 | 输入 | 0.001 | 0.0004 | - | - | 元/千tokens
+输出 | 0.004 | 0.0016 | - | - | 元/千tokens
+Qwen3 | Qwen3-8B 如开启思考模式计费详情请查看深度思考 | 推理服务 | 输入 | 0.0005 | 0.0002 | - | - | 元/千tokens
+输出 | 0.002 | 0.0008 | - | - | 元/千tokens
+Qwen3 | Qwen3-4B 如开启思考模式计费详情请查看深度思考 | 推理服务 | 输入 | 0.0003 | 0.00012 | - | - | 元/千tokens
+输出 | 0.0012 | 0.00048 | - | - | 元/千tokens
+Qwen3 | Qwen3-1.7B 如开启思考模式计费详情请查看深度思考 | 推理服务 | 输入 | 0.0003 | 0.00012 | - | - | 元/千tokens
+输出 | 0.0012 | 0.00048 | - | - | 元/千tokens
+Qwen3 | Qwen3-0.6B 如开启思考模式计费详情请查看深度思考 | 推理服务 | 输入 | 0.0003 | 0.00012 | - | - | 元/千tokens
+输出 | 0.0012 | 0.00048 | - | - | 元/千tokens
+Qianfan-FuncCaller | Qianfan-FuncCaller | 推理服务 | 输入 | 0.0008 | 0.00032 | - | - | 元/千tokens
+输出 | 0.0032 | 0.00128 | - | - | 元/千tokens
+Qianfan-ToyTalk | Qianfan-ToyTalk | 推理服务 | 输入 | 0.0001 | 0.00004 | - | - | 元/千tokens
+输出 | 0.0002 | 0.00008 | - | - | 元/千tokens
+量包名称 | 量包额度（Tokens） | 服务速率限制 | 有效期 | 原价(元) | 折扣率 | 折后价(元)
+ERNIE-Lite-Pro-128K系列预置服务共享量包 | 1亿 | TPM = 800K RPM = 10K | 12个月 | 25 | 90% | 22.5
+10亿 | TPM = 800K RPM = 10K | 12个月 | 250 | 85% | 212.50
+50亿 | TPM = 800K RPM = 10K | 12个月 | 1,250 | 80% | 1,000
+ERNIE-Speed-Pro-128K系列预置服务共享量包 | 1亿 | TPM = 800K RPM = 10K | 12个月 | 37.5 | 90% | 33.75
+10亿 | TPM = 800K RPM = 10K | 12个月 | 375 | 85% | 318.75
+50亿 | TPM = 800K RPM = 10K | 12个月 | 1,875 | 80% | 1,500
+ERNIE-4.5-Turbo-32K系列预置服务共享量包 | 1亿 | TPM = 400KRPM = 5K | 6个月 | 140 | 90% | 126
+5亿 | TPM = 600KRPM = 5K | 6个月 | 700 | 85% | 595
+10亿 | TPM = 1000KRPM = 5K | 6个月 | 1,400 | 80% | 1,120
+ERNIE-4.5-Turbo-128K系列预置服务共享量包 | 1亿 | TPM = 400KRPM = 5K | 6个月 | 140 | 90% | 126
+5亿 | TPM = 600KRPM = 5K | 6个月 | 700 | 85% | 595
+10亿 | TPM = 1000KRPM = 5K | 6个月 | 1,400 | 80% | 1,120
+ERNIE-4.5-Turbo-VL-32K系列预置服务共享量包 | 1亿 | TPM = 200KRPM = 1K | 6个月 | 450 | 90% | 405
+5亿 | TPM = 300KRPM = 1K | 6个月 | 2,250 | 85% | 1,912.5
+10亿 | TPM = 500KRPM = 1K | 6个月 | 4,500 | 80% | 3,600
+模型名称 | 版本名称 | 单位规格 | 预付费（元/个/月） | 后付费（元/个/小时）
+原价 | 活动价 | 原价 | 活动价
+ERNIE Lite Pro | ERNIE-Lite-Pro-128K | TPM = 10000RPM = 2 | 109.8 | 54.9 | 0.225 | 0.1125
+ERNIE Speed Pro | ERNIE-Speed-Pro-128K | TPM = 10000RPM = 2 | 164.7 | 82.35 | 0.3375 | 0.16875
+Qwen3 | Qwen3-32B | TPM = 10000RPM = 20 | 1512 | 1512 | 3.15 | 3.15
+Qwen3-235B-A22B-Instruct-2507 | TPM = 10000RPM = 2 | 1099.64 | 864 | 2.29 | 2.29
+Qwen3-Next-80B-A3B-Instruct | TPM = 10000RPM = 2 | 549.82 | 432 | 1.15 | 1.15
+Qwen3-30B-A3B-Instruct-2507 | TPM = 10000RPM = 10 | 412.36 | 324 | 0.86 | 0.86
+模型名称 | 版本名称 | 子项 | 单位规格 | 预付费价格（单位：元/个/月）
+原价 | 活动价
+ERNIE 4.5 Turbo | ERNIE-4.5-Turbo-32K | 输入 | 10k | 346 | 242
+输出 | 1k | 138.2 | 96.8
+ERNIE-4.5-Turbo-128K | 输入 | 10k | 346 | 242
+输出 | 1k | 138.2 | 96.8
+ERNIE 4.5 Turbo VL | ERNIE-4.5-Turbo-VL-32K | 输入 | 10k | 1296 | 907
+输出 | 1k | 388.8 | 272.2
+DeepSeek-V3 | DeepSeek-V3 | 输入 | 10k | 864 | 604.8
+输出 | 1k | 345.6 | 241.92
+DeepSeek-V3.1 | DeepSeek-V3.1-250821 | 输入 | 10k | 1728 | 1209.6
+输出 | 1k | 518.4 | 362.88
+DeepSeek-V3.2 | DeepSeek-V3.2 | 输入 | 10k | 864 | 864
+输出 | 1k | 129.6 | 129.6
+Qwen3-Coder | Qwen3-Coder-480B-A35B-Instruct | 输入 | 10k | 3888 | 2721.6
+输出 | 1k | 1555.2 | 1088.64
+模型名称 | 版本名称 | 服务内容 | 子项 | 在线推理 | 批量推理 | 单位
+ERNIE 5.0 | ERNIE-5.0ERNIE-5.0-Thinking-PreviewERNIE-5.0-Thinking-LatestERNIE-5.0-Thinking-Exp | 推理服务 | 输入（输入=<32k） | 0.006 | -- | 元/千tokens
+输出（输入=<32k） | 0.024 | --
+输入（32k<输入=<128k） | 0.01 | --
+输出（32k<输入=<128k） | 0.04 | --
+
+ERNIE 4.5 Turbo VL | ERNIE-4.5-Turbo-VLERNIE-4.5-Turbo-VL-32K | 推理服务 | 输入 | 0.003 | 0.0012 | 元/千tokens
+输出 | 0.009 | 0.0036 | 元/千tokens
+ERNIE 4.5 | ERNIE-4.5-8K | 推理服务 | 输入 | 0.004 | 0.0016 | 元/千tokens
+输出 | 0.016 | 0.0064 | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | 元/次
+Qianfan-VL-70B | qianfan-vl-70b | 推理服务 | 输入 | 0.008 | 0.0032 | 元/千tokens
+输出 | 0.024 | 0.0096 | 元/千tokens
+Qianfan-VL-8B | qianfan-vl-8b | 推理服务 | 输入 | 0.002 | 0.0008 | 元/千tokens
+输出 | 0.006 | 0.0024 | 元/千tokens
+Qianfan-Composition | Qianfan-Composition | 推理服务 | 输入 | 0.0025 | 0.001 | 元/千tokens
+输出 | 0.0075 | 0.003 | 元/千tokens
+Qwen3-VL | Qwen3-VL-32B-Instruct | 推理服务 | 输入 | 0.002 | - | 元/千tokens
+输出 | 0.008 | - | 元/千tokens
+Qwen3-VL | Qwen3-VL-32B-Thinking | 推理服务 | 输入 | 0.002 | - | 元/千tokens
+输出 | 0.02 | - | 元/千tokens
+Qwen3-VL | Qwen3-VL-8B-Instruct | 推理服务 | 输入 | 0.0005 | - | 元/千tokens
+输出 | 0.002 | - | 元/千tokens
+Qwen3-VL | Qwen3-VL-8B-Thinking | 推理服务 | 输入 | 0.0005 | - | 元/千tokens
+输出 | 0.005 | - | 元/千tokens
+Qwen3-VL | Qwen3-VL-30B-A3B-Instruct | 推理服务 | 输入 | 0.00075 | - | 元/千tokens
+输出 | 0.003 | - | 元/千tokens
+Qwen3-VL | Qwen3-VL-30B-A3B-Thinking | 推理服务 | 输入 | 0.00075 | - | 元/千tokens
+输出 | 0.0075 | - | 元/千tokens
+Qwen3-VL | Qwen3-VL-235B-A22B-Instruct | 推理服务 | 输入 | 0.002 | 0.0008 | 元/千tokens
+输出 | 0.008 | 0.0032 | 元/千tokens
+Qwen3-VL | Qwen3-VL-235B-A22B-Thinking | 推理服务 | 输入 | 0.002 | 0.0008 | 元/千tokens
+输出 | 0.02 | 0.008 | 元/千tokens
+Qwen2.5-VL | Qwen2.5-VL-32B-Instruct | 推理服务 | 输入 | 0.008 | - | 元/千tokens
+输出 | 0.024 | - | 元/千tokens
+InternVL3 | InternVL3-38B | 推理服务 | 输入 | 0.008 | 0.0032 | 元/千tokens
+输出 | 0.024 | 0.0096 | 元/千tokens
+模型名称 | 版本名称 | 单位规格 | 预付费（元/个/月） | 后付费（元/个/小时）
+原价 | 活动价 | 原价 | 活动价
+Qwen3-VL | Qwen3-VL-8B-Instruct | TPM = 10000RPM = 2 | 274.91 | 216 | 0.57 | 0.57
+Qwen3-VL-235B-A22B-Instruct | TPM = 10000RPM = 2 | 1099.64 | 864 | 2.29 | 2.29
+模型名称 | 版本名称 | 子项 | 单位规格 | 预付费价格（单位：元/个/月）
+原价 | 活动价
+ERNIE 4.5 Turbo VL | ERNIE-4.5-Turbo-VL-32K | 输入 | 10k | 1296 | 907
+输出 | 1k | 388.8 | 272.2
+模型名称 | 版本名称 | 服务内容 | 子项 | 在线推理 | 批量推理（原价） | 批量推理（2月活动价） | 批量推理（3月活动价） | 单位
+ERNIE 5.0 | ERNIE-5.0ERNIE-5.0-Thinking-PreviewERNIE-5.0-Thinking-LatestERNIE-5.0-Thinking-Exp | 推理服务 | 输入（输入=<32k） | 0.006 | -- | -- | -- | 元/千tokens
+输出（输入=<32k） | 0.024 | -- | -- | --
+输入（32k<输入=<128k） | 0.01 | -- | -- | --
+输出（32k<输入=<128k） | 0.04 | -- | -- | --
+ERNIE X1.1 | ERNIE-X1.1-Preview | 推理服务 | 输入 | 0.001 | - | -- | -- | 元/千tokens
+输出 | 0.004 | - | -- | -- | 元/千tokens
+搜索增强 | 触发 | 0.004 | - | -- | -- | 元/次
+ERNIE X1 Turbo | ERNIE-X1-Turbo-32KERNIE-X1-Turbo-32K-Preview | 推理服务 | 输入 | 0.001 | 0.0004 | -- | -- | 元/千tokens
+输出 | 0.004 | 0.0016 | -- | -- | 元/千tokens
+DeepSeek-V4-Pro | DeepSeek-V4-Pro | 推理服务 | 输入 | 0.012 | - | - | - | 元/千tokens
+输出 | 0.024 | - | - | - | 元/千tokens
+DeepSeek-V4-Flash | DeepSeek-V4-Flash | 推理服务 | 输入 | 0.001 | - | - | - | 元/千tokens
+输出 | 0.002 | - | - | - | 元/千tokens
+DeepSeek-V3.2-Think | DeepSeek-V3.2-Think | 推理服务  输入Token数：[0,32k] | 输入 | 0.002 | 0.0008 | 0.0002 | 0.0004 | 元/千tokens
+输出 | 0.003 | 0.0012 | 0.0003 | 0.0006 | 元/千tokens
+推理服务  输入Token数：(32k,128k] | 输入 | 0.004 | 0.0016 | 0.0004 | 0.0008 | 元/千tokens
+输出 | 0.006 | 0.0024 | 0.0006 | 0.0012 | 元/千tokens
+DeepSeek-V3.1-Think | DeepSeek-V3.1-Think-250821 | 推理服务 | 输入 | 0.004 | 0.0016 | 0.0004 | 0.0008 | 元/千tokens
+输出 | 0.012 | 0.0048 | 0.0012 | 0.0024 | 元/千tokens
+DeepSeek-R1 | DeepSeek-R1-250528 | 推理服务 | 输入 | 0.004 | 0.0016 | 0.0004 | 0.0008 | 元/千tokens
+输出 | 0.016 | 0.0064 | 0.0016 | 0.0032 | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | -- | -- | 元/次
+DeepSeek-R1 | DeepSeek-R1 | 推理服务 | 输入 | 0.004 | 0.0016 | 0.0004 | 0.0008 | 元/千tokens
+输出 | 0.016 | 0.0064 | 0.0016 | 0.0032 | 元/千tokens
+搜索增强 | 触发 | 0.004 | 0.0016 | -- | -- | 元/次
+DeepSeek-R1-Distill-Qwen-32B | DeepSeek-R1-Distill-Qwen-32B | 推理服务 | 输入 | 0.0015 | 0.0006 | -- | -- | 元/千tokens
+输出 | 0.006 | 0.0024 | -- | -- | 元/千tokens
+DeepSeek-R1-Distill-Qwen-14B | DeepSeek-R1-Distill-Qwen-14B | 推理服务 | 输入 | 0.0006 | 0.00024 | -- | -- | 元/千tokens
+输出 | 0.0024 | 0.00096 | -- | -- | 元/千tokens
+GLM-5.1 | GLM-5.1 | 推理服务  输入Token数：[0,32k) | 输入 | 0.006 | - | - | - | 元/千tokens
+输出 | 0.024 | - | - | - | 元/千tokens
+推理服务  输入Token数：（32k，200k] | 输入 | 0.008 | - | - | - | 元/千tokens
+输出 | 0.028 | - | - | - | 元/千tokens
+GLM-5 | GLM-5 | 推理服务  输入Token数：[0,32k) | 输入 | 0.004 | - | - | - | 元/千tokens
+输出 | 0.018 | - | - | - | 元/千tokens
+推理服务  输入Token数：（32k，200k] | 输入 | 0.006 | - | - | - | 元/千tokens
+输出 | 0.022 | - | - | - | 元/千tokens
+Kimi-K2.5 | Kimi-K2.5 | 推理服务 | 输入 | 0.004 | - | -- | -- | 元/千tokens
+输出 | 0.021 | - | -- | -- | 元/千tokens
+MiniMax-M2.5 | MiniMax-M2.5 | 推理服务 | 输入 | 0.0021 | - | -- | -- | 元/千tokens
+输出 | 0.0084 | - | -- | -- | 元/千tokens
+Qwen3-VL | Qwen3-VL-8B-Thinking | 推理服务 | 输入 | 0.0005 | - | -- | -- | 元/千tokens
+输出 | 0.005 | - | -- | -- | 元/千tokens
+Qwen3-VL | Qwen3-VL-30B-A3B-Thinking | 推理服务 | 输入 | 0.00075 | - | -- | -- | 元/千tokens
+输出 | 0.0075 | - | -- | -- | 元/千tokens
+Qwen3-VL | Qwen3-VL-235B-A22B-Thinking | 推理服务 | 输入 | 0.002 | 0.0008 | -- | -- | 元/千tokens
+输出 | 0.02 | 0.008 | -- | -- | 元/千tokens
+Qwen3.5 | Qwen3.5-397B-A17B | 推理服务  输入Token数：[0,128k] | 输入 | 0.0012 | -- | -- | -- | 元/千tokens
+输出 | 0.0072 | -- | -- | -- | 元/千tokens
+推理服务  输入Token数：(128k,256] | 输入 | 0.003 | -- | -- | -- | 元/千tokens
+输出 | 0.018 | -- | -- | -- | 元/千tokens
+Qwen3.5 | Qwen3.5-122B-A10B | 推理服务  输入Token数：[0,128k] | 输入 | 0.0008 | -- | -- | -- | 元/千tokens
+输出 | 0.0064 | -- | -- | -- | 元/千tokens
+推理服务  输入Token数：(128k,256] | 输入 | 0.002 | -- | -- | -- | 元/千tokens
+输出 | 0.016 | -- | -- | -- | 元/千tokens
+Qwen3.5 | Qwen3.5-27B | 推理服务  输入Token数：[0,128k] | 输入 | 0.0006 | -- | -- | -- | 元/千tokens
+输出 | 0.0048 | -- | -- | -- | 元/千tokens
+推理服务  输入Token数：(128k,256] | 输入 | 0.0018 | -- | -- | -- | 元/千tokens
+输出 | 0.0144 | -- | -- | -- | 元/千tokens
+Qwen3.5 | Qwen3.5-35B-A3B | 推理服务  输入Token数：[0,128k] | 输入 | 0.0004 | -- | -- | -- | 元/千tokens
+输出 | 0.0032 | -- | -- | -- | 元/千tokens
+推理服务  输入Token数：(128k,256] | 输入 | 0.0016 | -- | -- | -- | 元/千tokens
+输出 | 0.0128 | -- | -- | -- | 元/千tokens
+Qwen3 | Qwen3-Next-80B-A3B-Thinking | 推理服务 | 输入 | 0.001 | - | -- | -- | 元/千tokens
+输出 | 0.01 | - | -- | -- | 元/千tokens
+Qwen3 | Qwen3-235B-A22B-Thinking-2507 | 推理服务 | 输入 | 0.002 | 0.0008 | -- | -- | 元/千tokens
+输出 | 0.02 | 0.008 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-30B-A3B-Thinking-2507 | 推理服务 | 输入 | 0.00075 | 0.0003 | -- | -- | 元/千tokens
+输出 | 0.0075 | 0.003 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-30B-A3B 如未启用思考模式计费详情请查看文本生成 | 推理服务 | 输入 | 0.00075 | 0.0003 | -- | -- | 元/千tokens
+输出 | 0.0075 | 0.003 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-32B 如未启用思考模式计费详情请查看文本生成 | 推理服务 | 输入 | 0.002 | 0.0008 | -- | -- | 元/千tokens
+输出 | 0.02 | 0.008 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-14B 如未启用思考模式计费详情请查看文本生成 | 推理服务 | 输入 | 0.001 | 0.0004 | -- | -- | 元/千tokens
+输出 | 0.01 | 0.004 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-8B 如未启用思考模式计费详情请查看文本生成 | 推理服务 | 输入 | 0.0005 | 0.0002 | -- | -- | 元/千tokens
+输出 | 0.005 | 0.002 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-4B 如未启用思考模式计费详情请查看文本生成 | 推理服务 | 输入 | 0.0003 | 0.00012 | -- | -- | 元/千tokens
+输出 | 0.003 | 0.0012 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-1.7B 如未启用思考模式计费详情请查看文本生成 | 推理服务 | 输入 | 0.0003 | 0.00012 | -- | -- | 元/千tokens
+输出 | 0.003 | 0.0012 | -- | -- | 元/千tokens
+Qwen3 | Qwen3-0.6B 如未启用思考模式计费详情请查看文本生成 | 推理服务 | 输入 | 0.0003 | 0.00012 | -- | -- | 元/千tokens
+输出 | 0.003 | 0.0012 | -- | -- | 元/千tokens
+量包名称 | 量包额度（Tokens） | 服务速率限制 | 有效期 | 原价(元) | 折扣率 | 折后价(元)
+DeepSeek-V3.2系列预置服务共享量包 | 1亿 | TPM = 150KRPM = 60 | 3个月 | 225 | 90% | 202.5
+5亿 | TPM = 225KRPM = 60 | 3个月 | 1125 | 90% | 1012.5
+10亿 | TPM = 300KRPM = 60 | 3个月 | 2250 | 90% | 2025
+DeepSeek-V3.1系列预置服务共享量包 | 1亿 | TPM = 500KRPM = 2,500 | 3个月 | 600 | 90% | 540
+5亿 | TPM = 750KRPM = 2,500 | 3个月 | 3000 | 85% | 2550
+10亿 | TPM = 1000KRPM = 2,500 | 3个月 | 6000 | 80% | 4800
+DeepSeek-V3系列预置服务共享量包 | 1亿 | TPM = 1000KRPM = 5,000 | 3个月 | 350 | 90% | 315
+5亿 | TPM = 1500KRPM = 5,000 | 3个月 | 1,750 | 85% | 1,487.5
+10亿 | TPM = 2000KRPM = 5,000 | 3个月 | 3,500 | 80% | 2,800
+DeepSeek-R1系列预置服务共享量包 | 1亿 | TPM = 1000KRPM = 5,000 | 3个月 | 700 | 90% | 630
+5亿 | TPM = 1500KRPM = 5,000 | 3个月 | 3,500 | 85% | 2,975
+10亿 | TPM = 2000KRPM = 5,000 | 3个月 | 7,000 | 80% | 5,600
+ERNIE-X1-Turbo-32K系列预置服务共享量包 | 1亿 | TPM = 300KRPM = 900 | 6个月 | 175 | 90% | 157.5
+5亿 | TPM = 450KRPM = 900 | 6个月 | 875 | 85% | 743.75
+10亿 | TPM = 750KRPM = 900 | 6个月 | 1,750 | 80% | 1,400
+模型名称 | 版本名称 | 单位规格 | 预付费（元/个/月） | 后付费（元/个/小时）
+原价 | 活动价 | 原价 | 活动价
+DeepSeek-R1-Distill-Qwen-32B | DeepSeek-R1-Distill-Qwen-32B | TPM = 10000RPM = 33 | 1135 | 1135 | - | -
+DeepSeek-R1-Distill-Qwen-14B | DeepSeek-R1-Distill-Qwen-14B | TPM = 10000RPM = 33 | 454 | 454 | - | -
+模型名称 | 版本名称 | 子项 | 单位规格 | 预付费价格（单位：元/个/月）
+原价 | 活动价
+ERNIE X1 Turbo | ERNIE-X1-Turbo-32K | 输入 | 10k | 432 | 302
+输出 | 1k | 172.8 | 121
+DeepSeek-R1 | DeepSeek-R1 | 输入 | 10k | 1728 | 1209.6
+输出 | 1k | 691.2 | 483.84
+DeepSeek-R1 | DeepSeek-R1-250528 | 输入 | 10k | 1728 | 1209.6
+输出 | 1k | 691.2 | 483.84
+DeepSeek-V3.1 | DeepSeek-V3.1-Think-250821 | 输入 | 10k | 1728 | 1209.6
+输出 | 1k | 518.4 | 362.88
+DeepSeek-V3.2 | DeepSeek-V3.2-Think | 输入 | 10k | 864 | 864
+输出 | 1k | 129.6 | 129.6
+GLM-5 | GLM-5 | 输入 | 10k | 2162.59 | 1513.81
+输出 | 1k | 864.52 | 605.16
+Kimi-K2.5 | Kimi-K2.5 | 输入 | 10k | 1728 | 1728
+输出 | 1k | 907.2 | 635.04
+模型名称 | 版本名称 | 服务内容 | 子项 | 在线推理 | 单位
+PaddleOCR-VL | PaddleOCR-VL-0.9B | 推理服务 | 输入 | 0.18  0.09 | 元/页
+PP-StructureV3 | PP-StructureV3 | 推理服务 | 输入 | 0.18  0.09 | 元/页
+DeepSeek-OCR | DeepSeek-OCR | 推理服务 | 输入 | 0.0003 | 元/千tokens
+输出 | 0.0012 | 元/千tokens
+Qianfan-OCR | Qianfan-OCR | 推理服务 | 输入 | 0.00045 | 元/千tokens
+输出 | 0.0018 | 元/千tokens
+Qianfan-OCR-Fast | Qianfan-OCR-Fast | 推理服务 | 输入 | 0.00485 | 元/千tokens
+输出 | 0.02 | 元/千tokens
+模型 | 服务内容 | 单价 | 规格
+musesteamer-air-image | 推理服务 | 0.05元/张 | 1024x1024
+FLUX.1-schnell | 推理服务 | 0.002元/张 | -
+qwen-image | 推理服务 | 0.25元/张 | 1024x1024
+ernie-image-turbo | 推理服务 | 0.11元/张 | -
+模型 | 服务内容 | 单价 | 单位
+ernie-irag-edit | 推理服务 | 0.14 | 元/张
+qwen-image-edit | 推理服务 | 0.3 | 元/张
+模型名称 | 视频时长（秒） | 消耗积分 | 调用消耗（元）
+MuseSteamer-Air-I2V | 5 | 1 | 1
+模型名称 | 服务内容 | 子项 | 单价 | 单位
+Embedding-V1 | 推理服务 | 输入 | 0.0005 | 元/千tokens
+bge-large-zh | 推理服务 | 输入 | 0.0005 | 元/千tokens
+bge-large-en | 推理服务 | 输入 | 0.0005 | 元/千tokens
+tao-8k | 推理服务 | 输入 | 0.0005 | 元/千tokens
+Qwen3-Embedding-0.6B | 推理服务 | 输入 | 0.0005 | 元/千tokens
+Qwen3-Embedding-4B | 推理服务 | 输入 | 0.0005 | 元/千tokens
+Qwen3-Embedding-8B | 推理服务 | 输入 | 0.0005 | 元/千tokens
+模型名称 | 服务内容 | 子项 | 单价 | 单位
+bce-reranker-base | 推理服务 | 输入 | 0.0005 | 元/千tokens
+Qwen3-Reranker-0.6B | 推理服务 | 输入 | 0.0008 | 元/千tokens
+Qwen3-Reranker-4B | 推理服务 | 输入 | 0.0008 | 元/千tokens
+Qwen3-Reranker-8B | 推理服务 | 输入 | 0.0008 | 元/千tokens
+服务内容 | 单价 | 单位
+搜索增强 | 0.004 | 元/次
+次数 | 有效期 | 原价 | 折扣率 | 折后价
+10000次 | 6个月 | ¥40 | 95% | ¥38
+50000次 | 6个月 | ¥200 | 95% | ¥190
+资源类型 | 规格 | 原单价（元/月） | 折后价（元/月）
+AI加速卡Ⅰ型 | 1个算力单元 | 15,000 | (5折后) 7,500
+AI加速卡Ⅴ型 | 1个算力单元 | 9,000 | (5折后) 4,500
+AI加速卡Ⅵ型 | 1个算力单元 | 9,000 | (5折后) 4,500
+AI加速卡Ⅶ型 | 1个算力单元 | 15,000 | (5折后) 7,500
+CPU | 1个算力单元 | 3,900 | (5折后) 1,950
+资源类型 | 规格 | 原单价（元/分钟） | 折后价（元/分钟）
+AI加速卡Ⅰ型 | 1个算力单元 | 0.52 | (5折后) 0.26
+AI加速卡Ⅴ型 | 1个算力单元 | 0.32 | (5折后) 0.16
+AI加速卡Ⅵ型 | 1个算力单元 | 0.32 | (5折后) 0.16
+AI加速卡Ⅶ型 | 1个算力单元 | 0.52 | (5折后) 0.26
+CPU | 1个算力单元 | 0.17 | (5折后) 0.085
+SFT基础模型 | 模型版本 | 原价 | 折扣价
+ERNIE Speed | ERNIE-Speed-8K | 输入：0.012元/千tokens输出：0.024元/千tokens | 输入：0.004元/千tokens输出：0.008元/千tokens
+ERNIE Lite | ERNIE-Lite-8K-0308 | 输入：0.009元/千tokens输出：0.018元/千tokens | 输入：0.003元/千tokens输出：0.006元/千tokens
+ERNIE Lite | ERNIE-Lite-8K-0922 | 0.024元/千tokens | 0.008元/千tokens
+ERNIE Lite | ERNIE-Lite-8K-0725 | 0.024元/千tokens | 0.008元/千tokens
+ERNIE Lite | ERNIE-Lite-4K-0704 | 0.024元/千tokens | 0.008元/千tokens
+ERNIE Lite | ERNIE-Lite-4K-0516 | 0.024元/千tokens | 0.008元/千tokens
+Llama-2 | Qianfan-Chinese-Llama-2-7B | 0.012元/千tokens | 0.004元/千tokens
+Llama-2 | Qianfan-Chinese-Llama-2-7B-32K | 0.012元/千tokens | 0.004元/千tokens
+Llama-2 | Qianfan-Chinese-Llama-2-13B | 0.018元/千tokens | 0.006元/千tokens
+ChatGLM | chatglm2-6b | 0.012元/千tokens | 0.004元/千tokens
+ChatGLM | chatglm2-6b-32k | 0.012元/千tokens | 0.004元/千tokens
+Baichuan2 | Baichuan2-7B-Chat | 0.012元/千tokens | 0.004元/千tokens
+Baichuan2 | Baichuan2-13B-Chat | 0.018元/千tokens | 0.006元/千tokens
+SQLCoder-7B | sqlcoder-7b | 0.012元/千tokens | 0.004元/千tokens
+CodeLlama | CodeLlama-7b-Instruct | 0.012元/千tokens | 0.004元/千tokens
+BLOOMZ-7B | BLOOMZ-7B | 0.012元/千tokens | 0.004元/千tokens
+
+=== Relevant Links ===
+服务与支持: https://cloud.baidu.com/doc/support/index.html
+文档: https://cloud.baidu.com/doc/index.html
+文档中心: https://cloud.baidu.com/doc/index.html
+平台简介: /doc/qianfan/s/rmh8khvwu
+更新动态: /doc/qianfan/s/Mmh8l4qwj
+模型更新记录: /doc/qianfan/s/Kmh4stnjp
+平台更新记录: /doc/qianfan/s/Gmh4stncc
+模型版本升级及退役机制: /doc/qianfan/s/zmh4stou3
+批量推理促销活动说明: /doc/qianfan/s/8ml4udfu2
+DeepSeek-V3.2升级公告: /doc/qianfan/s/Imj11954v
+模型赠送资源下线公告: /doc/qianfan/s/emhejp2w5
+Agent模型服务升级及切换公告: /doc/qianfan/s/pmj81fvac
+知识库高级解析服务计费公告: /doc/qianfan/s/vmlj4hhnb
+官方工具下架公告: /doc/qianfan/s/Jmh4sts4p
+工具限时体验额度到期通知: /doc/qianfan/s/7mn7bgns7
+快速开始-模型服务调用: /doc/qianfan/s/rmh4stn9m
+模型列表: /doc/qianfan/s/rmh4stp0j
+功能特性: /doc/qianfan/s/rmh4stn7m
+模型能力: /doc/qianfan/s/1mh4stn5f
+模型默认参数说明: /doc/qianfan/s/6mh4stoyf
+Coding Plan: /doc/qianfan/s/imlg0beiu
+OpenClaw: /doc/qianfan/s/Rmn2ms2nm
+Claude Code: /doc/qianfan/s/0mn2mnemj
+OpenCode: /doc/qianfan/s/Kmmymei1b
+Cursor: /doc/qianfan/s/ommymvojr
+Cline: /doc/qianfan/s/3mmymsgv1
+CodeX: /doc/qianfan/s/Wmmymp9op
+Qwen Code Companion: /doc/qianfan/s/Vmmynbwr0
+Cherry studio: /doc/qianfan/s/2mmyn8oac
+Kilo CLI: /doc/qianfan/s/emmyn316m
+Kilo Code: /doc/qianfan/s/ymmyn5kc2
+cc-switch: /doc/qianfan/s/immyngfjz
+模型服务计费: /doc/qianfan/s/wmh4sv6ya
+数据管理: /doc/qianfan/s/qmh4sv6nx
+模型精调: /doc/qianfan/s/8mh4sv6qa
+模型蒸馏: /doc/qianfan/s/zmh4sv6ts
+模型评估: /doc/qianfan/s/Dmh4sv6w5
+退款申请说明: /doc/qianfan/s/emh4sv79f
+续费和自动续费: /doc/qianfan/s/wmh4sv772
+模型token计算说明: /doc/qianfan/s/ymh4sv71t
+通过cfc发布token计算在线API: /doc/qianfan/s/xmh4sv749
+新用户免费额度: /doc/qianfan/s/Imi2rpirg
+自定义接入点（Endpoint）成本拆分迁移指南: /doc/qianfan/s/Gmmikvk5l
+成本拆分使用说明: /doc/qianfan/s/5mnelz9im
+官方工具: /doc/qianfan/s/Umh4sv6gb
+智能搜索生成: /doc/qianfan/s/Mmh4sv6ec
+智能搜索生成高性能版: /doc/qianfan/s/8miy9o4o6
+百度搜索: /doc/qianfan/s/1mh4sv6c4
+相似图搜索: /doc/qianfan/s/3mislstwd
+QPS叠加包: /doc/qianfan/s/Gmi5wd4fm
+Agent开发平台: /doc/qianfan/s/Lmh4sv69i
+深度研究Agent: /doc/qianfan/s/Smky0b2sm
+AI助手: /doc/qianfan/s/2mo8ldl7t
+知识库高级解析: /doc/qianfan/s/Zmlj32okw
+HuggingFace模型下载、部署、调用实战: /doc/qianfan/s/3mh4suthy
+文生文SFT最佳实践: /doc/qianfan/s/Pmh4susgw
+图像理解SFT最佳实践: /doc/qianfan/s/emh4susje
+Post-pretrain最佳实践: /doc/qianfan/s/bmh4suseh
+生态集成: /doc/qianfan/s/6mh4sutn1
+通过服务网卡私网访问千帆模型服务: /doc/qianfan/s/umh4suso7
+Files + Batch 接口使用指南（OpenAI 兼容版）: /doc/qianfan/s/Oml4r78ea
+数字人应用：创建、调试和SDK集成: /doc/qianfan/s/nmh4suqzg
+数字人应用：美食顾问: /doc/qianfan/s/lmh4suqse
+记忆变量：MBTI性格测试助手: /doc/qianfan/s/cmh4suqx1
+用户旅程地图生成: /doc/qianfan/s/vmh4suqkm
+自主规划Agent：开发AI手机实战，让手机开启「自动驾驶」: /doc/qianfan/s/Tmh4suqn1
+自主规划Agent：营销策略设计师: /doc/qianfan/s/Amh4suqpi
+自主规划Agent一键发布到秒哒：茶叶销售线上转型实践: /doc/qianfan/s/Smm02hzjv
+工作流Agent：“金牌销售”车险续保Agent: /doc/qianfan/s/9mh4sur51
+工作流Agent：如何使用全局跳转节点搭建飞行客服小助手: /doc/qianfan/s/4mh4surc2
+工作流Agent：机票订单处理助手: /doc/qianfan/s/Omh4sur7b
+工作流大模型节点高级配置使用案例: /doc/qianfan/s/imh4sur9p
+用“多智能体协同Agent”一分钟搭建专属研究Agent，帮企业做深度研究: /doc/qianfan/s/9mh4sur2a
+工作流组件： API的增删查: /doc/qianfan/s/bmh4suqah
+工作流组件：如何用知识库节点和API节点搭建个人减脂小助手: /doc/qianfan/s/3mh4suqhn
+工作流组件：深度使用实践: /doc/qianfan/s/lmh4suqeu
+组件工作流：使用记忆变量节点构建个人化导购小助手: /doc/qianfan/s/Imh4suq81
+图谱增强RAG：医疗诊断助手: /doc/qianfan/s/Gmh4surjh
+多模态RAG：图文问答助手: /doc/qianfan/s/wmh4suro5
+对象存储（BOS）与向量检索(BES)：企业级知识库创建: /doc/qianfan/s/bmh4surh5
+检索增强生成（RAG）应用：提示词调试: /doc/qianfan/s/Xmh4sursu
+航司行李规格查询助手: /doc/qianfan/s/0mh4surlu
+表格型知识库与数据库：课程信息检索: /doc/qianfan/s/kmh4surqk
+智能菜谱推荐应用搭建: /doc/qianfan/s/6mh4sus0u
+百度AI搜索应用搭建: /doc/qianfan/s/rmh4survm
+百度搜索组件：一文读懂多种搜索组合方式: /doc/qianfan/s/2mh4sury0
+如何在OpenClaw调用官方工具: /doc/qianfan/s/Mmlda41a2
+冬奥智能解说助手: /doc/qianfan/s/Amlg9o5os
+我的职场PPT生成助手—热点追踪: /doc/qianfan/s/Amlga4p3h
+孩子成长记录绘本助手: /doc/qianfan/s/Tmlgajqgr
+快速开始-平台功能使用: /doc/qianfan/s/1mh4su5jg
+体验中心: /doc/qianfan/s/pmh4su96b
+在线服务: /doc/qianfan/s/lmh4sucoe
+批量推理: /doc/qianfan/s/vmh4sucm1
+推理日志投递与解绑: /doc/qianfan/s/Bmh4suct2
+推理服务监控告警: /doc/qianfan/s/dmh4sucqp
+自定义接入点: /doc/qianfan/s/2mk4z2xpj
+HuggingFace格式模型导入: /doc/qianfan/s/Omh4suby8
+将HuggingFace模型下载到BOS: /doc/qianfan/s/imh4subt5
+模型创建与管理: /doc/qianfan/s/Xmh4subvm
+产品描述: /doc/qianfan/s/Smh4sucee
+创建自动评估任务: /doc/qianfan/s/gmh4sucbh
+查看与管理自动评估任务: /doc/qianfan/s/3mh4suc8m
+创建人工评估任务: /doc/qianfan/s/Fmh4suc57
+查看与管理人工评估任务: /doc/qianfan/s/nmh4suc28
+性能评估: /doc/qianfan/s/Wmh4sucgz
+模型压缩: /doc/qianfan/s/7mh4sucjc
+使用推理结果集: /doc/qianfan/s/9mh4subii
+创建推理结果集: /doc/qianfan/s/Qmh4subd8
+创建推理结果集任务: /doc/qianfan/s/6mh4subg1
+推理日志挖掘: /doc/qianfan/s/zmh4sub5e
+众测标注: /doc/qianfan/s/Mmh4su9hk
+在线标注: /doc/qianfan/s/Vmh4su9cw
+多人标注: /doc/qianfan/s/4mh4su9a7
+数据分析: /doc/qianfan/s/Imh4sualb
+数据清洗: /doc/qianfan/s/mmh4suao6
+什么是数据洞察: /doc/qianfan/s/omh4suau7
+创建并查看数据洞察任务: /doc/qianfan/s/Xmh4suare
+提示词模板拼接: /doc/qianfan/s/Cmh4sub2w
+数据增强: /doc/qianfan/s/jmh4suax2
+数据清洗: /doc/qianfan/s/gmh4sub03
+数据集对应关系说明: /doc/qianfan/s/Pmh4sub7z
+创建数据集: /doc/qianfan/s/jmh4su9t5
+导入Prefix+Suffix+Middle代码补全数据: /doc/qianfan/s/ymh4su9nk
+导入Prompt+Chosen+Rejected数据: /doc/qianfan/s/Dmh4sua9e
+导入Prompt+Chosen或Rejected数据: /doc/qianfan/s/6mh4su9kl
+导入Prompt+Image+Response数据: /doc/qianfan/s/Tmh4suac5
+导入Prompt+Response数据: /doc/qianfan/s/Omh4su9qa
+导入Prompt+图片数据: /doc/qianfan/s/amh4suaho
+导入Prompt+多Response排序数据: /doc/qianfan/s/0mh4sua6q
+导入Prompt集数据: /doc/qianfan/s/Dmh4suaf0
+导入Role(user+assistant)数据: /doc/qianfan/s/Zmh4su9vy
+导入纯文本数据: /doc/qianfan/s/Mmh4su9yq
+导出数据: /doc/qianfan/s/tmh4sua1f
+管理数据集版本: /doc/qianfan/s/Omh4sua42
+CFC使用教程: /doc/qianfan/s/Xmh4su6ou
+RFT自定义奖励规则: /doc/qianfan/s/Nmh4su662
+创建奖励模型训练任务: /doc/qianfan/s/kmh4su6g4
+创建强化学习训练任务: /doc/qianfan/s/7mh4su6d1
+创建DPO任务: /doc/qianfan/s/Fmh4su6rq
+创建KTO任务: /doc/qianfan/s/imh4su698
+创建RFT任务: /doc/qianfan/s/Qmh4su6iy
+创建Post-pretrain任务: /doc/qianfan/s/Jmh4su6uv
+创建SFT任务: /doc/qianfan/s/Omh4su62o
+查看训练列表: /doc/qianfan/s/pmh4su7kw
+SFT调优快速手册: /doc/qianfan/s/5mh4su6xy
+什么是Post-pretrain: /doc/qianfan/s/Umh4su7g1
+什么是DPO训练: /doc/qianfan/s/mmh4su71e
+什么是KTO训练: /doc/qianfan/s/Imh4su77n
+什么是RFT训练: /doc/qianfan/s/xmh4su74r
+什么是RLHF训练: /doc/qianfan/s/Bmh4su7dd
+什么是SimPO训练: /doc/qianfan/s/Tmh4su7ah
+创建数据蒸馏任务: /doc/qianfan/s/Smh4su948
+创建知识蒸馏任务: /doc/qianfan/s/bmh4su91r
+3小时极速蒸馏 DeepSeek-R1: /doc/qianfan/s/Lmh4su7tj
+RFT-逻辑推理任务—“谁是好人”: /doc/qianfan/s/Vmh4su820
+UGC图片质检: /doc/qianfan/s/8mh4su8ie
+作文自动点评或批改: /doc/qianfan/s/3mh4su8yb
+劳动合同关键信息提取: /doc/qianfan/s/Fmh4su8t6
+客服对话多标签生成: /doc/qianfan/s/5mh4su8ql
+小说人物角色扮演: /doc/qianfan/s/Emh4su7w3
+小说人物角色扮演（KTO）: /doc/qianfan/s/4mh4su8fn
+数学判题: /doc/qianfan/s/jmh4su7nv
+数据飞轮-「猜你想问」: /doc/qianfan/s/Dmh4su7qo
+文本创作字数控制 V2: /doc/qianfan/s/Gmh4su8vr
+文本创作字数控制: /doc/qianfan/s/Emh4su8np
+什么情况下适合精调: /doc/qianfan/s/imh4su8aj
+如何从评估指标判断大模型训练效果: /doc/qianfan/s/Pmh4su8d6
+如何准备有价值的训练数据: /doc/qianfan/s/Xmh4su87r
+模型蒸馏训练方法（情感分析任务）: /doc/qianfan/s/Bmh4su8l2
+英语口语练习: /doc/qianfan/s/gmh4su7yy
+购物平台客服对话摘要: /doc/qianfan/s/Umh4su84k
+Prompt模板: /doc/qianfan/s/smh4sud7u
+模型广场: /doc/qianfan/s/Zmhey8uus
+安全策略: /doc/qianfan/s/Lmmxhsja8
+干预策略: /doc/qianfan/s/Cmmxihghh
+快速搭建应用: /doc/qianfan/s/hmh4stph5
+深度研究Agent: /doc/qianfan/s/Hmj0sxk8t
+全能AI助手: /doc/qianfan/s/9mn43h6qg
+应用广场: /doc/qianfan/s/vmh4su2ut
+【企业服务】企业招聘智能助手: /doc/qianfan/s/lmh4styhg
+【企业服务】合同审核助手: /doc/qianfan/s/Zmh4styeu
+【企业服务】图像结构化信息提取: /doc/qianfan/s/Pmh4styk2
+【企业服务】智能安全巡检助手: /doc/qianfan/s/Kmh4styc5
+【企业服务】港口司机服务助手: /doc/qianfan/s/xmh4sty9i
+【企业服务】电力知识库助手: /doc/qianfan/s/lmh4sty6t
+【企业服务】说明书解读助手: /doc/qianfan/s/Bmh4sty44
+【医疗健康】健康问诊助手: /doc/qianfan/s/Rmh4stxsx
+【医疗健康】膳食金字塔老年膳食平衡AI助理: /doc/qianfan/s/hmh4stxq9
+【政务服务】上海市公积金智能助手: /doc/qianfan/s/Omh4su25n
+【政务服务】上海市医疗保险智能助手: /doc/qianfan/s/qmh4su1po
+【政务服务】上海市居住证助手: /doc/qianfan/s/5mh4su2dv
+【政务服务】上海市教育政策智能助手: /doc/qianfan/s/Zmh4su2go
+【政务服务】公安智能笔录审核助手: /doc/qianfan/s/Wmh4su1k2
+【政务服务】公文笔杆子: /doc/qianfan/s/vmh4su22x
+【政务服务】唐山市民生服务智能体: /doc/qianfan/s/Hmh4su1mt
+【政务服务】天津市工业和信息产业政策查询助手: /doc/qianfan/s/jmh4su1xe
+【政务服务】法定退休年龄计算器: /doc/qianfan/s/omh4su205
+【政务服务】西安市场监管政策查询助手: /doc/qianfan/s/Zmh4su28h
+【政务服务】重庆市教育政策查询助手: /doc/qianfan/s/Lmh4su1uk
+【政务服务】青岛市行政审批服务事项查询助手: /doc/qianfan/s/Lmh4su2b8
+【教育培训】K12互动式练习题: /doc/qianfan/s/pmh4su0pq
+【教育培训】K12地理小达人: /doc/qianfan/s/wmh4su137
+【教育培训】K12练习题生成器: /doc/qianfan/s/xmh4su0kg
+【教育培训】Python编程助教: /doc/qianfan/s/bmh4stzrm
+【教育培训】中级安全工程师报考小助手: /doc/qianfan/s/Cmh4su0xv
+【教育培训】作文点评助手: /doc/qianfan/s/jmh4stzz6
+【教育培训】古诗词万事通: /doc/qianfan/s/Nmh4stzoz
+【教育培训】图转故事小达人: /doc/qianfan/s/3mh4stzjj
+【教育培训】学伴暖光: /doc/qianfan/s/vmh4su15u
+【教育培训】学校招生小助手: /doc/qianfan/s/Pmh4su0n4
+【教育培训】思政报告小助手: /doc/qianfan/s/Rmh4su09s
+【教育培训】拍照解题: /doc/qianfan/s/cmh4su0f2
+【教育培训】智课辅导小助手: /doc/qianfan/s/Gmh4su0hs
+【教育培训】校园问答助手: /doc/qianfan/s/Hmh4su10i
+【教育培训】红灯停停停: /doc/qianfan/s/Umh4su0v5
+【教育培训】翻译专家: /doc/qianfan/s/Pmh4su077
+【教育培训】职业教育试题解析助教: /doc/qianfan/s/8mh4su01s
+【教育培训】英语外教Lucas: /doc/qianfan/s/7mh4stzud
+【教育培训】论文全能助手: /doc/qianfan/s/4mh4stzm8
+【教育培训】试题信息抽取: /doc/qianfan/s/0mh4su0sg
+【教育培训】趣读古诗: /doc/qianfan/s/Amh4su04l
+【教育培训】鸿蒙领航者: /doc/qianfan/s/6mh4su0cf
+【文化旅游】国家博物馆数字讲解员: /doc/qianfan/s/Wmh4stxmy
+【文化旅游】陕西旅游助手: /doc/qianfan/s/Jmh4stxk7
+【新闻媒体】新闻资讯助手: /doc/qianfan/s/Mmh4stxvx
+【智能硬件】天气查询agent: /doc/qianfan/s/Dmh4su2mt
+【智能硬件】影视剧情搜索: /doc/qianfan/s/ymh4su2sf
+【智能硬件】影视名称搜索: /doc/qianfan/s/emh4su2jt
+【智能硬件】智家超级管家: /doc/qianfan/s/6mh4su2pm
+【法律法规】民法典不在话下: /doc/qianfan/s/kmh4sty12
+【社交娱乐】图片标签生成: /doc/qianfan/s/Fmh4styy9
+【社交文娱】傲娇华妃: /doc/qianfan/s/imh4stz9d
+【社交文娱】卡通头像制作: /doc/qianfan/s/Bmh4stz3t
+【社交文娱】图片诗意描述器: /doc/qianfan/s/Amh4styna
+【社交文娱】娱乐新闻瓜瓜乐: /doc/qianfan/s/Kmh4stz6o
+【社交文娱】小红书文案生成助手: /doc/qianfan/s/Qmh4stz15
+【社交文娱】抖音视频文案提取助手: /doc/qianfan/s/Smh4stypv
+【社交文娱】智能汽车管家: /doc/qianfan/s/Vmh4stzck
+【社交文娱】毛小尖: /doc/qianfan/s/vmh4stysq
+【社交文娱】爱因斯坦: /doc/qianfan/s/amh4styvi
+【社交文娱】遥感知识助手: /doc/qianfan/s/8mh4stzg9
+【营销电商】专业评论回复-民宿: /doc/qianfan/s/wmh4stx8q
+【营销电商】中差评识别及干预: /doc/qianfan/s/Kmh4stxbd
+【营销电商】智能客服-会话总结: /doc/qianfan/s/Fmh4stxe7
+【营销电商】私人茶叶销售助手: /doc/qianfan/s/4mh4stx63
+【营销电商】长文本创作: /doc/qianfan/s/Vmh4stxh4
+【金融证券】国债助手: /doc/qianfan/s/Wmh4su1gy
+【金融证券】复利计算器: /doc/qianfan/s/rmh4su1br
+【金融证券】熊大讲重疾险: /doc/qianfan/s/Qmh4su192
+【金融证券】银行业务经营全链助手: /doc/qianfan/s/mmh4su1eb
+概述: /doc/qianfan/s/Umh4stts1
+角色指令: /doc/qianfan/s/6mh4sttkd
+声音与形象: /doc/qianfan/s/zmh4stt21
+对话: /doc/qianfan/s/xmh4sttmy
+发布配置: /doc/qianfan/s/nmh4stss3
+版本管理: /doc/qianfan/s/qmh4stsph
+应用回复: /doc/qianfan/s/9mh4stszj
+应用导入导出: /doc/qianfan/s/Amh4stt4h
+数据干预: /doc/qianfan/s/Gmh4stta8
+规则干预: /doc/qianfan/s/Umh4stt7i
+数据库: /doc/qianfan/s/Zmh4stthu
+模型配置: /doc/qianfan/s/Jmh4sttph
+知识库: /doc/qianfan/s/5mh4sttfa
+组件: /doc/qianfan/s/fmh4stsx5
+背景图片: /doc/qianfan/s/kmh4stsum
+记忆: /doc/qianfan/s/Wmh4sttcr
+文件上传说明: /doc/qianfan/s/zmjr5396z
+概述: /doc/qianfan/s/pmh4stx26
+开始节点: /doc/qianfan/s/Emh4stvi9
+结束节点: /doc/qianfan/s/jmh4stvnn
+大模型节点: /doc/qianfan/s/fmh4stw5o
+智能体节点: /doc/qianfan/s/pmh4stwu3
+组件节点: /doc/qianfan/s/jmh4stvvq
+API 节点: /doc/qianfan/s/Jmh4stva9
+MCP Server节点: /doc/qianfan/s/Bmh4stwja
+函数计算CFC节点: /doc/qianfan/s/imh4stwgo
+意图识别节点: /doc/qianfan/s/Qmh4stvky
+全局跳转节点: /doc/qianfan/s/fmh4stvcx
+分支器节点: /doc/qianfan/s/Rmh4stwm4
+代码节点: /doc/qianfan/s/Nmh4stw8e
+循环节点: /doc/qianfan/s/Xmh4stwor
+参数聚合节点: /doc/qianfan/s/7mh4stvqa
+知识库节点: /doc/qianfan/s/rmh4stvyi
+数据库节点: /doc/qianfan/s/Jmh4stvt0
+记忆变量节点: /doc/qianfan/s/4mh4stvfl
+文本处理节点: /doc/qianfan/s/emh4stwdr
+Query多轮改写: /doc/qianfan/s/Emh4stw30
+流式数据处理: /doc/qianfan/s/wmh4stwwr
+信息收集节点: /doc/qianfan/s/Mmh4stwrg
+消息节点: /doc/qianfan/s/smh4stwb3
+对话设置: /doc/qianfan/s/Fmh4stv22
+记忆变量: /doc/qianfan/s/Omh4stv74
+声音与形象: /doc/qianfan/s/Omh4stv4l
+背景图片: /doc/qianfan/s/Smh4stuwt
+追问: /doc/qianfan/s/Ymhsriypr
+发布配置: /doc/qianfan/s/smh4stuu4
+版本管理: /doc/qianfan/s/0mh4sturg
+规则干预: /doc/qianfan/s/vmh4stwzq
+概述: /doc/qianfan/s/Nmh4stsf3
+A2A接口文档: /doc/qianfan/s/cmh4stscm
+概述: /doc/qianfan/s/hmh4stugx
+开发态：布局介绍: /doc/qianfan/s/kmh4stu4l
+开发态：基本配置: /doc/qianfan/s/9mh4sttx4
+开发态：模板配置: /doc/qianfan/s/pmh4sttzl
+开发态：应用发布: /doc/qianfan/s/qmh4stu24
+使用态：布局介绍: /doc/qianfan/s/Fmh4stu73
+使用态：全文生成: /doc/qianfan/s/Amh4stu9h
+使用态：智能编辑: /doc/qianfan/s/Vmh4stued
+使用态：导出文档: /doc/qianfan/s/Cmh4stubz
+数据分析: /doc/qianfan/s/4mh4stsm2
+导入其他厂商模型服务: /doc/qianfan/s/Ymhn4run8
+秒哒: /doc/qianfan/s/umlg9vhrs
+模板案例: /doc/qianfan/s/Qmh4stqwg
+网页版: /doc/qianfan/s/6mh4stqu7
+百度搜索: /doc/qianfan/s/Pmh4stqrr
+企业微信: /doc/qianfan/s/lmh4str82
+微信公众号（订阅号、服务号）: /doc/qianfan/s/Zmh4stqyq
+微信客服: /doc/qianfan/s/cmh4str5q
+网站嵌入: /doc/qianfan/s/Smh4str3f
+概述: /doc/qianfan/s/8mh4su4f4
+创建组件: /doc/qianfan/s/ymh4su330
+开始节点: /doc/qianfan/s/bmh4su3bh
+结束节点: /doc/qianfan/s/Omh4su3gw
+大模型节点: /doc/qianfan/s/0mh4su3tv
+组件节点: /doc/qianfan/s/Ymh4su3me
+API 节点: /doc/qianfan/s/Emh4su361
+MCP Server节点: /doc/qianfan/s/cmhj482ha
+函数计算CFC节点: /doc/qianfan/s/Hmh4su41w
+意图识别节点: /doc/qianfan/s/imh4su3e6
+分支器节点: /doc/qianfan/s/omh4su44o
+代码节点: /doc/qianfan/s/Gmh4su3wl
+循环节点: /doc/qianfan/s/fmh4su47a
+参数聚合节点: /doc/qianfan/s/dmh4su3jq
+知识库节点: /doc/qianfan/s/Hmh4su3p1
+数据库节点: /doc/qianfan/s/8mhj4c7nt
+记忆变量节点: /doc/qianfan/s/5mh4su38s
+文本处理节点: /doc/qianfan/s/rmh4su3z9
+Query多轮改写节点: /doc/qianfan/s/smh4su49z
+流式数据处理: /doc/qianfan/s/wmh4su4cm
+调试和发布: /doc/qianfan/s/Lmh4su30i
+知识库简介: /doc/qianfan/s/Imh4stpo0
+创建知识库: /doc/qianfan/s/nmh4stpso
+切片管理: /doc/qianfan/s/6mh4stq2a
+命中测试: /doc/qianfan/s/Dmh4stpqc
+命中测试（召回）提供分数的计算说明和优化说明: /doc/qianfan/s/Ymh4stpzt
+修改知识库配置: /doc/qianfan/s/0mh4stpxf
+数据库管理: /doc/qianfan/s/Nmh4su4pd
+专业词库管理: /doc/qianfan/s/cmh4su2x0
+Prompt模板管理: /doc/qianfan/s/4mh4stpj8
+为应用回复添加卡片样式: /doc/qianfan/s/Umh4stq7h
+创建我的卡片: /doc/qianfan/s/jmh4stq9s
+卡片概述: /doc/qianfan/s/wmh4stqc6
+卡片管理: /doc/qianfan/s/Omh4stq54
+批量任务管理: /doc/qianfan/s/omh4sts99
+团队协作: /doc/qianfan/s/tmh4stplb
+OpenClaw 使用文档: /doc/qianfan/s/tmlhtdwyj
+千帆 OpenClaw 接入飞书机器人教程: /doc/qianfan/s/lmljbidu9
+工具及MCP广场: /doc/qianfan/s/1mh4stp3t
+API KEY: /doc/qianfan/s/wmh8l6tnf
+配额管理: /doc/qianfan/s/Gmh4su5tz
+资源管理: /doc/qianfan/s/5mh4su5ym
+添加消息接收人操作指南: /doc/qianfan/s/Bmh4sucvu
+角色与权限控制列表: /doc/qianfan/s/Emh4sucy7
+账号创建与权限分配: /doc/qianfan/s/wmh4sud2s
+通过子账户隔离实现账单隔离: /doc/qianfan/s/qmh4sud0i
+对接云审计: /doc/qianfan/s/Jmh4su5rn
+平台功能OpenAPI介绍: /doc/qianfan/s/smh4sux04
+通用说明: /doc/qianfan/s/bmh4suwvf
+服务域名: /doc/qianfan/s/8mh4sv3sb
+错误码: /doc/qianfan/s/Pmh4sv5qa
+鉴权认证: /doc/qianfan/s/tmh4suzoh
+介绍: /doc/qianfan/s/Vmh4sv3y3
+获取预置服务列表: /doc/qianfan/s/smh4sv4et
+获取定制服务列表: /doc/qianfan/s/Jmh4sv4he
+获取定制服务详情: /doc/qianfan/s/Kmh4sv4c7
+创建定制服务: /doc/qianfan/s/6mh4sv4pc
+下线定制服务: /doc/qianfan/s/xmh4sv49o
+更新定制服务: /doc/qianfan/s/Ymh4sv471
+扩缩容定制服务: /doc/qianfan/s/6mh4sv40q
+自定义接入点: /doc/qianfan/s/kmlevkf3l
+查询服务调用概览: /doc/qianfan/s/nmh4sv3vc
+查询服务调用详情: /doc/qianfan/s/9mh4sv4mo
+服务绑定bls日志集: /doc/qianfan/s/0mh4sv4k1
+服务解绑bls日志集: /doc/qianfan/s/Gmh4sv43p
+介绍: /doc/qianfan/s/ymh4sv1ae
+停止模型压缩任务: /doc/qianfan/s/Qmh4sv2fy
+创建模型压缩任务: /doc/qianfan/s/Bmh4sv27k
+删除模型压缩任务: /doc/qianfan/s/Wmh4sv2d7
+查看模型压缩任务列表: /doc/qianfan/s/Omh4sv2ag
+获取模型压缩任务详情: /doc/qianfan/s/1mh4sv2io
+上传自定义对话模板文件: /doc/qianfan/s/amh4sv329
+创建模型版本导出任务: /doc/qianfan/s/Wmh4sv34z
+删除我的模型: /doc/qianfan/s/rmh4sv2wn
+删除我的模型版本: /doc/qianfan/s/Fmh4sv3ac
+新建我的模型: /doc/qianfan/s/xmh4sv3d0
+新建我的模型版本: /doc/qianfan/s/Gmh4sv3o7
+获取导入模型平台预置高级配置: /doc/qianfan/s/jmh4sv3lf
+获取我的模型列表: /doc/qianfan/s/Dmh4sv2lu
+获取模型版本打包导出任务: /doc/qianfan/s/vmh4sv3fn
+获取模型版本的高级配置: /doc/qianfan/s/imh4sv2tx
+获取模型版本详情: /doc/qianfan/s/Omh4sv3in
+获取模型详情: /doc/qianfan/s/xmh4sv2ok
+获取预置模型列表: /doc/qianfan/s/Bmh4sv2ze
+获取预置模型版本详情: /doc/qianfan/s/qmh4sv2r8
+获取预置模型详情: /doc/qianfan/s/Vmh4sv37o
+停止模型评估任务: /doc/qianfan/s/mmh4sv1yy
+创建模型评估任务: /doc/qianfan/s/lmh4sv1om
+删除模型评估任务: /doc/qianfan/s/wmh4sv21q
+发起模型评估结果导出任务: /doc/qianfan/s/hmh4sv1w7
+更新模型评估任务: /doc/qianfan/s/Vmh4sv24g
+查看可评估模型列表: /doc/qianfan/s/Cmh4sv1gb
+查看模型评估任务列表: /doc/qianfan/s/Xmh4sv1j4
+查看模型评估任务报告: /doc/qianfan/s/cmh4sv1dm
+查看模型评估任务详情: /doc/qianfan/s/0mh4sv1te
+查看模型评估结果导出任务详情: /doc/qianfan/s/smh4sv1lw
+介绍: /doc/qianfan/s/2mh4suzz3
+创建数据增强任务: /doc/qianfan/s/8mh4sv14q
+删除数据增强任务: /doc/qianfan/s/Imh4sv122
+获取增强任务列表: /doc/qianfan/s/Mmh4sv17i
+获取数据增强任务详情: /doc/qianfan/s/hmh4sv0zd
+创建数据集: /doc/qianfan/s/Omh4sv07u
+删除数据集: /doc/qianfan/s/Jmh4sv052
+删除数据集版本: /doc/qianfan/s/Bmh4sv0tm
+发布数据集版本: /doc/qianfan/s/Lmh4sv0o2
+发起数据集版本导入任务: /doc/qianfan/s/Dmh4sv0d9
+发起数据集版本导出任务: /doc/qianfan/s/Jmh4sv0ip
+新增数据集版本: /doc/qianfan/s/Tmh4sv0w9
+获取数据集列表: /doc/qianfan/s/bmh4sv0qx
+获取数据集版本列表: /doc/qianfan/s/lmh4sv0ak
+获取数据集版本导入详情: /doc/qianfan/s/2mh4sv0fz
+获取数据集版本导出详情: /doc/qianfan/s/Amh4sv0le
+获取数据集版本详情: /doc/qianfan/s/fmh4sv02a
+停止模型精调任务: /doc/qianfan/s/Zmh4sux81
+创建模型精调任务: /doc/qianfan/s/smh4suxfy
+创建模型精调作业: /doc/qianfan/s/Omh4sux31
+删除模型精调任务: /doc/qianfan/s/9mh4suxaw
+删除模型精调作业: /doc/qianfan/s/xmh4sux5h
+模型支持情况说明: /doc/qianfan/s/0mh4suxli
+模型调优介绍: /doc/qianfan/s/nmh4suxpo
+获取模型精调任务列表: /doc/qianfan/s/Hmh4suxsa
+获取模型精调任务详情: /doc/qianfan/s/Hmh4suxiv
+获取模型精调作业列表: /doc/qianfan/s/6mh4suxdf
+创建应用身份: /doc/qianfan/s/3mh4suxzz
+获取应用身份列表: /doc/qianfan/s/Imh4suxxe
+停止批量推理任务: /doc/qianfan/s/Cmh4suzgx
+创建批量推理任务: /doc/qianfan/s/amh4suzbi
+删除批量推理任务: /doc/qianfan/s/bmh4suzjg
+查询支持批量推理模型清单: /doc/qianfan/s/9mh4suz8w
+获取批量推理任务列表: /doc/qianfan/s/Wmh4suzm1
+获取批量推理任务详情: /doc/qianfan/s/imh4suzed
+TPM配额实例变配: /doc/qianfan/s/Emh4suy2y
+修改TMP后付费自动释放时间: /doc/qianfan/s/Gmh4suyd6
+查询TPM配额信息详情: /doc/qianfan/s/2mh4suy5h
+终止按小时后付费TPM配额: /doc/qianfan/s/Kmh4suy7z
+购买TPM配额: /doc/qianfan/s/Bmh4suyak
+创建实例资源自动续费规则: /doc/qianfan/s/Qmh4sv4sd
+修改算力单元后付费自动释放时间: /doc/qianfan/s/mmh4suyg5
+定时释放后付费算力单元: /doc/qianfan/s/omh4suz3f
+查询算力单元列表: /doc/qianfan/s/Cmh4suyqr
+查询算力单元实例信息: /doc/qianfan/s/rmh4suyvu
+查询算力单元实例列表: /doc/qianfan/s/zmh4suz5w
+查询算力单元详情: /doc/qianfan/s/jmh4suyli
+算力单元变配: /doc/qianfan/s/imh4suyt9
+终止算力单元后付费实例: /doc/qianfan/s/imh4suyye
+购买算力单元: /doc/qianfan/s/Qmh4suyo2
+购买算力单元实例: /doc/qianfan/s/Omh4suyix
+释放后付费算力单元: /doc/qianfan/s/Qmh4suz0v
+查询特定量包信息: /doc/qianfan/s/3mh4sv4ve
+查询量包列表: /doc/qianfan/s/bmh4sv4xx
+介绍: /doc/qianfan/s/Lmh4sv50u
+创建Prompt模板: /doc/qianfan/s/5mh4sv5dv
+创建Prompt模板标签: /doc/qianfan/s/tmh4sv5li
+删除Prompt模板: /doc/qianfan/s/0mh4sv55y
+删除Prompt模板标签: /doc/qianfan/s/wmh4sv5b9
+更新Prompt模板: /doc/qianfan/s/ymh4sv53e
+模板框架说明: /doc/qianfan/s/dmh4sv5o1
+获取Prompt模板列表: /doc/qianfan/s/7mh4sv5ge
+获取Prompt模板标签列表: /doc/qianfan/s/6mh4sv5iy
+获取单个Prompt模板详情: /doc/qianfan/s/Ymh4sv58l
+名词解释: /doc/qianfan/s/Nmh4sv5t5
+推理服务API V2: /doc/qianfan/s/qmh4sv5vi
+通用说明: /doc/qianfan/s/fmh4sutq6
+认证鉴权: /doc/qianfan/s/Kmh4sutww
+Agent: /doc/qianfan/s/Xmhj1l82y
+知识库: /doc/qianfan/s/Zmh94e7cm
+错误码: /doc/qianfan/s/Cmh4suws6
+秒懂百科: /doc/qianfan/s/Mmh4stp99
+百度百科: /doc/qianfan/s/bmh4stpbh
+百科词条: /doc/qianfan/s/Zmh4stpel
+百科星图: /doc/qianfan/s/cmi721sy9
+垂类热榜查询: /doc/qianfan/s/Lmhcvvxb2
+热榜榜单查询: /doc/qianfan/s/Amhcvzqs0
+百度热搜: /doc/qianfan/s/fmmacsm17
+智能商品营销文案生成: /doc/qianfan/s/Emhcw56e1
+商品生动化标题生成: /doc/qianfan/s/9mhcw5u3y
+智能商品搜索: /doc/qianfan/s/Hmk29yd6p
+初中作文图片智能识别: /doc/qianfan/s/Hmhcw7p3p
+题目解析: /doc/qianfan/s/4mhcw93hh
+作文润色: /doc/qianfan/s/Tmhcw9vdp
+作文批改: /doc/qianfan/s/kmhcwanbf
+高中作文打分: /doc/qianfan/s/cmhcwbgd3
+高中作文图片智能识别: /doc/qianfan/s/2mhcw8f0h
+百度网盘AI视频笔记: /doc/qianfan/s/qmhcvrqt4
+百度文库智能PPT（Agent版）: /doc/qianfan/s/Mmhcvtke6
+百度文库AI绘本: /doc/qianfan/s/hmhcvukhu
+百度网盘AI纪要: /doc/qianfan/s/rmir3o1bi
+百度文库智能PPT大纲: /doc/qianfan/s/Ymjcni1s2
+百度文库智能PPT: /doc/qianfan/s/4mjcnolh6
+获取PPT模版: /doc/qianfan/s/Wmjcnmbfg
+百度文库AI长文大纲: /doc/qianfan/s/qmjmip9xw
+百度文库AI长文: /doc/qianfan/s/qmjmis5er
+百度文库智能研报大纲: /doc/qianfan/s/Wmjmiyuvu
+百度文库智能研报: /doc/qianfan/s/5mjmj3svy
+智能Query改写: /doc/qianfan/s/Jmmadt5de
+广告素材质量审核: /doc/qianfan/s/cmn78ifb3
+智能识图: /doc/qianfan/s/Mmnpr0inm
+智能搜索生成: /doc/qianfan/s/Omh4su4s0
+智能搜索生成高性能版: /doc/qianfan/s/Kmiy99ziv
+特定query干预: /doc/qianfan/s/Jmh4su5bg
+策略隔离: /doc/qianfan/s/wmh4su596
+网页黑名单: /doc/qianfan/s/jmh4su5ds
+领域知识注入: /doc/qianfan/s/vmh4su5g4
+百度搜索: /doc/qianfan/s/2mh4su4uy
+阿拉丁卡结构化信息（beta）: /doc/qianfan/s/wmh4su4xh
+特定query干预: /doc/qianfan/s/lmlaj6ia4
+相似图搜索: /doc/qianfan/s/Pmir40a3x
+错误码: /doc/qianfan/s/Qmh4su56e
+服务可用性协议: /doc/qianfan/s/xmh4su51x
+OpenAI SDK兼容介绍: /doc/qianfan/s/Hmh4suq26
+SDK功能更新记录: /doc/qianfan/s/emh4suf9z
+SDK介绍: /doc/qianfan/s/mmh4sufc7
+安装说明: /doc/qianfan/s/Dmh4sue98
+版本说明: /doc/qianfan/s/Qmh4sue6x
+基础能力组件列表: /doc/qianfan/s/kmh4suee6
+应用信息: /doc/qianfan/s/Jmh4suegh
+应用调用: /doc/qianfan/s/Gmh4suel1
+获取模型列表: /doc/qianfan/s/1mh4sueis
+工作流工具调用: /doc/qianfan/s/imh4suf33
+知识库: /doc/qianfan/s/Umh4sue3t
+数字人应用调用COOKBOOK: /doc/qianfan/s/Amh4suduq
+语音对话COOKBOOK: /doc/qianfan/s/Cmh4sudse
+AppBuilder SDK 运行环境超参配置说明: /doc/qianfan/s/7mh4suevp
+Appbuilder Trace跟踪功能基本用法: /doc/qianfan/s/qmh4suf0d
+Phoneix可视化软件的进阶用法: /doc/qianfan/s/2mh4sueqe
+UserSession类: /doc/qianfan/s/4mh4suet4
+二次开发: /doc/qianfan/s/dmh4sueo4
+公有云部署: /doc/qianfan/s/nmh4suey1
+API&SDK相关: /doc/qianfan/s/imh4sv60t
+产品使用相关: /doc/qianfan/s/3mh4sv64t
+产品计费相关: /doc/qianfan/s/rmh4sv672
+应用开发: /doc/qianfan/s/umh4stn0t
+百度千帆协议概述: /doc/qianfan/s/Umleypdhw
+服务等级协议SLA: /doc/qianfan/s/Umh4stn2y
+大模型技术体验服务协议: /doc/qianfan/s/jmh4stmn3
+生成式人工智能服务备案信息参考: /doc/qianfan/s/Smh4stmxs
+百度千帆大模型服务及Agent开发平台用户协议: /doc/qianfan/s/Cmh4stmpy
+百度千帆大模型服务及Agent开发平台专项约定: /doc/qianfan/s/emh4stmvj
+内容安全策略自定义功能服务协议: /doc/qianfan/s/Vmlf11e7i
+百度千帆·大模型服务及Agent开发平台: /doc/qianfan/index.html
+平台简介: /doc/qianfan/s/rmh8khvwu
+更新动态: /doc/qianfan/s/Mmh8l4qwj
+模型更新记录: /doc/qianfan/s/Kmh4stnjp
+平台更新记录: /doc/qianfan/s/Gmh4stncc
+模型版本升级及退役机制: /doc/qianfan/s/zmh4stou3
+批量推理促销活动说明: /doc/qianfan/s/8ml4udfu2
+DeepSeek-V3.2升级公告: /doc/qianfan/s/Imj11954v
+模型赠送资源下线公告: /doc/qianfan/s/emhejp2w5
+Agent模型服务升级及切换公告: /doc/qianfan/s/pmj81fvac
+知识库高级解析服务计费公告: /doc/qianfan/s/vmlj4hhnb
+官方工具下架公告: /doc/qianfan/s/Jmh4sts4p
+工具限时体验额度到期通知: /doc/qianfan/s/7mn7bgns7
+快速开始-模型服务调用: /doc/qianfan/s/rmh4stn9m
+模型列表: /doc/qianfan/s/rmh4stp0j
+功能特性: /doc/qianfan/s/rmh4stn7m
+模型能力: /doc/qianfan/s/1mh4stn5f
+模型默认参数说明: /doc/qianfan/s/6mh4stoyf
+Coding Plan: /doc/qianfan/s/imlg0beiu
+OpenClaw: /doc/qianfan/s/Rmn2ms2nm
+Claude Code: /doc/qianfan/s/0mn2mnemj
+OpenCode: /doc/qianfan/s/Kmmymei1b
+Cursor: /doc/qianfan/s/ommymvojr
+Cline: /doc/qianfan/s/3mmymsgv1
+CodeX: /doc/qianfan/s/Wmmymp9op
+Qwen Code Companion: /doc/qianfan/s/Vmmynbwr0
+Cherry studio: /doc/qianfan/s/2mmyn8oac
+Kilo CLI: /doc/qianfan/s/emmyn316m
+Kilo Code: /doc/qianfan/s/ymmyn5kc2
+cc-switch: /doc/qianfan/s/immyngfjz
+模型服务计费: /doc/qianfan/s/wmh4sv6ya
+数据管理: /doc/qianfan/s/qmh4sv6nx
+模型精调: /doc/qianfan/s/8mh4sv6qa
+模型蒸馏: /doc/qianfan/s/zmh4sv6ts
+模型评估: /doc/qianfan/s/Dmh4sv6w5
+退款申请说明: /doc/qianfan/s/emh4sv79f
+续费和自动续费: /doc/qianfan/s/wmh4sv772
+模型token计算说明: /doc/qianfan/s/ymh4sv71t
+通过cfc发布token计算在线API: /doc/qianfan/s/xmh4sv749
+新用户免费额度: /doc/qianfan/s/Imi2rpirg
+自定义接入点（Endpoint）成本拆分迁移指南: /doc/qianfan/s/Gmmikvk5l
+成本拆分使用说明: /doc/qianfan/s/5mnelz9im
+官方工具: /doc/qianfan/s/Umh4sv6gb
+智能搜索生成: /doc/qianfan/s/Mmh4sv6ec
+智能搜索生成高性能版: /doc/qianfan/s/8miy9o4o6
+百度搜索: /doc/qianfan/s/1mh4sv6c4
+相似图搜索: /doc/qianfan/s/3mislstwd
+QPS叠加包: /doc/qianfan/s/Gmi5wd4fm
+Agent开发平台: /doc/qianfan/s/Lmh4sv69i
+深度研究Agent: /doc/qianfan/s/Smky0b2sm
+AI助手: /doc/qianfan/s/2mo8ldl7t
+知识库高级解析: /doc/qianfan/s/Zmlj32okw
+HuggingFace模型下载、部署、调用实战: /doc/qianfan/s/3mh4suthy
+文生文SFT最佳实践: /doc/qianfan/s/Pmh4susgw
+图像理解SFT最佳实践: /doc/qianfan/s/emh4susje
+Post-pretrain最佳实践: /doc/qianfan/s/bmh4suseh
+生态集成: /doc/qianfan/s/6mh4sutn1
+通过服务网卡私网访问千帆模型服务: /doc/qianfan/s/umh4suso7
+Files + Batch 接口使用指南（OpenAI 兼容版）: /doc/qianfan/s/Oml4r78ea
+数字人应用：创建、调试和SDK集成: /doc/qianfan/s/nmh4suqzg
+数字人应用：美食顾问: /doc/qianfan/s/lmh4suqse
+记忆变量：MBTI性格测试助手: /doc/qianfan/s/cmh4suqx1
+用户旅程地图生成: /doc/qianfan/s/vmh4suqkm
+自主规划Agent：开发AI手机实战，让手机开启「自动驾驶」: /doc/qianfan/s/Tmh4suqn1
+自主规划Agent：营销策略设计师: /doc/qianfan/s/Amh4suqpi
+自主规划Agent一键发布到秒哒：茶叶销售线上转型实践: /doc/qianfan/s/Smm02hzjv
+工作流Agent：“金牌销售”车险续保Agent: /doc/qianfan/s/9mh4sur51
+工作流Agent：如何使用全局跳转节点搭建飞行客服小助手: /doc/qianfan/s/4mh4surc2
+工作流Agent：机票订单处理助手: /doc/qianfan/s/Omh4sur7b
+工作流大模型节点高级配置使用案例: /doc/qianfan/s/imh4sur9p
+用“多智能体协同Agent”一分钟搭建专属研究Agent，帮企业做深度研究: /doc/qianfan/s/9mh4sur2a
+工作流组件： API的增删查: /doc/qianfan/s/bmh4suqah
+工作流组件：如何用知识库节点和API节点搭建个人减脂小助手: /doc/qianfan/s/3mh4suqhn
+工作流组件：深度使用实践: /doc/qianfan/s/lmh4suqeu
+组件工作流：使用记忆变量节点构建个人化导购小助手: /doc/qianfan/s/Imh4suq81
+图谱增强RAG：医疗诊断助手: /doc/qianfan/s/Gmh4surjh
+多模态RAG：图文问答助手: /doc/qianfan/s/wmh4suro5
+对象存储（BOS）与向量检索(BES)：企业级知识库创建: /doc/qianfan/s/bmh4surh5
+检索增强生成（RAG）应用：提示词调试: /doc/qianfan/s/Xmh4sursu
+航司行李规格查询助手: /doc/qianfan/s/0mh4surlu
+表格型知识库与数据库：课程信息检索: /doc/qianfan/s/kmh4surqk
+智能菜谱推荐应用搭建: /doc/qianfan/s/6mh4sus0u
+百度AI搜索应用搭建: /doc/qianfan/s/rmh4survm
+百度搜索组件：一文读懂多种搜索组合方式: /doc/qianfan/s/2mh4sury0
+如何在OpenClaw调用官方工具: /doc/qianfan/s/Mmlda41a2
+冬奥智能解说助手: /doc/qianfan/s/Amlg9o5os
+我的职场PPT生成助手—热点追踪: /doc/qianfan/s/Amlga4p3h
+孩子成长记录绘本助手: /doc/qianfan/s/Tmlgajqgr
+快速开始-平台功能使用: /doc/qianfan/s/1mh4su5jg
+体验中心: /doc/qianfan/s/pmh4su96b
+在线服务: /doc/qianfan/s/lmh4sucoe
+批量推理: /doc/qianfan/s/vmh4sucm1
+推理日志投递与解绑: /doc/qianfan/s/Bmh4suct2
+推理服务监控告警: /doc/qianfan/s/dmh4sucqp
+自定义接入点: /doc/qianfan/s/2mk4z2xpj
+HuggingFace格式模型导入: /doc/qianfan/s/Omh4suby8
+将HuggingFace模型下载到BOS: /doc/qianfan/s/imh4subt5
+模型创建与管理: /doc/qianfan/s/Xmh4subvm
+产品描述: /doc/qianfan/s/Smh4sucee
+创建自动评估任务: /doc/qianfan/s/gmh4sucbh
+查看与管理自动评估任务: /doc/qianfan/s/3mh4suc8m
+创建人工评估任务: /doc/qianfan/s/Fmh4suc57
+查看与管理人工评估任务: /doc/qianfan/s/nmh4suc28
+性能评估: /doc/qianfan/s/Wmh4sucgz
+模型压缩: /doc/qianfan/s/7mh4sucjc
+使用推理结果集: /doc/qianfan/s/9mh4subii
+创建推理结果集: /doc/qianfan/s/Qmh4subd8
+创建推理结果集任务: /doc/qianfan/s/6mh4subg1
+推理日志挖掘: /doc/qianfan/s/zmh4sub5e
+众测标注: /doc/qianfan/s/Mmh4su9hk
+在线标注: /doc/qianfan/s/Vmh4su9cw
+多人标注: /doc/qianfan/s/4mh4su9a7
+数据分析: /doc/qianfan/s/Imh4sualb
+数据清洗: /doc/qianfan/s/mmh4suao6
+什么是数据洞察: /doc/qianfan/s/omh4suau7
+创建并查看数据洞察任务: /doc/qianfan/s/Xmh4suare
+提示词模板拼接: /doc/qianfan/s/Cmh4sub2w
+数据增强: /doc/qianfan/s/jmh4suax2
+数据清洗: /doc/qianfan/s/gmh4sub03
+数据集对应关系说明: /doc/qianfan/s/Pmh4sub7z
+创建数据集: /doc/qianfan/s/jmh4su9t5
+导入Prefix+Suffix+Middle代码补全数据: /doc/qianfan/s/ymh4su9nk
+导入Prompt+Chosen+Rejected数据: /doc/qianfan/s/Dmh4sua9e
+导入Prompt+Chosen或Rejected数据: /doc/qianfan/s/6mh4su9kl
+导入Prompt+Image+Response数据: /doc/qianfan/s/Tmh4suac5
+导入Prompt+Response数据: /doc/qianfan/s/Omh4su9qa
+导入Prompt+图片数据: /doc/qianfan/s/amh4suaho
+导入Prompt+多Response排序数据: /doc/qianfan/s/0mh4sua6q
+导入Prompt集数据: /doc/qianfan/s/Dmh4suaf0
+导入Role(user+assistant)数据: /doc/qianfan/s/Zmh4su9vy
+导入纯文本数据: /doc/qianfan/s/Mmh4su9yq
+导出数据: /doc/qianfan/s/tmh4sua1f
+管理数据集版本: /doc/qianfan/s/Omh4sua42
+CFC使用教程: /doc/qianfan/s/Xmh4su6ou
+RFT自定义奖励规则: /doc/qianfan/s/Nmh4su662
+创建奖励模型训练任务: /doc/qianfan/s/kmh4su6g4
+创建强化学习训练任务: /doc/qianfan/s/7mh4su6d1
+创建DPO任务: /doc/qianfan/s/Fmh4su6rq
+创建KTO任务: /doc/qianfan/s/imh4su698
+创建RFT任务: /doc/qianfan/s/Qmh4su6iy
+创建Post-pretrain任务: /doc/qianfan/s/Jmh4su6uv
+创建SFT任务: /doc/qianfan/s/Omh4su62o
+查看训练列表: /doc/qianfan/s/pmh4su7kw
+SFT调优快速手册: /doc/qianfan/s/5mh4su6xy
+什么是Post-pretrain: /doc/qianfan/s/Umh4su7g1
+什么是DPO训练: /doc/qianfan/s/mmh4su71e
+什么是KTO训练: /doc/qianfan/s/Imh4su77n
+什么是RFT训练: /doc/qianfan/s/xmh4su74r
+什么是RLHF训练: /doc/qianfan/s/Bmh4su7dd
+什么是SimPO训练: /doc/qianfan/s/Tmh4su7ah
+创建数据蒸馏任务: /doc/qianfan/s/Smh4su948
+创建知识蒸馏任务: /doc/qianfan/s/bmh4su91r
+3小时极速蒸馏 DeepSeek-R1: /doc/qianfan/s/Lmh4su7tj
+RFT-逻辑推理任务—“谁是好人”: /doc/qianfan/s/Vmh4su820
+UGC图片质检: /doc/qianfan/s/8mh4su8ie
+作文自动点评或批改: /doc/qianfan/s/3mh4su8yb
+劳动合同关键信息提取: /doc/qianfan/s/Fmh4su8t6
+客服对话多标签生成: /doc/qianfan/s/5mh4su8ql
+小说人物角色扮演: /doc/qianfan/s/Emh4su7w3
+小说人物角色扮演（KTO）: /doc/qianfan/s/4mh4su8fn
+数学判题: /doc/qianfan/s/jmh4su7nv
+数据飞轮-「猜你想问」: /doc/qianfan/s/Dmh4su7qo
+文本创作字数控制 V2: /doc/qianfan/s/Gmh4su8vr
+文本创作字数控制: /doc/qianfan/s/Emh4su8np
+什么情况下适合精调: /doc/qianfan/s/imh4su8aj
+如何从评估指标判断大模型训练效果: /doc/qianfan/s/Pmh4su8d6
+如何准备有价值的训练数据: /doc/qianfan/s/Xmh4su87r
+模型蒸馏训练方法（情感分析任务）: /doc/qianfan/s/Bmh4su8l2
+英语口语练习: /doc/qianfan/s/gmh4su7yy
+购物平台客服对话摘要: /doc/qianfan/s/Umh4su84k
+Prompt模板: /doc/qianfan/s/smh4sud7u
+模型广场: /doc/qianfan/s/Zmhey8uus
+安全策略: /doc/qianfan/s/Lmmxhsja8
+干预策略: /doc/qianfan/s/Cmmxihghh
+快速搭建应用: /doc/qianfan/s/hmh4stph5
+深度研究Agent: /doc/qianfan/s/Hmj0sxk8t
+全能AI助手: /doc/qianfan/s/9mn43h6qg
+应用广场: /doc/qianfan/s/vmh4su2ut
+【企业服务】企业招聘智能助手: /doc/qianfan/s/lmh4styhg
+【企业服务】合同审核助手: /doc/qianfan/s/Zmh4styeu
+【企业服务】图像结构化信息提取: /doc/qianfan/s/Pmh4styk2
+【企业服务】智能安全巡检助手: /doc/qianfan/s/Kmh4styc5
+【企业服务】港口司机服务助手: /doc/qianfan/s/xmh4sty9i
+【企业服务】电力知识库助手: /doc/qianfan/s/lmh4sty6t
+【企业服务】说明书解读助手: /doc/qianfan/s/Bmh4sty44
+【医疗健康】健康问诊助手: /doc/qianfan/s/Rmh4stxsx
+【医疗健康】膳食金字塔老年膳食平衡AI助理: /doc/qianfan/s/hmh4stxq9
+【政务服务】上海市公积金智能助手: /doc/qianfan/s/Omh4su25n
+【政务服务】上海市医疗保险智能助手: /doc/qianfan/s/qmh4su1po
+【政务服务】上海市居住证助手: /doc/qianfan/s/5mh4su2dv
+【政务服务】上海市教育政策智能助手: /doc/qianfan/s/Zmh4su2go
+【政务服务】公安智能笔录审核助手: /doc/qianfan/s/Wmh4su1k2
+【政务服务】公文笔杆子: /doc/qianfan/s/vmh4su22x
+【政务服务】唐山市民生服务智能体: /doc/qianfan/s/Hmh4su1mt
+【政务服务】天津市工业和信息产业政策查询助手: /doc/qianfan/s/jmh4su1xe
+【政务服务】法定退休年龄计算器: /doc/qianfan/s/omh4su205
+【政务服务】西安市场监管政策查询助手: /doc/qianfan/s/Zmh4su28h
+【政务服务】重庆市教育政策查询助手: /doc/qianfan/s/Lmh4su1uk
+【政务服务】青岛市行政审批服务事项查询助手: /doc/qianfan/s/Lmh4su2b8
+【教育培训】K12互动式练习题: /doc/qianfan/s/pmh4su0pq
+【教育培训】K12地理小达人: /doc/qianfan/s/wmh4su137
+【教育培训】K12练习题生成器: /doc/qianfan/s/xmh4su0kg
+【教育培训】Python编程助教: /doc/qianfan/s/bmh4stzrm
+【教育培训】中级安全工程师报考小助手: /doc/qianfan/s/Cmh4su0xv
+【教育培训】作文点评助手: /doc/qianfan/s/jmh4stzz6
+【教育培训】古诗词万事通: /doc/qianfan/s/Nmh4stzoz
+【教育培训】图转故事小达人: /doc/qianfan/s/3mh4stzjj
+【教育培训】学伴暖光: /doc/qianfan/s/vmh4su15u
+【教育培训】学校招生小助手: /doc/qianfan/s/Pmh4su0n4
+【教育培训】思政报告小助手: /doc/qianfan/s/Rmh4su09s
+【教育培训】拍照解题: /doc/qianfan/s/cmh4su0f2
+【教育培训】智课辅导小助手: /doc/qianfan/s/Gmh4su0hs
+【教育培训】校园问答助手: /doc/qianfan/s/Hmh4su10i
+【教育培训】红灯停停停: /doc/qianfan/s/Umh4su0v5
+【教育培训】翻译专家: /doc/qianfan/s/Pmh4su077
+【教育培训】职业教育试题解析助教: /doc/qianfan/s/8mh4su01s
+【教育培训】英语外教Lucas: /doc/qianfan/s/7mh4stzud
+【教育培训】论文全能助手: /doc/qianfan/s/4mh4stzm8
+【教育培训】试题信息抽取: /doc/qianfan/s/0mh4su0sg
+【教育培训】趣读古诗: /doc/qianfan/s/Amh4su04l
+【教育培训】鸿蒙领航者: /doc/qianfan/s/6mh4su0cf
+【文化旅游】国家博物馆数字讲解员: /doc/qianfan/s/Wmh4stxmy
+【文化旅游】陕西旅游助手: /doc/qianfan/s/Jmh4stxk7
+【新闻媒体】新闻资讯助手: /doc/qianfan/s/Mmh4stxvx
+【智能硬件】天气查询agent: /doc/qianfan/s/Dmh4su2mt
+【智能硬件】影视剧情搜索: /doc/qianfan/s/ymh4su2sf
+【智能硬件】影视名称搜索: /doc/qianfan/s/emh4su2jt
+【智能硬件】智家超级管家: /doc/qianfan/s/6mh4su2pm
+【法律法规】民法典不在话下: /doc/qianfan/s/kmh4sty12
+【社交娱乐】图片标签生成: /doc/qianfan/s/Fmh4styy9
+【社交文娱】傲娇华妃: /doc/qianfan/s/imh4stz9d
+【社交文娱】卡通头像制作: /doc/qianfan/s/Bmh4stz3t
+【社交文娱】图片诗意描述器: /doc/qianfan/s/Amh4styna
+【社交文娱】娱乐新闻瓜瓜乐: /doc/qianfan/s/Kmh4stz6o
+【社交文娱】小红书文案生成助手: /doc/qianfan/s/Qmh4stz15
+【社交文娱】抖音视频文案提取助手: /doc/qianfan/s/Smh4stypv
+【社交文娱】智能汽车管家: /doc/qianfan/s/Vmh4stzck
+【社交文娱】毛小尖: /doc/qianfan/s/vmh4stysq
+【社交文娱】爱因斯坦: /doc/qianfan/s/amh4styvi
+【社交文娱】遥感知识助手: /doc/qianfan/s/8mh4stzg9
+【营销电商】专业评论回复-民宿: /doc/qianfan/s/wmh4stx8q
+【营销电商】中差评识别及干预: /doc/qianfan/s/Kmh4stxbd
+【营销电商】智能客服-会话总结: /doc/qianfan/s/Fmh4stxe7
+【营销电商】私人茶叶销售助手: /doc/qianfan/s/4mh4stx63
+【营销电商】长文本创作: /doc/qianfan/s/Vmh4stxh4
+【金融证券】国债助手: /doc/qianfan/s/Wmh4su1gy
+【金融证券】复利计算器: /doc/qianfan/s/rmh4su1br
+【金融证券】熊大讲重疾险: /doc/qianfan/s/Qmh4su192
+【金融证券】银行业务经营全链助手: /doc/qianfan/s/mmh4su1eb
+概述: /doc/qianfan/s/Umh4stts1
+角色指令: /doc/qianfan/s/6mh4sttkd
+声音与形象: /doc/qianfan/s/zmh4stt21
+对话: /doc/qianfan/s/xmh4sttmy
+发布配置: /doc/qianfan/s/nmh4stss3
+版本管理: /doc/qianfan/s/qmh4stsph
+应用回复: /doc/qianfan/s/9mh4stszj
+应用导入导出: /doc/qianfan/s/Amh4stt4h
+数据干预: /doc/qianfan/s/Gmh4stta8
+规则干预: /doc/qianfan/s/Umh4stt7i
+数据库: /doc/qianfan/s/Zmh4stthu
+模型配置: /doc/qianfan/s/Jmh4sttph
+知识库: /doc/qianfan/s/5mh4sttfa
+组件: /doc/qianfan/s/fmh4stsx5
+背景图片: /doc/qianfan/s/kmh4stsum
+记忆: /doc/qianfan/s/Wmh4sttcr
+文件上传说明: /doc/qianfan/s/zmjr5396z
+概述: /doc/qianfan/s/pmh4stx26
+开始节点: /doc/qianfan/s/Emh4stvi9
+结束节点: /doc/qianfan/s/jmh4stvnn
+大模型节点: /doc/qianfan/s/fmh4stw5o
+智能体节点: /doc/qianfan/s/pmh4stwu3
+组件节点: /doc/qianfan/s/jmh4stvvq
+API 节点: /doc/qianfan/s/Jmh4stva9
+MCP Server节点: /doc/qianfan/s/Bmh4stwja
+函数计算CFC节点: /doc/qianfan/s/imh4stwgo
+意图识别节点: /doc/qianfan/s/Qmh4stvky
+全局跳转节点: /doc/qianfan/s/fmh4stvcx
+分支器节点: /doc/qianfan/s/Rmh4stwm4
+代码节点: /doc/qianfan/s/Nmh4stw8e
+循环节点: /doc/qianfan/s/Xmh4stwor
+参数聚合节点: /doc/qianfan/s/7mh4stvqa
+知识库节点: /doc/qianfan/s/rmh4stvyi
+数据库节点: /doc/qianfan/s/Jmh4stvt0
+记忆变量节点: /doc/qianfan/s/4mh4stvfl
+文本处理节点: /doc/qianfan/s/emh4stwdr
+Query多轮改写: /doc/qianfan/s/Emh4stw30
+流式数据处理: /doc/qianfan/s/wmh4stwwr
+信息收集节点: /doc/qianfan/s/Mmh4stwrg
+消息节点: /doc/qianfan/s/smh4stwb3
+对话设置: /doc/qianfan/s/Fmh4stv22
+记忆变量: /doc/qianfan/s/Omh4stv74
+声音与形象: /doc/qianfan/s/Omh4stv4l
+背景图片: /doc/qianfan/s/Smh4stuwt
+追问: /doc/qianfan/s/Ymhsriypr
+发布配置: /doc/qianfan/s/smh4stuu4
+版本管理: /doc/qianfan/s/0mh4sturg
+规则干预: /doc/qianfan/s/vmh4stwzq
+概述: /doc/qianfan/s/Nmh4stsf3
+A2A接口文档: /doc/qianfan/s/cmh4stscm
+概述: /doc/qianfan/s/hmh4stugx
+开发态：布局介绍: /doc/qianfan/s/kmh4stu4l
+开发态：基本配置: /doc/qianfan/s/9mh4sttx4
+开发态：模板配置: /doc/qianfan/s/pmh4sttzl
+开发态：应用发布: /doc/qianfan/s/qmh4stu24
+使用态：布局介绍: /doc/qianfan/s/Fmh4stu73
+使用态：全文生成: /doc/qianfan/s/Amh4stu9h
+使用态：智能编辑: /doc/qianfan/s/Vmh4stued
+使用态：导出文档: /doc/qianfan/s/Cmh4stubz
+数据分析: /doc/qianfan/s/4mh4stsm2
+导入其他厂商模型服务: /doc/qianfan/s/Ymhn4run8
+秒哒: /doc/qianfan/s/umlg9vhrs
+模板案例: /doc/qianfan/s/Qmh4stqwg
+网页版: /doc/qianfan/s/6mh4stqu7
+百度搜索: /doc/qianfan/s/Pmh4stqrr
+企业微信: /doc/qianfan/s/lmh4str82
+微信公众号（订阅号、服务号）: /doc/qianfan/s/Zmh4stqyq
+微信客服: /doc/qianfan/s/cmh4str5q
+网站嵌入: /doc/qianfan/s/Smh4str3f
+概述: /doc/qianfan/s/8mh4su4f4
+创建组件: /doc/qianfan/s/ymh4su330
+开始节点: /doc/qianfan/s/bmh4su3bh
+结束节点: /doc/qianfan/s/Omh4su3gw
+大模型节点: /doc/qianfan/s/0mh4su3tv
+组件节点: /doc/qianfan/s/Ymh4su3me
+API 节点: /doc/qianfan/s/Emh4su361
+MCP Server节点: /doc/qianfan/s/cmhj482ha
+函数计算CFC节点: /doc/qianfan/s/Hmh4su41w
+意图识别节点: /doc/qianfan/s/imh4su3e6
+分支器节点: /doc/qianfan/s/omh4su44o
+代码节点: /doc/qianfan/s/Gmh4su3wl
+循环节点: /doc/qianfan/s/fmh4su47a
+参数聚合节点: /doc/qianfan/s/dmh4su3jq
+知识库节点: /doc/qianfan/s/Hmh4su3p1
+数据库节点: /doc/qianfan/s/8mhj4c7nt
+记忆变量节点: /doc/qianfan/s/5mh4su38s
+文本处理节点: /doc/qianfan/s/rmh4su3z9
+Query多轮改写节点: /doc/qianfan/s/smh4su49z
+流式数据处理: /doc/qianfan/s/wmh4su4cm
+调试和发布: /doc/qianfan/s/Lmh4su30i
+知识库简介: /doc/qianfan/s/Imh4stpo0
+创建知识库: /doc/qianfan/s/nmh4stpso
+切片管理: /doc/qianfan/s/6mh4stq2a
+命中测试: /doc/qianfan/s/Dmh4stpqc
+命中测试（召回）提供分数的计算说明和优化说明: /doc/qianfan/s/Ymh4stpzt
+修改知识库配置: /doc/qianfan/s/0mh4stpxf
+数据库管理: /doc/qianfan/s/Nmh4su4pd
+专业词库管理: /doc/qianfan/s/cmh4su2x0
+Prompt模板管理: /doc/qianfan/s/4mh4stpj8
+为应用回复添加卡片样式: /doc/qianfan/s/Umh4stq7h
+创建我的卡片: /doc/qianfan/s/jmh4stq9s
+卡片概述: /doc/qianfan/s/wmh4stqc6
+卡片管理: /doc/qianfan/s/Omh4stq54
+批量任务管理: /doc/qianfan/s/omh4sts99
+团队协作: /doc/qianfan/s/tmh4stplb
+OpenClaw 使用文档: /doc/qianfan/s/tmlhtdwyj
+千帆 OpenClaw 接入飞书机器人教程: /doc/qianfan/s/lmljbidu9
+工具及MCP广场: /doc/qianfan/s/1mh4stp3t
+API KEY: /doc/qianfan/s/wmh8l6tnf
+配额管理: /doc/qianfan/s/Gmh4su5tz
+资源管理: /doc/qianfan/s/5mh4su5ym
+添加消息接收人操作指南: /doc/qianfan/s/Bmh4sucvu
+角色与权限控制列表: /doc/qianfan/s/Emh4sucy7
+账号创建与权限分配: /doc/qianfan/s/wmh4sud2s
+通过子账户隔离实现账单隔离: /doc/qianfan/s/qmh4sud0i
+对接云审计: /doc/qianfan/s/Jmh4su5rn
+平台功能OpenAPI介绍: /doc/qianfan/s/smh4sux04
+通用说明: /doc/qianfan/s/bmh4suwvf
+服务域名: /doc/qianfan/s/8mh4sv3sb
+错误码: /doc/qianfan/s/Pmh4sv5qa
+鉴权认证: /doc/qianfan/s/tmh4suzoh
+介绍: /doc/qianfan/s/Vmh4sv3y3
+获取预置服务列表: /doc/qianfan/s/smh4sv4et
+获取定制服务列表: /doc/qianfan/s/Jmh4sv4he
+获取定制服务详情: /doc/qianfan/s/Kmh4sv4c7
+创建定制服务: /doc/qianfan/s/6mh4sv4pc
+下线定制服务: /doc/qianfan/s/xmh4sv49o
+更新定制服务: /doc/qianfan/s/Ymh4sv471
+扩缩容定制服务: /doc/qianfan/s/6mh4sv40q
+自定义接入点: /doc/qianfan/s/kmlevkf3l
+查询服务调用概览: /doc/qianfan/s/nmh4sv3vc
+查询服务调用详情: /doc/qianfan/s/9mh4sv4mo
+服务绑定bls日志集: /doc/qianfan/s/0mh4sv4k1
+服务解绑bls日志集: /doc/qianfan/s/Gmh4sv43p
+介绍: /doc/qianfan/s/ymh4sv1ae
+停止模型压缩任务: /doc/qianfan/s/Qmh4sv2fy
+创建模型压缩任务: /doc/qianfan/s/Bmh4sv27k
+删除模型压缩任务: /doc/qianfan/s/Wmh4sv2d7
+查看模型压缩任务列表: /doc/qianfan/s/Omh4sv2ag
+获取模型压缩任务详情: /doc/qianfan/s/1mh4sv2io
+上传自定义对话模板文件: /doc/qianfan/s/amh4sv329
+创建模型版本导出任务: /doc/qianfan/s/Wmh4sv34z
+删除我的模型: /doc/qianfan/s/rmh4sv2wn
+删除我的模型版本: /doc/qianfan/s/Fmh4sv3ac
+新建我的模型: /doc/qianfan/s/xmh4sv3d0
+新建我的模型版本: /doc/qianfan/s/Gmh4sv3o7
+获取导入模型平台预置高级配置: /doc/qianfan/s/jmh4sv3lf
+获取我的模型列表: /doc/qianfan/s/Dmh4sv2lu
+获取模型版本打包导出任务: /doc/qianfan/s/vmh4sv3fn
+获取模型版本的高级配置: /doc/qianfan/s/imh4sv2tx
+获取模型版本详情: /doc/qianfan/s/Omh4sv3in
+获取模型详情: /doc/qianfan/s/xmh4sv2ok
+获取预置模型列表: /doc/qianfan/s/Bmh4sv2ze
+获取预置模型版本详情: /doc/qianfan/s/qmh4sv2r8
+获取预置模型详情: /doc/qianfan/s/Vmh4sv37o
+停止模型评估任务: /doc/qianfan/s/mmh4sv1yy
+创建模型评估任务: /doc/qianfan/s/lmh4sv1om
+删除模型评估任务: /doc/qianfan/s/wmh4sv21q
+发起模型评估结果导出任务: /doc/qianfan/s/hmh4sv1w7
+更新模型评估任务: /doc/qianfan/s/Vmh4sv24g
+查看可评估模型列表: /doc/qianfan/s/Cmh4sv1gb
+查看模型评估任务列表: /doc/qianfan/s/Xmh4sv1j4
+查看模型评估任务报告: /doc/qianfan/s/cmh4sv1dm
+查看模型评估任务详情: /doc/qianfan/s/0mh4sv1te
+查看模型评估结果导出任务详情: /doc/qianfan/s/smh4sv1lw
+介绍: /doc/qianfan/s/2mh4suzz3
+创建数据增强任务: /doc/qianfan/s/8mh4sv14q
+删除数据增强任务: /doc/qianfan/s/Imh4sv122
+获取增强任务列表: /doc/qianfan/s/Mmh4sv17i
+获取数据增强任务详情: /doc/qianfan/s/hmh4sv0zd
+创建数据集: /doc/qianfan/s/Omh4sv07u
+删除数据集: /doc/qianfan/s/Jmh4sv052
+删除数据集版本: /doc/qianfan/s/Bmh4sv0tm
+发布数据集版本: /doc/qianfan/s/Lmh4sv0o2
+发起数据集版本导入任务: /doc/qianfan/s/Dmh4sv0d9
+发起数据集版本导出任务: /doc/qianfan/s/Jmh4sv0ip
+新增数据集版本: /doc/qianfan/s/Tmh4sv0w9
+获取数据集列表: /doc/qianfan/s/bmh4sv0qx
+获取数据集版本列表: /doc/qianfan/s/lmh4sv0ak
+获取数据集版本导入详情: /doc/qianfan/s/2mh4sv0fz
+获取数据集版本导出详情: /doc/qianfan/s/Amh4sv0le
+获取数据集版本详情: /doc/qianfan/s/fmh4sv02a
+停止模型精调任务: /doc/qianfan/s/Zmh4sux81
+创建模型精调任务: /doc/qianfan/s/smh4suxfy
+创建模型精调作业: /doc/qianfan/s/Omh4sux31
+删除模型精调任务: /doc/qianfan/s/9mh4suxaw
+删除模型精调作业: /doc/qianfan/s/xmh4sux5h
+模型支持情况说明: /doc/qianfan/s/0mh4suxli
+模型调优介绍: /doc/qianfan/s/nmh4suxpo
+获取模型精调任务列表: /doc/qianfan/s/Hmh4suxsa
+获取模型精调任务详情: /doc/qianfan/s/Hmh4suxiv
+获取模型精调作业列表: /doc/qianfan/s/6mh4suxdf
+创建应用身份: /doc/qianfan/s/3mh4suxzz
+获取应用身份列表: /doc/qianfan/s/Imh4suxxe
+停止批量推理任务: /doc/qianfan/s/Cmh4suzgx
+创建批量推理任务: /doc/qianfan/s/amh4suzbi
+删除批量推理任务: /doc/qianfan/s/bmh4suzjg
+查询支持批量推理模型清单: /doc/qianfan/s/9mh4suz8w
+获取批量推理任务列表: /doc/qianfan/s/Wmh4suzm1
+获取批量推理任务详情: /doc/qianfan/s/imh4suzed
+TPM配额实例变配: /doc/qianfan/s/Emh4suy2y
+修改TMP后付费自动释放时间: /doc/qianfan/s/Gmh4suyd6
+查询TPM配额信息详情: /doc/qianfan/s/2mh4suy5h
+终止按小时后付费TPM配额: /doc/qianfan/s/Kmh4suy7z
+购买TPM配额: /doc/qianfan/s/Bmh4suyak
+创建实例资源自动续费规则: /doc/qianfan/s/Qmh4sv4sd
+修改算力单元后付费自动释放时间: /doc/qianfan/s/mmh4suyg5
+定时释放后付费算力单元: /doc/qianfan/s/omh4suz3f
+查询算力单元列表: /doc/qianfan/s/Cmh4suyqr
+查询算力单元实例信息: /doc/qianfan/s/rmh4suyvu
+查询算力单元实例列表: /doc/qianfan/s/zmh4suz5w
+查询算力单元详情: /doc/qianfan/s/jmh4suyli
+算力单元变配: /doc/qianfan/s/imh4suyt9
+终止算力单元后付费实例: /doc/qianfan/s/imh4suyye
+购买算力单元: /doc/qianfan/s/Qmh4suyo2
+购买算力单元实例: /doc/qianfan/s/Omh4suyix
+释放后付费算力单元: /doc/qianfan/s/Qmh4suz0v
+查询特定量包信息: /doc/qianfan/s/3mh4sv4ve
+查询量包列表: /doc/qianfan/s/bmh4sv4xx
+介绍: /doc/qianfan/s/Lmh4sv50u
+创建Prompt模板: /doc/qianfan/s/5mh4sv5dv
+创建Prompt模板标签: /doc/qianfan/s/tmh4sv5li
+删除Prompt模板: /doc/qianfan/s/0mh4sv55y
+删除Prompt模板标签: /doc/qianfan/s/wmh4sv5b9
+更新Prompt模板: /doc/qianfan/s/ymh4sv53e
+模板框架说明: /doc/qianfan/s/dmh4sv5o1
+获取Prompt模板列表: /doc/qianfan/s/7mh4sv5ge
+获取Prompt模板标签列表: /doc/qianfan/s/6mh4sv5iy
+获取单个Prompt模板详情: /doc/qianfan/s/Ymh4sv58l
+名词解释: /doc/qianfan/s/Nmh4sv5t5
+推理服务API V2: /doc/qianfan/s/qmh4sv5vi
+通用说明: /doc/qianfan/s/fmh4sutq6
+认证鉴权: /doc/qianfan/s/Kmh4sutww
+Agent: /doc/qianfan/s/Xmhj1l82y
+知识库: /doc/qianfan/s/Zmh94e7cm
+错误码: /doc/qianfan/s/Cmh4suws6
+秒懂百科: /doc/qianfan/s/Mmh4stp99
+百度百科: /doc/qianfan/s/bmh4stpbh
+百科词条: /doc/qianfan/s/Zmh4stpel
+百科星图: /doc/qianfan/s/cmi721sy9
+垂类热榜查询: /doc/qianfan/s/Lmhcvvxb2
+热榜榜单查询: /doc/qianfan/s/Amhcvzqs0
+百度热搜: /doc/qianfan/s/fmmacsm17
+智能商品营销文案生成: /doc/qianfan/s/Emhcw56e1
+商品生动化标题生成: /doc/qianfan/s/9mhcw5u3y
+智能商品搜索: /doc/qianfan/s/Hmk29yd6p
+初中作文图片智能识别: /doc/qianfan/s/Hmhcw7p3p
+题目解析: /doc/qianfan/s/4mhcw93hh
+作文润色: /doc/qianfan/s/Tmhcw9vdp
+作文批改: /doc/qianfan/s/kmhcwanbf
+高中作文打分: /doc/qianfan/s/cmhcwbgd3
+高中作文图片智能识别: /doc/qianfan/s/2mhcw8f0h
+百度网盘AI视频笔记: /doc/qianfan/s/qmhcvrqt4
+百度文库智能PPT（Agent版）: /doc/qianfan/s/Mmhcvtke6
+百度文库AI绘本: /doc/qianfan/s/hmhcvukhu
+百度网盘AI纪要: /doc/qianfan/s/rmir3o1bi
+百度文库智能PPT大纲: /doc/qianfan/s/Ymjcni1s2
+百度文库智能PPT: /doc/qianfan/s/4mjcnolh6
+获取PPT模版: /doc/qianfan/s/Wmjcnmbfg
+百度文库AI长文大纲: /doc/qianfan/s/qmjmip9xw
+百度文库AI长文: /doc/qianfan/s/qmjmis5er
+百度文库智能研报大纲: /doc/qianfan/s/Wmjmiyuvu
+百度文库智能研报: /doc/qianfan/s/5mjmj3svy
+智能Query改写: /doc/qianfan/s/Jmmadt5de
+广告素材质量审核: /doc/qianfan/s/cmn78ifb3
+智能识图: /doc/qianfan/s/Mmnpr0inm
+智能搜索生成: /doc/qianfan/s/Omh4su4s0
+智能搜索生成高性能版: /doc/qianfan/s/Kmiy99ziv
+特定query干预: /doc/qianfan/s/Jmh4su5bg
+策略隔离: /doc/qianfan/s/wmh4su596
+网页黑名单: /doc/qianfan/s/jmh4su5ds
+领域知识注入: /doc/qianfan/s/vmh4su5g4
+百度搜索: /doc/qianfan/s/2mh4su4uy
+阿拉丁卡结构化信息（beta）: /doc/qianfan/s/wmh4su4xh
+特定query干预: /doc/qianfan/s/lmlaj6ia4
+相似图搜索: /doc/qianfan/s/Pmir40a3x
+错误码: /doc/qianfan/s/Qmh4su56e
+服务可用性协议: /doc/qianfan/s/xmh4su51x
+OpenAI SDK兼容介绍: /doc/qianfan/s/Hmh4suq26
+SDK功能更新记录: /doc/qianfan/s/emh4suf9z
+SDK介绍: /doc/qianfan/s/mmh4sufc7
+安装说明: /doc/qianfan/s/Dmh4sue98
+版本说明: /doc/qianfan/s/Qmh4sue6x
+基础能力组件列表: /doc/qianfan/s/kmh4suee6
+应用信息: /doc/qianfan/s/Jmh4suegh
+应用调用: /doc/qianfan/s/Gmh4suel1
+获取模型列表: /doc/qianfan/s/1mh4sueis
+工作流工具调用: /doc/qianfan/s/imh4suf33
+知识库: /doc/qianfan/s/Umh4sue3t
+数字人应用调用COOKBOOK: /doc/qianfan/s/Amh4suduq
+语音对话COOKBOOK: /doc/qianfan/s/Cmh4sudse
+AppBuilder SDK 运行环境超参配置说明: /doc/qianfan/s/7mh4suevp
+Appbuilder Trace跟踪功能基本用法: /doc/qianfan/s/qmh4suf0d
+Phoneix可视化软件的进阶用法: /doc/qianfan/s/2mh4sueqe
+UserSession类: /doc/qianfan/s/4mh4suet4
+二次开发: /doc/qianfan/s/dmh4sueo4
+公有云部署: /doc/qianfan/s/nmh4suey1
+API&SDK相关: /doc/qianfan/s/imh4sv60t
+产品使用相关: /doc/qianfan/s/3mh4sv64t
+产品计费相关: /doc/qianfan/s/rmh4sv672
+应用开发: /doc/qianfan/s/umh4stn0t
+百度千帆协议概述: /doc/qianfan/s/Umleypdhw
+服务等级协议SLA: /doc/qianfan/s/Umh4stn2y
+大模型技术体验服务协议: /doc/qianfan/s/jmh4stmn3
+生成式人工智能服务备案信息参考: /doc/qianfan/s/Smh4stmxs
+百度千帆大模型服务及Agent开发平台用户协议: /doc/qianfan/s/Cmh4stmpy
+百度千帆大模型服务及Agent开发平台专项约定: /doc/qianfan/s/emh4stmvj
+内容安全策略自定义功能服务协议: /doc/qianfan/s/Vmlf11e7i
+文档中心: /doc/index.html
+百度千帆·大模型服务及Agent开发平台: /doc/qianfan/index.html
+深度思考: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#深度思考
+深度思考: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#深度思考
+深度思考: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#深度思考
+深度思考: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#深度思考
+深度思考: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#深度思考
+深度思考: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#深度思考
+深度思考: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#深度思考
+文本生成: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#文本生成
+文本生成: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#文本生成
+文本生成: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#文本生成
+文本生成: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#文本生成
+文本生成: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#文本生成
+文本生成: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#文本生成
+文本生成: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Qm9cw2s7m#文本生成
+上一篇Coding Plan: /doc/qianfan/s/immyngfjz
+下一篇价格详情: /doc/qianfan/s/qmh4sv6nx
+服务案例: https://cloud.baidu.com/doc/support/index.html#case
+方案手册: https://doc.bce.baidu.com/bce-documentation/GUIDE/百度智能云总体业务手册.pdf
+产品手册: https://doc.bce.baidu.com/bce-documentation/GUIDE/百度智能云产品手册.pdf
+备案帮助: https://cloud.baidu.com/doc/BeiAn/index.html
+专家服务: https://cloud.baidu.com/doc/support/index.html
+帮助文档: https://cloud.baidu.com/doc/index.html
+文档中心: https://cloud.baidu.com/doc/index.html
+入门指南: https://cloud.baidu.com/doc/StartGuide/index.html
+专家服务: https://cloud.baidu.com/doc/support/index.html#expert
+重大保障服务: https://cloud.baidu.com/doc/support/guarantee.html
+自助服务: https://cloud.baidu.com/doc/self-service/index.html
+SDK中心: https://cloud.baidu.com/doc/Developer/index.html
+API平台: https://cloud.baidu.com/doc/API/index.html
+7*24小时服务: https://cloud.baidu.com/doc/support/index.html#base
+百度翻译开放平台: https://api.fanyi.baidu.com/

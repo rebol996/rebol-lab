@@ -4,7 +4,7 @@
       <div class="about-hero">
         <div class="hero-content">
           <h1 class="gradient-text">关于我</h1>
-          <p class="tagline">软件工程应届生 | 前端开发 & 测试工具方向</p>
+          <p class="tagline">个人 AI 学习与求职实验室</p>
           <div class="hero-badges">
             <span class="badge">2026 届应届生</span>
             <span class="badge">前端开发</span>
@@ -19,12 +19,10 @@
           <section class="about-section">
             <h3><el-icon><User /></el-icon> 个人简介</h3>
             <p>
-              我是一名 2026 届软件工程应届生，专注于前端开发与测试工具方向。
-              我相信优秀的工程师不仅要能写出好代码，更要具备测试思维 —— 从用户视角发现需求、从工程视角保障质量。
-            </p>
-            <p>
-              通过 Rebol Lab 这个项目，我将 Vue 3 + TypeScript 技术栈与测试思维结合，
-              独立构建了测试用例生成、Bug 报告生成等实用工具，展示了从需求分析到工具落地的完整能力。
+              我是 Rebol Lab 的作者，一个面向软件工程学习者的 AI 驱动型个人成长实验室。
+              通过 Rebol Lab，我将 Vue 3 + TypeScript 技术栈与测试思维结合，
+              独立构建了测试用例生成、Bug 报告生成、AI 模型价格雷达等实用工具，
+              展示了从需求分析到工具落地的完整能力。
             </p>
           </section>
 
@@ -82,16 +80,11 @@
 
           <div class="contact-box tech-card">
             <h4>联系与连接</h4>
+            <div class="contact-note">联系方式可在面试沟通时提供</div>
             <div class="contact-links">
-              <a href="#" class="contact-link">
-                <el-icon><Link /></el-icon> GitHub
-              </a>
-              <a href="#" class="contact-link">
-                <el-icon><Message /></el-icon> Email
-              </a>
-              <a href="#" class="contact-link">
-                <el-icon><ChatDotRound /></el-icon> 微信
-              </a>
+              <span class="contact-link disabled">
+                <el-icon><Link /></el-icon> GitHub（面试时提供）
+              </span>
             </div>
           </div>
 
@@ -99,11 +92,11 @@
             <h4>实验室状态</h4>
             <div class="info-row">
               <span class="label">当前版本</span>
-              <span class="value">v1.2.0-beta</span>
+              <span class="value">v1.5.0-beta</span>
             </div>
             <div class="info-row">
               <span class="label">最后更新</span>
-              <span class="value">2026-04-29</span>
+              <span class="value">2026-05-04</span>
             </div>
           </div>
         </div>
@@ -113,7 +106,7 @@
 </template>
 
 <script setup lang="ts">
-import { User, Monitor, Aim, Link, Message, ChatDotRound } from '@element-plus/icons-vue'
+import { User, Monitor, Aim, Link } from '@element-plus/icons-vue'
 
 const frontendTechs = ['Vue 3', 'TypeScript', 'Vite', 'Element Plus', 'SCSS', 'Pinia']
 const testingTechs = ['Postman', 'Playwright', '测试用例设计', 'Bug 报告']
@@ -265,6 +258,12 @@ const engineeringTechs = ['Git', 'npm', 'ESLint', 'Prettier']
 
 .contact-box {
   padding: 24px;
+  .contact-note {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    font-style: italic;
+  }
   .contact-links {
     display: flex;
     flex-direction: column;
@@ -273,17 +272,12 @@ const engineeringTechs = ['Git', 'npm', 'ESLint', 'Prettier']
       display: flex;
       align-items: center;
       gap: 12px;
-      color: var(--text-color);
-      text-decoration: none;
+      color: var(--text-muted);
       font-size: 0.95rem;
       padding: 8px 12px;
       border-radius: 6px;
       background: rgba(255, 255, 255, 0.03);
-      transition: all 0.2s;
-      &:hover {
-        background: rgba(88, 166, 255, 0.1);
-        color: var(--primary-color);
-      }
+      &.disabled { opacity: 0.6; cursor: default; }
     }
   }
 }

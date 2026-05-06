@@ -63,7 +63,7 @@ import { CircleCheck, Loading, Flag } from '@element-plus/icons-vue'
 
 const statusText: Record<string, string> = {
   completed: '已掌握',
-  active: '正在攻克',
+  active: '学习中',
   pending: '下一步目标'
 }
 

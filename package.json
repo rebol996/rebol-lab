@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prices:update": "tsx scripts/model-price-radar/fetchPrices.ts",
+    "prices:check": "tsx scripts/model-price-radar/fetchPrices.ts --dry-run"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",
@@ -20,6 +22,9 @@
     "@types/node": "^24.12.2",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vue/tsconfig": "^0.9.1",
+    "cheerio": "^1.2.0",
+    "playwright": "^1.59.1",
+    "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.10",
     "vue-tsc": "^3.2.7"

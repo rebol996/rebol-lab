@@ -63,6 +63,20 @@
                 {{ tech }}
               </el-tag>
             </div>
+
+            <div v-if="project.currentLimits" class="limits-box">
+              <h4 class="box-title limits-title">当前不足</h4>
+              <ul class="limits-list">
+                <li v-for="(limit, idx) in project.currentLimits" :key="idx">{{ limit }}</li>
+              </ul>
+            </div>
+
+            <div v-if="project.nextPlans" class="plans-box">
+              <h4 class="box-title plans-title">后续计划</h4>
+              <ul class="plans-list">
+                <li v-for="(plan, idx) in project.nextPlans" :key="idx">{{ plan }}</li>
+              </ul>
+            </div>
           </div>
 
           <div class="project-visual">
@@ -71,8 +85,8 @@
               <span class="visual-text">{{ project.name }}</span>
             </div>
             <div class="project-actions">
-              <el-button type="primary" :disabled="!project.demoUrl" @click="openLink(project.demoUrl)">访问 Demo</el-button>
-              <el-button :disabled="!project.githubUrl" @click="openLink(project.githubUrl)">GitHub</el-button>
+              <el-button @click="$router.push('/projects/rebol-lab')">项目详情</el-button>
+              <el-button @click="$router.push('/tools')">本地演示</el-button>
             </div>
           </div>
         </div>
@@ -90,18 +104,28 @@ const projects = ref([
     name: 'Rebol Lab',
     description: '我的核心求职作品集项目，一个集成了测试工具和作品展示的个人实验室。',
     problemSolved: '解决了学习成果零散、无法系统展示前端能力和测试思维的问题。',
-    coreFeatures: '测试用例生成器、Bug 报告生成器、项目包装助手、响应式布局。',
+    coreFeatures: '测试用例生成器、Bug 报告生成器、项目包装助手、AI 模型价格雷达（含数据新鲜度机制）。',
     responsibility: '独立完成需求分析、UI 设计、前端架构及全量代码实现。',
-    whatILearned: '深入掌握了 Vue 3 组合式 API、TypeScript 类型约束、SCSS 深色主题设计和组件化开发。',
+    whatILearned: '深入掌握了 Vue 3 组合式 API、TypeScript 类型约束、SCSS 深色主题设计和组件化开发，以及 GitHub Actions 数据管道设计。',
     highlights: [
       '基于 Vue 3 + TypeScript + Vite 构建的完整单页应用',
-      '独立开发 3 个本地辅助工具，展示了测试思维和前端工程化能力',
-      '响应式布局，支持桌面端和移动端浏览'
+      '独立开发 4 个本地辅助工具，展示了测试思维和前端工程化能力',
+      'AI 模型价格雷达的数据可靠性设计：数据新鲜度、核验状态、自动数据管道',
+      '响应式布局，支持桌面端和移动端浏览',
+      'GitHub Actions 定时自动更新价格数据'
     ],
-    techStack: ['Vue 3', 'Vite', 'TypeScript', 'Element Plus', 'SCSS'],
-    status: '持续迭代中',
-    githubUrl: 'https://github.com/rebol/rebol-lab',
-    demoUrl: ''
+    techStack: ['Vue 3', 'Vite', 'TypeScript', 'Element Plus', 'SCSS', 'GitHub Actions'],
+    status: 'v1.5 Showcase Edition',
+    currentLimits: [
+      '工具生成逻辑为本地规则，非真实 AI 生成',
+      '使用 localStorage，本地可用但不支持多设备同步',
+      '价格数据需要人工核验，请勿将示例数据当作官方报价'
+    ],
+    nextPlans: [
+      '升级为 Node.js + MySQL 后端版，支持用户登录与多设备同步',
+      'AI 模型价格雷达加入趋势图和价格提醒',
+      '接入真实 AI API（通过后端代理保护 Key）'
+    ]
   },
   {
     id: 2,
@@ -117,8 +141,14 @@ const projects = ref([
     ],
     techStack: ['React', 'Next.js', 'OpenAI SDK', 'Tailwind CSS'],
     status: '技术调研阶段',
-    githubUrl: '',
-    demoUrl: ''
+    currentLimits: [
+      '处于技术调研阶段，尚未实现可用的 Demo',
+      '依赖外部 API Key，不适合在前端项目中使用'
+    ],
+    nextPlans: [
+      '完成技术调研报告',
+      '确定合适的 AI 应用场景'
+    ]
   },
   {
     id: 3,
@@ -134,14 +164,16 @@ const projects = ref([
     ],
     techStack: ['Vue 3', 'Pinia', 'Node.js', 'Puppeteer'],
     status: '功能完成，待整理',
-    githubUrl: '',
-    demoUrl: ''
+    currentLimits: [
+      '功能简单，未达到可展示水平',
+      'PDF 导出功能探索阶段，不够稳定'
+    ],
+    nextPlans: [
+      '功能整合到 Rebol Lab 项目包装助手中',
+      '不再作为独立项目维护'
+    ]
   }
 ])
-
-const openLink = (url: string) => {
-  if (url) window.open(url, '_blank')
-}
 </script>
 
 <style scoped lang="scss">
@@ -283,10 +315,55 @@ const openLink = (url: string) => {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-bottom: 24px;
   .tech-tag {
     background: #161b22;
     border-color: #30363d;
     color: var(--text-color);
+  }
+}
+
+.limits-box {
+  background: rgba(248, 81, 73, 0.03);
+  border: 1px dashed rgba(248, 81, 73, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  .limits-title {
+    color: #f85149;
+    &::before { content: '⚠️'; }
+  }
+  .limits-list {
+    margin: 0;
+    padding-left: 18px;
+    li {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+}
+
+.plans-box {
+  background: rgba(88, 166, 255, 0.03);
+  border: 1px dashed rgba(88, 166, 255, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  .plans-title {
+    color: var(--primary-color);
+    &::before { content: '📋'; }
+  }
+  .plans-list {
+    margin: 0;
+    padding-left: 18px;
+    li {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      &:last-child { margin-bottom: 0; }
+    }
   }
 }
 

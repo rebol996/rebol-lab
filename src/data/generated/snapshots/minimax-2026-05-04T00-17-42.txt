@@ -1,0 +1,183 @@
+=== MiniMax Page Snapshot ===
+URL: https://platform.minimax.io/docs/pricing/overview
+Fetched: 2026-05-04T00:17:43.289Z
+Title: Pricing Overview - MiniMax API Docs
+HTML Length: 295537
+Text Length: 239104
+Table Count: 0
+Link Count: 45
+
+=== HTML Extract (first 5000 chars) ===
+<!DOCTYPE html><html lang="en" class="__variable_ed9089 __variable_ea4744 dark" data-banner-state="visible" data-assistant-state="closed" data-page-mode="none" data-current-path="/"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="preload" href="/docs/_next/static/media/bb3ef058b751a6ad-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/docs/_next/static/media/c4b700dcb2187787-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/docs/_next/static/media/e4af272ccee01ff0-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" as="image" href="https://mintcdn.com/minimax-cac98058/vfWbFijizRlVE0wN/logo/light.svg?fit=max&amp;auto=format&amp;n=vfWbFijizRlVE0wN&amp;q=85&amp;s=15eaf5914a5ac609b291bbe7c6e95f66"/><link rel="preload" as="image" href="https://mintcdn.com/minimax-cac98058/vfWbFijizRlVE0wN/logo/dark.svg?fit=max&amp;auto=format&amp;n=vfWbFijizRlVE0wN&amp;q=85&amp;s=f5c9fe818d807df94edb6d3d79102cc9"/><link rel="stylesheet" href="/docs/_next/static/css/2b0e6d1f6a2b7a1a.css?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" data-precedence="next"/><link rel="stylesheet" href="/docs/_next/static/css/93bac6dd9c729729.css?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" data-precedence="next"/><link rel="stylesheet" href="/docs/_next/static/css/05d6d8fcb903870d.css?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/docs/_next/static/chunks/webpack-dc2320dc29fbd638.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb"/><script src="/docs/_next/static/chunks/87c73c54-09e1ba5c70e60a51.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/90018-5ab199940aea98d4.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/main-app-76ddd9525ef90e67.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/891cff7f-38ce37d594f7da31.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/51288-0fb44d6be82e9af5.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/14079-4865f1ab1b5bbf4b.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/78238-22782f5aac7a6ef4.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/95115-7f3830b22524c9f1.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/93247-b07c7244bb0ac0f8.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/98816-4875194b6205382d.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/80239-ce217fc534a5bb94.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/19664-8ce43df6b74bea12.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/8685-3edaeb533c1369b7.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/55016-27578b486608c312.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/75862-0e7c90644ebfd048.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/71251-28f76702905f8b9a.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/app/error-904203083e579f01.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/db261188-d8199d2c7818f473.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/d30757c7-4504080d72b51329.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/50867-b9f0047192ea1561.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/37154-f1541a8c0dc3fc4f.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/96613-d9098930227907bd.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/66220-dc719718f3803595.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/74902-aede07e132d9c71f.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/68789-aa7dbc2fe57d93b1.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/24253-97a943a955ad7b14.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/docs/_next/static/chunks/67313-113d94c737a76db1.js?dpl=dpl_7gnZoEMjFCZYL7iPvAjDLHTtALhb" async=""></script><script src="/
+
+=== Text Content ===
+((a,b,c,d,e,f,g,h)=>{let i=document.documentElement,j=["light","dark"];function k(b){var c;(Array.isArray(a)?a:[a]).forEach(a=>{let c="class"===a,d=c&&f?e.map(a=>f[a]||a):e;c?(i.classList.remove(...d),i.classList.add(f&&f[b]?f[b]:b)):i.setAttribute(a,b)}),c=b,h&&j.includes(c)&&(i.style.colorScheme=c)}if(d)k(d);else try{let a=localStorage.getItem(b)||c,d=g&&"system"===a?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":a;k(d)}catch(a){}})("class","isDarkMode","light","light",["dark","light","true","false","system"],{"true":"dark","false":"light","dark":"dark","light":"light"},true,false)(self.__next_s=self.__next_s||[]).push([0,{"children":"(function j(a,b,c,d,e){try{let f,g,h=[];try{h=window.location.pathname.split(\"/\").filter(a=>\"\"!==a&&\"global\"!==a).slice(0,2)}catch{h=[]}let i=h.find(a=>c.includes(a)),j=[];for(let c of(i?j.push(i):j.push(b),j.push(\"global\"),j)){if(!c)continue;let b=a[c];if(b?.content){f=b.content,g=c;break}}if(!f)return void document.documentElement.setAttribute(d,\"hidden\");let k=!0,l=0;for(;l<localStorage.length;){let a=localStorage.key(l);if(l++,!a?.endsWith(e))continue;let b=localStorage.getItem(a);if(b&&b===f){k=!1;break}g&&(a.startsWith(`lang:${g}_`)||!a.startsWith(\"lang:\"))&&(localStorage.removeItem(a),l--)}document.documentElement.setAttribute(d,k?\"visible\":\"hidden\")}catch(a){console.error(a),document.documentElement.setAttribute(d,\"hidden\")}})(\n  {\"global\":{\"content\":\"🎉 MiniMax-M2.7: Peak Performance. Ultimate Value. Master the Complex. ➔ [Try Now](https://platform.minimax.io/docs/api-reference/text-anthropic-api). \",\"dismissible\":true}},\n  \"en\",\n  [],\n  \"data-banner-state\",\n  \"bannerDismissed\",\n)","id":"_mintlify-banner-script"}]):root {
+  --font-family-headings-custom: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  
+  --font-family-body-custom: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  
+  
+}
+:root {
+    --primary: 24 30 37;
+    --primary-light: 74 222 128;
+    --primary-dark: 24 30 37;
+    --tooltip-foreground: 255 255 255;
+    --background-light: 255 255 255;
+    --background-dark: 10 13 13;
+    --gray-50: 243 243 243;
+    --gray-100: 238 238 239;
+    --gray-200: 223 223 223;
+    --gray-300: 206 206 207;
+    --gray-400: 159 159 159;
+    --gray-500: 112 112 113;
+    --gray-600: 80 80 81;
+    --gray-700: 63 63 63;
+    --gray-800: 38 38 38;
+    --gray-900: 23 23 23;
+    --gray-950: 10 11 11;
+  }
+          (function() {
+            function loadKatex() {
+              const link = document.querySelector('link[href="https://d4tuoctqmanu0.cloudfront.net/katex.min.css"]');
+              if (link) link.rel = 'stylesheet';
+            }
+            if (document.readyState === 'loading') {
+              document.addEventListener('DOMContentLoaded', loadKatex);
+            } else {
+              loadKatex();
+            }
+          })();
+        (self.__next_s=self.__next_s||[]).push([0,{"suppressHydrationWarning":true,"children":"(function(a,b,c,d){var e;let f,g=\"mint\"===d||\"linden\"===d?\"sidebar\":\"sidebar-content\",h=(e=d,f=\"navbar-transition\",\"maple\"===e&&(f+=\"-maple\"),f),[i,j]=(()=>{switch(d){case\"almond\":return[\"[--scroll-mt:2.5rem]\",\"[--scroll-mt:2.5rem]\"];case\"luma\":return[\"lg:[--scroll-mt:6rem]\",\"lg:[--scroll-mt:6rem]\"];case\"sequoia\":return[\"lg:[--scroll-mt:8.5rem]\",\"lg:[--scroll-mt:11rem]\"];default:return[\"lg:[--scroll-mt:9.5rem]\",\"lg:[--scroll-mt:12rem]\"]}})();function k(){document.documentElement.classList.add(i)}let l=document.documentElement.getAttribute(\"data-banner-state\"),m=null!=l?\"visible\"===l:b;function n(a){let b=m?`calc(${a-2.5}rem + var(--banner-height, 2.5rem))`:`${a}rem`;document.getElementById(g)?.style.setProperty(\"top\",b)}function o(a){let b=m?`calc(100vh - ${a-2.5}rem - var(--banner-height, 2.5rem))`:`calc(100vh - ${a}rem)`;document.getElementById(g)?.style.setProperty(\"height\",b)}function p(a,b){!a&&b||a&&!b?(k(),document.documentElement.classList.remove(j)):a&&b&&(document.documentElement.classList.add(j),document.documentElement.classList.remove(i))}switch(d){case\"mint\":n(c),p(a,m);break;case\"palm\":case\"aspen\":case\"sequoia\":n(c),o(c),p(a,m);break;case\"luma\":k();break;case\"linden\":n(c),m&&k();break;case\"almond\":k(),n(c),o(c)}let q=function(){let a=document.createElement(\"style\");return a.appendChild(document.createTextNode(\"*,*::before,*::after{-webkit-transition:none!important;-moz-transition:none!important;-o-transition:none!important;-ms-transition:none!important;transition:none!important}\")),document.head.appendChild(a),function(){window.getComputedStyle(document.body),setTimeout(()=>{document.head.removeChild(a)},1)}}();(\"requestAnimationFrame\"in globalThis?requestAnimationFrame:setTimeout)(()=>{let a;a=!1,a=window.scrollY>50,document.getElementById(h)?.setAttribute(\"data-is-opaque\",`${!!a}`),q()})})(\n  true,\n  true,\n  (function m(a,b,c){let d=document.documentElement.getAttribute(\"data-banner-state\"),e=2.5*!!(null!=d?\"visible\"===d:b),f=3*!!a,g=4,h=e+g+f;switch(c){case\"mint\":case\"palm\":break;case\"aspen\":f=2.5*!!a,g=3.5,h=e+f+g;break;case\"luma\":g=3,h=e+g;break;case\"linden\":g=4,h=e+g;break;case\"almond\":g=3.5,h=e+g;break;case\"sequoia\":f=3*!!a,g=3,h=e+g+f}return h})(true, true, \"mint\"),\n  \"mint\",\n)","id":"_mintlify-scroll-top-script"}])Skip to main content(function j(a,b,c,d){try{if(window.matchMedia("(max-width: 1024px)").matches||!d){document.documentElement.style.setProperty(c,"0px"),document.documentElement.setAttribute("data-assistant-state","closed"),d||localStorage.setItem(a,"false");return}let e=localStorage.getItem(a);if(null===e){document.documentElement.style.setProperty(c,"0px"),document.documentElement.setAttribute("data-assistant-state","closed");return}let f=JSON.parse(e),g=localStorage.getItem(b),h=null!==g?JSON.parse(g):368;document.documentElement.style.setProperty(c,f?h+"px":"0px"),document.documentElement.setAttribute("data-assistant-state",f?"open":"closed")}catch(a){document.documentElement.style.setProperty(c,"0px"),document.documentElement.setAttribute("data-assistant-state","closed")}})(
+    "chat-assistant-sheet-open",
+    "chat-assistant-sheet-width",
+    "--assistant-sheet-width",
+    false
+  )html{--assistant-sheet-width:0px!important}🎉 MiniMax-M2.7: Peak Performance. Ultimate Value. Master the Complex. ➔ Try Now.(function(){var b=document.getElementById("banner");if(!b)return;var h=b.offsetHeight;if(h>0)document.documentElement.style.setProperty('--banner-height',h+'px');})();MiniMax API Docs home pageSearch...⌘KDocumentationAccountSubscribeSearch...NavigationPricingPricing OverviewDeveloper GuidesAPI ReferencePricingToken PlanCookbookRelease NotesDeveloper ProgramPricingOverviewAudio SubscriptionVideo PackagesPay as You GoToken Plandocument.documentElement.setAttribute('data-page-mode', "none");(self.__next_s=self.__next_s||[]).push([0,{"suppressHydrationWarning":true,"children":"(function n(a,b,c){if(!document.getElementById(\"footer\")?.classList.contains(\"advanced-footer\")||\"maple\"===b||\"willow\"===b||\"almond\"===b||\"luma\"===b||\"sequoia\"===b)return;let d=document.documentElement.getAttribute(\"data-banner-state\"),e=null!=d?\"visible\"===d:c,f=document.documentElement.getAttribute(\"data-page-mode\"),g=document.getElementById(\"navbar\"),h=document.getElementById(\"navigation-items\"),i=document.getElementById(\"sidebar\"),j=document.getElementById(\"footer\"),k=document.getElementById(\"table-of-contents-content\"),l=document.getElementById(\"banner\"),m=e?l?.offsetHeight??40:0,n=(e?a-2.5:a)*16+m;if(!j||\"center\"===f)return;let o=j.getBoundingClientRect().top,p=window.innerHeight-o,q=(h?.clientHeight??0)+n+32*(\"mint\"===b||\"linden\"===b);if(i&&h)if(p>0){let a=Math.max(0,q-o);i.style.bottom=`${p}px`,i.style.top=`${n-a}px`}else i.style.bottom=\"\",i.style.top=e?`calc(${a-2.5}rem + var(--banner-height, 2.5rem))`:`${a}rem`,i.style.height=\"auto\";k&&g&&(p>0?k.style.top=\"custom\"===f?`${g.clientHeight-p}px`:`${40+g.clientHeight-p}px`:k.style.top=\"\")})(\n  (function m(a,b,c){let d=document.documentElement.getAttribute(\"data-banner-state\"),e=2.5*!!(null!=d?\"visible\"===d:b),f=3*!!a,g=4,h=e+g+f;switch(c){case\"mint\":case\"palm\":break;case\"aspen\":f=2.5*!!a,g=3.5,h=e+f+g;break;case\"luma\":g=3,h=e+g;break;case\"linden\":g=4,h=e+g;break;case\"almond\":g=3.5,h=e+g;break;case\"sequoia\":f=3*!!a,g=3,h=e+g+f}return h})(true, true, \"mint\"),\n  \"mint\",\n  true,\n)","id":"_mintlify-footer-and-sidebar-scroll-script"}]).audio-container {
+  height: 50px;
+  margin: 16px 0;
+}
+
+.video-agent-templates {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+}
+
+video {
+  border-radius: 12px;
+}
+
+table {
+  overflow-x: auto;
+}
+
+th,
+td {
+  vertical-align: middle !important;
+}
+
+td .video-agent-templates {
+  margin: 0;
+}
+
+#topbar-cta-button > a > span {
+  background-color: #181e25;
+  border-radius: 9999px;
+}
+
+#content-container p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+}
+
+.method-nav-pill > span {
+  font-weight: 400;
+}
+
+*:has(> .method-pill) {
+  border: none;
+}
+
+.navbar-link > a {
+  font-weight: 400;
+}
+
+.nav-tabs-item {
+  font-weight: 400;
+}
+
+.nav-tabs-item.text-gray-800 {
+  font-weight: 500;
+}
+
+*:has(> .navbar-link) > .navbar-link:first-child > a {
+  color: #181e25;
+  font-weight: 500;
+}
+
+*:has(> .navbar-link) > .navbar-link:nth-child(3) > a {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+/* 在第三个 navbar-link 的 a 标签里面添加文字 */
+*:has(> .navbar-link) > .navbar-link:nth-child(3) > a::after {
+  height: 16px;
+  content: "Code";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: normal;
+  color: #1F3EAA;
+  padding: 1px 6px;
+  background-color: #EBF3FF;
+  border-radius: 4px;
+}
+
+#navbar,
+#sidebar {
+  letter-spacing: 0.02em;
+}
+
+.callout {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card span {
+  line-height: 1.4rem;
+  margin-top: 8px !important;
+}
+
+#banne
+
+=== Tables ===
+
+=== Relevant Links ===
+Try Now: https://platform.minimax.io/docs/api-reference/text-anthropic-api
+Documentation: https://platform.minimax.io/docs
+Developer Guides: /docs/guides/models-intro
+API Reference: /docs/api-reference/api-overview
+Pricing: /docs/pricing/overview
+Token Plan: /docs/token-plan/intro
+Cookbook: /docs/solutions
+Release Notes: /docs/release-notes/models
+Overview: /docs/pricing/overview
+Audio Subscription: /docs/guides/pricing-speech
+Video Packages: /docs/guides/pricing-video
+Pay as You Go: /docs/guides/pricing-paygo
+Token Plan: /docs/guides/pricing-token-plan
+https://platform.minimax.io/docs/llms.txt: https://platform.minimax.io/docs/llms.txt
+Audio Subscription: /docs/guides/pricing-speech
+Developer Docs: https://platform.minimax.io/docs/guides/models-intro
+Pricing: https://platform.minimax.io/docs/pricing/overview
+Model Introduction: https://platform.minimax.io/docs/guides/models-intro
+Text Generation: https://platform.minimax.io/docs/guides/text-generation
+M2.7 for AI Coding Tools: https://platform.minimax.io/docs/guides/text-ai-coding-tools
+Text to Speech: https://platform.minimax.io/docs/guides/speech-t2a-websocket
+Video Generation: https://platform.minimax.io/docs/guides/video-generation

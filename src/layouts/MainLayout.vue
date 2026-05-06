@@ -9,55 +9,51 @@
         </div>
         <div class="logo-text">
           <span class="main">REBOL</span>
-          <span class="sub">LABORATORY v1.2</span>
+          <span class="sub">LABORATORY v1.5</span>
         </div>
       </div>
       
       <nav class="nav-menu">
         <router-link to="/" class="nav-item" :class="{ active: $route.path === '/' }">
           <el-icon><HomeFilled /></el-icon>
-          <span class="label">控制台首页 / HOME</span>
+          <span class="label">首页</span>
         </router-link>
-        
+
         <router-link to="/tools" class="nav-item" :class="{ active: $route.path.startsWith('/tools') }">
           <el-icon><Tools /></el-icon>
-          <span class="label">实验工具集 / TOOLS</span>
+          <span class="label">工具集</span>
         </router-link>
-        
+
         <router-link to="/projects" class="nav-item" :class="{ active: $route.path === '/projects' }">
           <el-icon><FolderOpened /></el-icon>
-          <span class="label">作品展示厅 / PROJECTS</span>
+          <span class="label">作品集</span>
         </router-link>
-        
+
         <router-link to="/roadmap" class="nav-item" :class="{ active: $route.path === '/roadmap' }">
           <el-icon><Guide /></el-icon>
-          <span class="label">技能成长图 / ROADMAP</span>
+          <span class="label">成长路线</span>
         </router-link>
-        
+
         <router-link to="/about" class="nav-item" :class="{ active: $route.path === '/about' }">
           <el-icon><User /></el-icon>
-          <span class="label">关于实验室 / ABOUT</span>
+          <span class="label">关于</span>
         </router-link>
       </nav>
 
       <div class="aside-footer">
         <div class="status-panel">
           <div class="status-header">
-            <span class="title">LAB STATUS</span>
-            <span class="version">v1.2 beta</span>
+            <span class="title">Rebol Lab</span>
+            <span class="version">v1.5</span>
           </div>
           <div class="status-body">
             <div class="status-item">
-              <span class="label">主线任务:</span>
-              <span class="txt">个人工具集开发</span>
-            </div>
-            <div class="status-item">
-              <span class="label">学习方向:</span>
-              <span class="txt">Vue / 测试 / AI</span>
+              <span class="label">定位:</span>
+              <span class="txt">AI 学习与求职实验室</span>
             </div>
             <div class="status-item mt-8">
               <span class="dot active"></span>
-              <span class="txt">CORE ONLINE</span>
+              <span class="txt">求职展示版</span>
             </div>
           </div>
         </div>
@@ -69,7 +65,7 @@
       <el-header class="header">
         <div class="header-left">
           <div class="breadcrumb">
-            <span class="root">LAB</span>
+            <span class="root">Rebol Lab</span>
             <span class="sep">/</span>
             <span class="current">{{ currentPageTitle }}</span>
           </div>
@@ -116,15 +112,18 @@ const route = useRoute()
 
 const currentPageTitle = computed(() => {
   const titles: Record<string, string> = {
-    '/': 'DASHBOARD',
-    '/tools': 'TOOLS_LAB',
-    '/tools/test-case-generator': 'TEST_CASE_GENERATOR',
-    '/tools/bug-report-generator': 'BUG_REPORT_GENERATOR',
-    '/projects': 'PORTFOLIO',
-    '/roadmap': 'GROWTH_MAP',
-    '/about': 'MANIFESTO'
+    '/': '首页',
+    '/tools': '工具集',
+    '/tools/test-case-generator': '测试用例生成器',
+    '/tools/bug-report-generator': 'Bug 报告生成器',
+    '/tools/project-packager': '项目包装助手',
+    '/tools/model-price-radar': 'AI 模型价格雷达',
+    '/projects': '作品集',
+    '/projects/rebol-lab': '项目详情',
+    '/roadmap': '成长路线',
+    '/about': '关于'
   }
-  return titles[route.path] || 'LAB_VIEW'
+  return titles[route.path] || 'Rebol Lab'
 })
 </script>
 
