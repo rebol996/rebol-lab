@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
     "prices:update": "tsx scripts/model-price-radar/fetchPrices.ts",
-    "prices:check": "tsx scripts/model-price-radar/fetchPrices.ts --dry-run"
+    "prices:check": "tsx scripts/model-price-radar/fetchPrices.ts --dry-run",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",
@@ -19,6 +20,7 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.42.4",
     "@types/node": "^24.12.2",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vue/tsconfig": "^0.9.1",
@@ -27,6 +29,7 @@
     "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.10",
-    "vue-tsc": "^3.2.7"
+    "vue-tsc": "^3.2.7",
+    "wrangler": "^4.106.0"
   }
 }
